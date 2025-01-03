@@ -528,7 +528,7 @@ const ColorPicker = (props: {
       onOpenChange={(e) => setIsPickerOpen(e.open)}
     >
       <ColorPickerControl>
-        <ColorPickerInput />
+        {/* <ColorPickerInput /> */}
         <ColorPickerTrigger />
       </ColorPickerControl>
       <ColorPickerContent>
