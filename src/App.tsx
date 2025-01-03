@@ -12,6 +12,7 @@ import { initialBlock } from "@/constants"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
 import { Provider } from "./components/ui/provider"
+import { Alert } from "./components/ui/alert"
 
 const saveStringAsFile = (str: string, filename: string) => {
   const blob = new Blob([str], { type: "text/plain" })
@@ -30,6 +31,7 @@ export const App = () => {
   const contentRefs = useRef<(HTMLDivElement | null)[]>([])
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(null)
+  const [dataSaved, setDataSaved] = useState(false)
   
   // Load blocks from local storage
   useEffect(() => {
@@ -160,6 +162,10 @@ export const App = () => {
       await writable.write(filterBlocks)
       await writable.close()
       console.log("Filter saved successfully.")
+      setDataSaved(true)
+      setTimeout(() => {
+        setDataSaved(false)
+      }, 3000)
     } catch (error) {
       console.error("Error saving filter:", error)
     }
@@ -186,6 +192,7 @@ export const App = () => {
 
   return (
     <Provider>
+      {dataSaved && <Alert position={"absolute"} status={"success"} title="File saved successfully"/>}
       <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
         <Header />
         <Center flex={1} alignItems={"flex-start"}>
