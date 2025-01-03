@@ -1,4 +1,4 @@
-import { BlockType } from "./App"
+import { BlockType } from "@/types"
 
 export const parseBlockToFilterBlock = (block: BlockType) => {
   let filterBlock = ""

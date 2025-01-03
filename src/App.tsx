@@ -1,4 +1,4 @@
-import { Box, Button, Center, HStack, Input, VStack } from "@chakra-ui/react"
+import { AccordionValueChangeDetails, Box, Button, Center, HStack, Input, VStack } from "@chakra-ui/react"
 import { useCallback, useEffect, useRef, useState } from "react"
 import Block from "./Block"
 import { parseBlockToFilterBlock, parseFilterFileIntoBlocks } from "./parser"
@@ -6,75 +6,11 @@ import { debounce } from "lodash"
 import "./app.css"
 import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd"
 import { AiOutlineDrag } from "react-icons/ai"
-
-import {
-  AccordionItem,
-  AccordionItemContent,
-  AccordionItemTrigger,
-  AccordionRoot,
-} from "@/components/ui/accordion"
-
-export interface BlockType {
-  name: string
-  show: boolean
-  class: {
-    value: string
-    exact: boolean
-  }
-  basetype: {
-    value: string
-    exact: boolean
-  }
-  itemRarity: {
-    normal: boolean
-    magic: boolean
-    rare: boolean
-    unique: boolean
-  }
-  itemLevel: number[]
-  quality: number[]
-  text: {
-    color: string
-    backgroundColor: string
-    borderColor: string
-    fontSize: number[]
-  }
-  minimapIcon: {
-    show: boolean
-    icon: string
-    color: string
-    size: number[]
-  }
-  playEffect: {
-    show: boolean
-    color: string
-    temporary: boolean
-  }
-  playAlertSound: {
-    show: boolean
-    sound: string
-    volume: number[]
-  }
-}
-
-const initialBlock: BlockType = {
-  name: "New block",
-  show: false,
-  class: { value: "", exact: false },
-  basetype: { value: "", exact: false },
-  itemRarity: { normal: true, magic: true, rare: true, unique: true },
-  itemLevel: [0, 100],
-  quality: [0, 20],
-  text: {
-    color: "255 0 0 255",
-    backgroundColor: "255 255 255 255",
-    borderColor: "255 0 0 255",
-    fontSize: [32],
-  },
-  minimapIcon: { show: false, icon: "", color: "", size: [1] },
-  playEffect: { show: false, color: "", temporary: false },
-  playAlertSound: { show: false, sound: "", volume: [150] },
-}
+import { BlockType } from "@/types"
+import { AccordionItem, AccordionItemContent, AccordionItemTrigger, AccordionRoot } from "@/components/ui/accordion"
+import { initialBlock } from "@/constants"
+import { Header } from "./Header"
+import { Footer } from "./Footer"
 
 const saveStringAsFile = (str: string, filename: string) => {
   const blob = new Blob([str], { type: "text/plain" })
@@ -92,9 +28,7 @@ export const App = () => {
   const [filterName, setFilterName] = useState("")
   const contentRefs = useRef<(HTMLDivElement | null)[]>([])
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
-  const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(
-    null
-  )
+  const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(null)
 
   // Load blocks from local storage
   useEffect(() => {
@@ -109,13 +43,14 @@ export const App = () => {
     setIsLoaded(true)
   }, [])
 
-  // Save blocks if they change
+  // Save blocks to local storage
   useEffect(() => {
     if (isLoaded) {
       saveBlocksToLocalStorage()
     }
   }, [blocks, filterName])
 
+  // Scroll to active block
   useEffect(() => {
     if (activeIndex !== null && contentRefs.current[activeIndex]) {
       setTimeout(() => {
@@ -127,21 +62,20 @@ export const App = () => {
     }
   }, [activeIndex])
 
+  // Update block
   const updateBlock = useCallback(
     (index: number, updatedBlock: BlockType) => {
-      setBlocks((prevBlocks) =>
-        prevBlocks.map((block, i) =>
-          i === index ? { ...block, ...updatedBlock } : block
-        )
-      )
+      setBlocks((prevBlocks) => prevBlocks.map((block, i) => (i === index ? { ...block, ...updatedBlock } : block)))
     },
     [setBlocks]
   )
 
+  // Add new block
   const addNewBlock = useCallback(() => {
     setBlocks((prevBlocks) => [...prevBlocks, { ...initialBlock }])
   }, [setBlocks])
 
+  // Remove block
   const removeBlock = useCallback(
     (index: number) => {
       setBlocks((prevBlocks) => prevBlocks.filter((_, i) => i !== index))
@@ -149,16 +83,16 @@ export const App = () => {
     [setBlocks]
   )
 
+  // Drag and drop blocks
   const onDragEnd = (result: any) => {
     if (!result.destination) return
-
     const reorderedBlocks = Array.from(blocks)
     const [removed] = reorderedBlocks.splice(result.source.index, 1)
     reorderedBlocks.splice(result.destination.index, 0, removed)
-
     setBlocks(reorderedBlocks)
   }
 
+  // Save blocks to local storage
   const saveBlocksToLocalStorage = useCallback(
     debounce(() => {
       localStorage.setItem("blocks", JSON.stringify(blocks))
@@ -167,6 +101,7 @@ export const App = () => {
     [blocks, filterName]
   )
 
+  // Import filter
   const importFilter = async () => {
     try {
       let handle
@@ -206,6 +141,7 @@ export const App = () => {
     }
   }
 
+  // Save filter
   const saveFilter = async () => {
     if (!fileHandle) {
       console.error("No file handle available for saving.")
@@ -219,7 +155,7 @@ export const App = () => {
         filterBlocks += parsedBlock
         filterBlocks += "\n"
       })
-      filterBlocks = filterBlocks.trimEnd();
+      filterBlocks = filterBlocks.trimEnd()
       await writable.write(filterBlocks)
       await writable.close()
       console.log("Filter saved successfully.")
@@ -228,13 +164,29 @@ export const App = () => {
     }
   }
 
-  const handleAccordionToggle = (index: number) => {
-    setActiveIndex(index)
+  // Handle accordion toggle
+  const handleAccordionToggle = (e: AccordionValueChangeDetails, index: number) => {
+    if (e.value[0] === `accordion-${index}`) {
+      setActiveIndex(index)
+    }
+  }
+
+  // Download filter
+  const downloadHandler = () => {
+    let filterBlocks = ""
+    blocks.forEach((block) => {
+      const parsedBlock = parseBlockToFilterBlock(block)
+      filterBlocks += parsedBlock
+      filterBlocks += "\n"
+    })
+    filterBlocks = filterBlocks.trimEnd()
+    saveStringAsFile(filterBlocks, `${filterName}.filter`)
   }
 
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
-      <Center>
+    <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
+      <Header />
+      <Center flex={1} alignItems={"flex-start"}>
         <VStack>
           <HStack>
             <Button onClick={importFilter}>Import filter</Button>
@@ -243,114 +195,25 @@ export const App = () => {
             </Button>
           </HStack>
           <HStack>
-            <Input
-              placeholder="Filter name"
-              value={filterName}
-              onChange={(e) => setFilterName(e.target.value)}
-            />
-            <Button
-              onClick={() => {
-                let filterBlocks = ""
-                blocks.forEach((block) => {
-                  const parsedBlock = parseBlockToFilterBlock(block)
-                  filterBlocks += parsedBlock
-                  filterBlocks += "\n"
-                })
-                filterBlocks = filterBlocks.trimEnd()
-                saveStringAsFile(filterBlocks, `${filterName}.filter`)
-              }}
-            >
-              Download filter
-            </Button>
+            <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
+            <Button onClick={downloadHandler}>Download filter</Button>
           </HStack>
           {isLoaded && (
-            <Box
-              w="80vw"
-              maxH="70vh"
-              overflowY="auto"
-              border="1px solid gray"
-              className="hide-scrollbar"
-            >
+            <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
               <DragDropContext onDragEnd={onDragEnd}>
                 <Droppable droppableId="blocks">
                   {(provided) => (
                     <Box {...provided.droppableProps} ref={provided.innerRef}>
                       {blocks.map((block, index) => (
-                        <Draggable
+                        <DraggableBlock
                           key={index}
-                          draggableId={index.toString()}
+                          block={block}
                           index={index}
-                        >
-                          {(provided) => (
-                            <div
-                              ref={provided.innerRef}
-                              {...provided.draggableProps}
-                            >
-                              <AccordionRoot
-                                variant={"enclosed"}
-                                collapsible
-                                w={"100%"}
-                                onValueChange={(e) => {
-                                  if (e.value[0] === `accordion-${index}`) {
-                                    handleAccordionToggle(index)
-                                  }
-                                }}
-                              >
-                                <AccordionItem value={`accordion-${index}`}>
-                                  <Box
-                                    display="flex" // Make it a flex container
-                                    justifyContent="space-between" // Ensure space between elements
-                                    alignItems="center"
-                                    position="relative" // Ensure relative positioning
-                                  >
-                                    <Box
-                                      position="relative"
-                                      {...provided.dragHandleProps} // Apply drag handle props here
-                                      zIndex={1}
-                                    >
-                                      <AiOutlineDrag
-                                        size={24}
-                                        cursor={"grab"}
-                                      />
-                                    </Box>
-                                    <AccordionItemTrigger
-                                      backgroundColor={
-                                        block.show ? "green.900" : "red.900"
-                                      }
-                                      flex="1" // Allow the trigger to take up available space
-                                    >
-                                      <Box>
-                                        {block.show ? "Show" : "Hide"} -{" "}
-                                        {block.name}
-                                      </Box>
-                                    </AccordionItemTrigger>
-                                  </Box>
-
-                                  <AccordionItemContent>
-                                    <div
-                                      ref={(el) =>
-                                        (contentRefs.current[index] = el)
-                                      }
-                                    >
-                                      <HStack>
-                                        <Block
-                                          index={index}
-                                          block={block}
-                                          updateBlock={updateBlock}
-                                        />
-                                        <Button
-                                          onClick={() => removeBlock(index)}
-                                        >
-                                          Remove
-                                        </Button>
-                                      </HStack>
-                                    </div>
-                                  </AccordionItemContent>
-                                </AccordionItem>
-                              </AccordionRoot>
-                            </div>
-                          )}
-                        </Draggable>
+                          handleAccordionToggle={handleAccordionToggle}
+                          updateBlock={updateBlock}
+                          removeBlock={removeBlock}
+                          contentRefs={contentRefs}
+                        />
                       ))}
                       {provided.placeholder}
                     </Box>
@@ -362,6 +225,60 @@ export const App = () => {
           <Button onClick={addNewBlock}>Add new filter block</Button>
         </VStack>
       </Center>
-    </div>
+      <Footer />
+    </VStack>
+  )
+}
+
+const DraggableBlock = ({
+  block,
+  index,
+  handleAccordionToggle,
+  updateBlock,
+  removeBlock,
+  contentRefs,
+}: {
+  block: BlockType
+  index: number
+  handleAccordionToggle: (e: AccordionValueChangeDetails, index: number) => void
+  updateBlock: (index: number, updatedBlock: BlockType) => void
+  removeBlock: (index: number) => void
+  contentRefs: React.MutableRefObject<(HTMLDivElement | null)[]>
+}) => {
+  return (
+    <Draggable key={index} draggableId={index.toString()} index={index}>
+      {(provided) => (
+        <div ref={provided.innerRef} {...provided.draggableProps}>
+          <AccordionRoot
+            variant={"enclosed"}
+            collapsible
+            w={"100%"}
+            onValueChange={(e) => handleAccordionToggle(e, index)}
+          >
+            <AccordionItem value={`accordion-${index}`}>
+              <Box display="flex" justifyContent="space-between" alignItems="center" position="relative">
+                <Box position="relative" {...provided.dragHandleProps} zIndex={1}>
+                  <AiOutlineDrag size={24} cursor={"grab"} />
+                </Box>
+                <AccordionItemTrigger backgroundColor={block.show ? "green.900" : "red.900"} flex="1">
+                  <Box color={"white"} textAlign="center">
+                    {block.show ? "Show" : "Hide"} - {block.name}
+                  </Box>
+                </AccordionItemTrigger>
+              </Box>
+
+              <AccordionItemContent>
+                <div ref={(el) => (contentRefs.current[index] = el)}>
+                  <HStack>
+                    <Block index={index} block={block} updateBlock={updateBlock} />
+                    <Button onClick={() => removeBlock(index)}>Remove</Button>
+                  </HStack>
+                </div>
+              </AccordionItemContent>
+            </AccordionItem>
+          </AccordionRoot>
+        </div>
+      )}
+    </Draggable>
   )
 }
