@@ -1,11 +1,4 @@
-import {
-  Container,
-  HStack,
-  Input,
-  VStack,
-  parseColor,
-  Heading,
-} from "@chakra-ui/react"
+import { Container, HStack, Input, VStack, parseColor, Heading } from "@chakra-ui/react"
 import { Switch } from "@/components/ui/switch"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Slider } from "@/components/ui/slider"
@@ -16,8 +9,11 @@ import {
   ColorPickerContent,
   ColorPickerControl,
   ColorPickerEyeDropper,
+  ColorPickerInput,
   ColorPickerRoot,
   ColorPickerSliders,
+  ColorPickerSwatchGroup,
+  ColorPickerSwatchTrigger,
   ColorPickerTrigger,
 } from "@/components/ui/color-picker"
 
@@ -47,26 +43,26 @@ import {
 } from "@/components/ui/drawer"
 import { ItemClasses } from "./ItemClasses"
 import { BaseTypes } from "./BaseTypes"
+import { toLower } from "lodash"
 
 const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
-
   const playSound = (soundFile: string) => {
     const audio = new Audio(`/assets/sounds/${soundFile}`)
     audio.play().catch((e) => console.error(e))
   }
 
-  const handleItemSelect = (item : any, dataType: string) => {
-    switch(dataType){
+  const handleItemSelect = (item: any, dataType: string) => {
+    switch (dataType) {
       case "basetype":
         updateBlock(index, {
           ...block,
-          basetype: { value: block.basetype.value + ` "${item.Name}"`, exact: block.basetype.exact }
+          basetype: { value: block.basetype.value + ` "${item.Name}"`, exact: block.basetype.exact },
         })
         break
       case "itemClass":
         updateBlock(index, {
           ...block,
-          class: { value: block.class.value + ` "${item.Name}"`, exact: block.class.exact }
+          class: { value: block.class.value + ` "${item.Name}"`, exact: block.class.exact },
         })
         break
     }
@@ -112,7 +108,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
         >
           Exact?
         </Checkbox>
-        <DataDrawer dataType={"itemClass"} buttonLabel={"Item classes"} handleItemSelect={handleItemSelect}/>
+        <DataDrawer dataType={"itemClass"} buttonLabel={"Item classes"} handleItemSelect={handleItemSelect} />
       </HStack>
       <HStack mt={1}>
         <Input
@@ -136,7 +132,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
         >
           Exact?
         </Checkbox>
-        <DataDrawer dataType={"basetype"} buttonLabel={"Basetypes"} handleItemSelect={handleItemSelect}/>
+        <DataDrawer dataType={"basetype"} buttonLabel={"Basetypes"} handleItemSelect={handleItemSelect} />
       </HStack>
       <Heading size="sm" mt={4}>
         Item Rarity
@@ -218,30 +214,15 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
               <HStack w={"100%"} gap={4} justifyContent={"space-between"}>
                 <VStack alignItems={"flex-start"} gap={4}>
                   <Heading size="sm">Text</Heading>
-                  <ColorPicker
-                    label={"TextColor"}
-                    block={block}
-                    index={index}
-                    updateBlock={updateBlock}
-                  />
+                  <ColorPicker label={"TextColor"} block={block} index={index} updateBlock={updateBlock} />
                 </VStack>
                 <VStack alignItems={"center"} gap={4} justifyContent={"center"}>
                   <Heading size="sm">Background</Heading>
-                  <ColorPicker
-                    label={"BackgroundColor"}
-                    block={block}
-                    index={index}
-                    updateBlock={updateBlock}
-                  />
+                  <ColorPicker label={"BackgroundColor"} block={block} index={index} updateBlock={updateBlock} />
                 </VStack>
                 <VStack alignItems={"center"} gap={4}>
                   <Heading size="sm">Border</Heading>
-                  <ColorPicker
-                    label={"BorderColor"}
-                    block={block}
-                    index={index}
-                    updateBlock={updateBlock}
-                  />
+                  <ColorPicker label={"BorderColor"} block={block} index={index} updateBlock={updateBlock} />
                 </VStack>
               </HStack>
               <Slider
@@ -301,13 +282,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           </Container>
           {block.minimapIcon.show && (
-            <HStack
-              alignItems={"flex-start"}
-              w={"100%"}
-              justifyContent={"space-between"}
-              gap={4}
-              p={4}
-            >
+            <HStack alignItems={"flex-start"} w={"100%"} justifyContent={"space-between"} gap={4} p={4}>
               <SelectRoot
                 collection={minimapIcons}
                 size="sm"
@@ -350,12 +325,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
                 </SelectTrigger>
                 <SelectContent>
                   {colorPalette.items.map((item) => (
-                    <SelectItem
-                      key={item.value}
-                      item={item}
-                      backgroundColor={item.value}
-                      color={"black"}
-                    >
+                    <SelectItem key={item.value} item={item} backgroundColor={item.value} color={"black"}>
                       {item.label}
                     </SelectItem>
                   ))}
@@ -397,12 +367,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
                 </SelectTrigger>
                 <SelectContent>
                   {colorPalette.items.map((item) => (
-                    <SelectItem
-                      key={item.value}
-                      item={item}
-                      backgroundColor={item.value}
-                      color={"black"}
-                    >
+                    <SelectItem key={item.value} item={item} backgroundColor={item.value} color={"black"}>
                       {item.label}
                     </SelectItem>
                   ))}
@@ -425,12 +390,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           )}
           {block.playAlertSound.show && (
-            <HStack
-              w={"100%"}
-              justifyContent={"space-between"}
-              gap={4}
-              p={4}
-            >
+            <HStack w={"100%"} justifyContent={"space-between"} gap={4} p={4}>
               <SelectRoot
                 collection={alertSounds}
                 size="sm"
@@ -502,43 +462,73 @@ const ColorPicker = (props: {
       break
   }
   const colorString = `rgba(${r}, ${g}, ${b}, ${a! / 255})`
+  const [color, setColor] = React.useState(colorString)
+  const [favoriteColors, setFavoriteColors] = React.useState<{ value: string }[]>([])
+  const [isPickerOpen, setIsPickerOpen] = React.useState(false)
+
+  React.useEffect(() => {
+    if (isPickerOpen) {
+      const storedFavoriteColors = localStorage.getItem("favoriteColors")
+      if (storedFavoriteColors) {
+        setFavoriteColors(JSON.parse(storedFavoriteColors).items)
+      }
+    }
+  }, [isPickerOpen])
+
+  const handleAddToFavorites = () => {
+    const newFavoriteColors = [...favoriteColors, { value: color }]
+    setFavoriteColors(newFavoriteColors)
+    localStorage.setItem("favoriteColors", JSON.stringify({ items: newFavoriteColors }))
+  }
+
+  const handleRemoveFromFavorites = () => {
+    const newFavoriteColors = favoriteColors.filter((item) => item.value !== color)
+    setFavoriteColors(newFavoriteColors)
+    localStorage.setItem("favoriteColors", JSON.stringify({ items: newFavoriteColors }))
+  }
+
+  const handleColorChange = (newColor: string) => {
+    setColor(newColor);
+    switch (props.label) {
+      case 'TextColor':
+        props.updateBlock(props.index, {
+          ...props.block,
+          text: {
+            ...props.block.text,
+            color: parseColorString(newColor),
+          },
+        });
+        break;
+      case 'BackgroundColor':
+        props.updateBlock(props.index, {
+          ...props.block,
+          text: {
+            ...props.block.text,
+            backgroundColor: parseColorString(newColor),
+          },
+        });
+        break;
+      case 'BorderColor':
+        props.updateBlock(props.index, {
+          ...props.block,
+          text: {
+            ...props.block.text,
+            borderColor: parseColorString(newColor),
+          },
+        });
+        break;
+    }
+  };
+
   return (
     <ColorPickerRoot
       defaultValue={parseColor(colorString)}
-      onValueChangeEnd={(e) => {
-        switch (props.label) {
-          case "TextColor":
-            props.updateBlock(props.index, {
-              ...props.block,
-              text: {
-                ...props.block.text,
-                color: parseColorString(e.valueAsString),
-              },
-            })
-            break
-          case "BackgroundColor":
-            props.updateBlock(props.index, {
-              ...props.block,
-              text: {
-                ...props.block.text,
-                backgroundColor: parseColorString(e.valueAsString),
-              },
-            })
-            break
-          case "BorderColor":
-            props.updateBlock(props.index, {
-              ...props.block,
-              text: {
-                ...props.block.text,
-                borderColor: parseColorString(e.valueAsString),
-              },
-            })
-            break
-        }
-      }}
+      onValueChangeEnd={(e) => handleColorChange(e.valueAsString)}
       maxW="200px"
+      onOpenChange={(e) => setIsPickerOpen(e.open)}
     >
       <ColorPickerControl>
+        <ColorPickerInput />
         <ColorPickerTrigger />
       </ColorPickerControl>
       <ColorPickerContent>
@@ -547,35 +537,54 @@ const ColorPicker = (props: {
           <ColorPickerEyeDropper />
           <ColorPickerSliders />
         </HStack>
+        <ColorPickerSwatchGroup>
+          {favoriteColors.map((item) => (
+            <ColorPickerSwatchTrigger swatchSize={"4.5"} key={item.value} value={toLower(item.value)} onClick={() => handleColorChange(item.value)} />
+          ))}
+        </ColorPickerSwatchGroup>
+        <HStack>
+        <Button size={"xs"} onClick={handleAddToFavorites}>
+          Add to favorites
+        </Button>
+        <Button size={"xs"} onClick={handleRemoveFromFavorites}>
+          Remove
+        </Button>
+        </HStack>
       </ColorPickerContent>
     </ColorPickerRoot>
   )
 }
 
-const DataDrawer: React.FC<{dataType: string, buttonLabel: string, handleItemSelect: (item: any, dataType: string)=>void }> = ({ dataType, buttonLabel, handleItemSelect }) => {
-  return(
+const DataDrawer: React.FC<{
+  dataType: string
+  buttonLabel: string
+  handleItemSelect: (item: any, dataType: string) => void
+}> = ({ dataType, buttonLabel, handleItemSelect }) => {
+  return (
     <DrawerRoot>
-    <DrawerBackdrop />
-    <DrawerTrigger asChild>
-      <Button w={24}>
-        {buttonLabel}
-      </Button>
-    </DrawerTrigger>
-    <DrawerContent offset="4" rounded="md">
-      <DrawerHeader>
-        <DrawerTitle>{buttonLabel}</DrawerTitle>
-      </DrawerHeader>
-      <DrawerBody>
-        {dataType === "basetype" ? <BaseTypes handleItemSelect={handleItemSelect}/> : <ItemClasses handleItemSelect={handleItemSelect}/>}
-      </DrawerBody>
-      <DrawerFooter>
-        <DrawerActionTrigger asChild>
-          <Button variant="outline">Close</Button>
-        </DrawerActionTrigger>
-      </DrawerFooter>
-      <DrawerCloseTrigger />
-    </DrawerContent>
-  </DrawerRoot>
+      <DrawerBackdrop />
+      <DrawerTrigger asChild>
+        <Button w={24}>{buttonLabel}</Button>
+      </DrawerTrigger>
+      <DrawerContent offset="4" rounded="md">
+        <DrawerHeader>
+          <DrawerTitle>{buttonLabel}</DrawerTitle>
+        </DrawerHeader>
+        <DrawerBody>
+          {dataType === "basetype" ? (
+            <BaseTypes handleItemSelect={handleItemSelect} />
+          ) : (
+            <ItemClasses handleItemSelect={handleItemSelect} />
+          )}
+        </DrawerBody>
+        <DrawerFooter>
+          <DrawerActionTrigger asChild>
+            <Button variant="outline">Close</Button>
+          </DrawerActionTrigger>
+        </DrawerFooter>
+        <DrawerCloseTrigger />
+      </DrawerContent>
+    </DrawerRoot>
   )
 }
 
