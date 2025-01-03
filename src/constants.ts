@@ -22,18 +22,18 @@ export const initialBlock: BlockType = {
 
 export const minimapIcons = createListCollection({
   items: [
-    { value: "circle", label: "Circle" },
-    { value: "diamond", label: "Diamond" },
-    { value: "hexagon", label: "Hexagon" },
-    { value: "square", label: "Square" },
-    { value: "star", label: "Star" },
-    { value: "triangle", label: "Triangle" },
-    { value: "cross", label: "Cross" },
-    { value: "moon", label: "Moon" },
-    { value: "raindrop", label: "Raindrop" },
-    { value: "kite", label: "Kite" },
-    { value: "pentagon", label: "Pentagon" },
-    { value: "upsideDownHouse", label: "Upside Down House" },
+    { value: "Circle", label: "Circle" },
+    { value: "Diamond", label: "Diamond" },
+    { value: "Hexagon", label: "Hexagon" },
+    { value: "Square", label: "Square" },
+    { value: "Star", label: "Star" },
+    { value: "Triangle", label: "Triangle" },
+    { value: "Cross", label: "Cross" },
+    { value: "Moon", label: "Moon" },
+    { value: "Raindrop", label: "Raindrop" },
+    { value: "Kite", label: "Kite" },
+    { value: "Pentagon", label: "Pentagon" },
+    { value: "UpsideDownHouse", label: "Upside Down House" },
   ],
 })
 
@@ -60,16 +60,16 @@ export const alertSounds = createListCollection({
 
 export const colorPalette = createListCollection({
   items: [
-    { value: "red", label: "Red" },
-    { value: "green", label: "Green" },
-    { value: "blue", label: "Blue" },
-    { value: "brown", label: "Brown" },
-    { value: "white", label: "White" },
-    { value: "yellow", label: "Yellow" },
-    { value: "cyan", label: "Cyan" },
-    { value: "grey", label: "Grey" },
-    { value: "orange", label: "Orange" },
-    { value: "pink", label: "Pink" },
-    { value: "purple", label: "Purple" },
+    { value: "Red", label: "Red" },
+    { value: "Green", label: "Green" },
+    { value: "Blue", label: "Blue" },
+    { value: "Brown", label: "Brown" },
+    { value: "White", label: "White" },
+    { value: "Yellow", label: "Yellow" },
+    { value: "Cyan", label: "Cyan" },
+    { value: "Grey", label: "Grey" },
+    { value: "Orange", label: "Orange" },
+    { value: "Pink", label: "Pink" },
+    { value: "Purple", label: "Purple" },
   ],
 })
