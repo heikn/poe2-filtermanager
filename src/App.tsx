@@ -198,7 +198,7 @@ export const App = () => {
             </HStack>
             <HStack>
               <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
-              <Button onClick={downloadHandler}>Download filter</Button>
+              <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>Download filter</Button>
             </HStack>
             {isLoaded && (
               <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">

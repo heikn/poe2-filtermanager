@@ -96,10 +96,10 @@ export const parseBlockToFilterBlock = (block: BlockType) => {
   return filterBlock
 }
 
-// Go through the filter file and parse it into blocks
+// File parser
 export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
   const blocks = filterFile.split(/\r?\n\r?\n|\r\r|\n\n/)
-  // Check if last block is empty
+  
   if (blocks[blocks.length - 1] === "") {
     blocks.pop()
   }
