@@ -39,9 +39,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
   }
 
   return (
-    <Container
-
-    >
+    <Container>
       <Input
         placeholder="Block name"
         value={block.name}
@@ -179,7 +177,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
       />
       {block.show && (
         <VStack mt={12}>
-          <Container backgroundColor={"gray.900"} p={4} borderRadius={5}>
+          <Container p={4} borderRadius={5}>
             <HStack w={"100%"} gap={4} alignItems={"flex-start"}>
               <HStack w={"100%"} gap={4} justifyContent={"space-between"}>
                 <VStack alignItems={"flex-start"} gap={4}>
@@ -272,7 +270,6 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
               w={"100%"}
               justifyContent={"space-between"}
               gap={4}
-              backgroundColor={"gray.900"}
               p={4}
             >
               <SelectRoot
@@ -345,7 +342,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           )}
           {block.playEffect.show && (
-            <HStack w={"100%"} gap={4} backgroundColor={"gray.900"} p={4}>
+            <HStack w={"100%"} gap={4} p={4}>
               <SelectRoot
                 collection={colorPalette}
                 size="sm"
@@ -396,7 +393,6 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
               w={"100%"}
               justifyContent={"space-between"}
               gap={4}
-              backgroundColor={"gray.900"}
               p={4}
             >
               <SelectRoot

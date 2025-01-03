@@ -139,13 +139,23 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
         newBlock.show = false
         hasShowHide = true
       } else if (line.includes("Class")) {
+        let value = ""
         const parts = line.split(" ")
-        const value = parts.slice(2).join(" ")
+        if (!line.includes("=")){
+          value = parts.slice(1).join(" ")
+        } else {
+          value = parts.slice(2).join(" ")
+        }
         const exact = line.includes("==")
         newBlock.class = { value, exact }
       } else if (line.includes("BaseType")) {
+        let value = ""
         const parts = line.split(" ")
-        const value = parts.slice(2).join(" ")
+        if (!line.includes("=")){
+          value = parts.slice(1).join(" ")
+        } else {
+          value = parts.slice(2).join(" ")
+        }
         const exact = line.includes("==")
         newBlock.basetype = { value, exact }
       } else if (line.includes("Rarity")) {

@@ -11,6 +11,7 @@ import { AccordionItem, AccordionItemContent, AccordionItemTrigger, AccordionRoo
 import { initialBlock } from "@/constants"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
+import { Provider } from "./components/ui/provider"
 
 const saveStringAsFile = (str: string, filename: string) => {
   const blob = new Blob([str], { type: "text/plain" })
@@ -184,49 +185,51 @@ export const App = () => {
   }
 
   return (
-    <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
-      <Header />
-      <Center flex={1} alignItems={"flex-start"}>
-        <VStack>
-          <HStack>
-            <Button onClick={importFilter}>Import filter</Button>
-            <Button disabled={!fileHandle} onClick={saveFilter}>
-              Save file
-            </Button>
-          </HStack>
-          <HStack>
-            <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
-            <Button onClick={downloadHandler}>Download filter</Button>
-          </HStack>
-          {isLoaded && (
-            <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
-              <DragDropContext onDragEnd={onDragEnd}>
-                <Droppable droppableId="blocks">
-                  {(provided) => (
-                    <Box {...provided.droppableProps} ref={provided.innerRef}>
-                      {blocks.map((block, index) => (
-                        <DraggableBlock
-                          key={index}
-                          block={block}
-                          index={index}
-                          handleAccordionToggle={handleAccordionToggle}
-                          updateBlock={updateBlock}
-                          removeBlock={removeBlock}
-                          contentRefs={contentRefs}
-                        />
-                      ))}
-                      {provided.placeholder}
-                    </Box>
-                  )}
-                </Droppable>
-              </DragDropContext>
-            </Box>
-          )}
-          <Button onClick={addNewBlock}>Add new filter block</Button>
-        </VStack>
-      </Center>
-      <Footer />
-    </VStack>
+    <Provider>
+      <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
+        <Header />
+        <Center flex={1} alignItems={"flex-start"}>
+          <VStack>
+            <HStack>
+              <Button onClick={importFilter}>Import filter</Button>
+              <Button disabled={!fileHandle} onClick={saveFilter}>
+                Save file
+              </Button>
+            </HStack>
+            <HStack>
+              <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
+              <Button onClick={downloadHandler}>Download filter</Button>
+            </HStack>
+            {isLoaded && (
+              <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
+                <DragDropContext onDragEnd={onDragEnd}>
+                  <Droppable droppableId="blocks">
+                    {(provided) => (
+                      <Box {...provided.droppableProps} ref={provided.innerRef}>
+                        {blocks.map((block, index) => (
+                          <DraggableBlock
+                            key={index}
+                            block={block}
+                            index={index}
+                            handleAccordionToggle={handleAccordionToggle}
+                            updateBlock={updateBlock}
+                            removeBlock={removeBlock}
+                            contentRefs={contentRefs}
+                          />
+                        ))}
+                        {provided.placeholder}
+                      </Box>
+                    )}
+                  </Droppable>
+                </DragDropContext>
+              </Box>
+            )}
+            <Button onClick={addNewBlock}>Add new filter block</Button>
+          </VStack>
+        </Center>
+        <Footer />
+      </VStack>
+    </Provider>
   )
 }
 
@@ -245,40 +248,46 @@ const DraggableBlock = ({
   removeBlock: (index: number) => void
   contentRefs: React.MutableRefObject<(HTMLDivElement | null)[]>
 }) => {
-  return (
-    <Draggable key={index} draggableId={index.toString()} index={index}>
-      {(provided) => (
-        <div ref={provided.innerRef} {...provided.draggableProps}>
-          <AccordionRoot
-            variant={"enclosed"}
-            collapsible
-            w={"100%"}
-            onValueChange={(e) => handleAccordionToggle(e, index)}
-          >
-            <AccordionItem value={`accordion-${index}`}>
-              <Box display="flex" justifyContent="space-between" alignItems="center" position="relative">
-                <Box position="relative" {...provided.dragHandleProps} zIndex={1}>
-                  <AiOutlineDrag size={24} cursor={"grab"} />
-                </Box>
-                <AccordionItemTrigger backgroundColor={block.show ? "green.900" : "red.900"} flex="1">
-                  <Box color={"white"} textAlign="center">
-                    {block.show ? "Show" : "Hide"} - {block.name}
-                  </Box>
-                </AccordionItemTrigger>
-              </Box>
+  const showColor = "green.200/30"
+  const hideColor = "red.200/30"
 
-              <AccordionItemContent>
-                <div ref={(el) => (contentRefs.current[index] = el)}>
-                  <HStack>
-                    <Block index={index} block={block} updateBlock={updateBlock} />
-                    <Button onClick={() => removeBlock(index)}>Remove</Button>
-                  </HStack>
-                </div>
-              </AccordionItemContent>
-            </AccordionItem>
-          </AccordionRoot>
-        </div>
-      )}
-    </Draggable>
+  return (
+    <Box w="100%">
+      <Draggable key={index} draggableId={index.toString()} index={index}>
+        {(provided) => (
+          <div ref={provided.innerRef} {...provided.draggableProps}>
+            <AccordionRoot
+              variant={"enclosed"}
+              collapsible
+              w={"100%"}
+              onValueChange={(e) => handleAccordionToggle(e, index)}
+          
+            >
+              <AccordionItem value={`accordion-${index}`} borderWidth={1}>
+                <Box display="flex" justifyContent="space-between" alignItems="center" position="relative">
+                  <Box position="relative" {...provided.dragHandleProps} zIndex={1}>
+                    <AiOutlineDrag size={24} cursor={"grab"} />
+                  </Box>
+                  <AccordionItemTrigger flex="1" bgColor={block.show ? showColor : hideColor}>
+                    <Box>
+                      {block.show ? "Show" : "Hide"} - {block.name}
+                    </Box>
+                  </AccordionItemTrigger>
+                </Box>
+
+                <AccordionItemContent>
+                  <div ref={(el) => (contentRefs.current[index] = el)}>
+                    <VStack>
+                      <Block index={index} block={block} updateBlock={updateBlock} />
+                      <Button w={"100%"} onClick={() => removeBlock(index)}>Remove</Button>
+                    </VStack>
+                  </div>
+                </AccordionItemContent>
+              </AccordionItem>
+            </AccordionRoot>
+          </div>
+        )}
+      </Draggable>
+    </Box>
   )
 }
