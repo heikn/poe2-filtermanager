@@ -1,0 +1,542 @@
+[
+  {
+    "_rid": 0,
+    "Id": "LifeFlask",
+    "Name": "Life Flasks"
+  },
+  {
+    "_rid": 1,
+    "Id": "ManaFlask",
+    "Name": "Mana Flasks"
+  },
+  {
+    "_rid": 2,
+    "Id": "DONOTUSE5",
+    "Name": ""
+  },
+  {
+    "_rid": 3,
+    "Id": "Currency",
+    "Name": "Currency"
+  },
+  {
+    "_rid": 4,
+    "Id": "Amulet",
+    "Name": "Amulets"
+  },
+  {
+    "_rid": 5,
+    "Id": "Ring",
+    "Name": "Rings"
+  },
+  {
+    "_rid": 6,
+    "Id": "Claw",
+    "Name": "Claws"
+  },
+  {
+    "_rid": 7,
+    "Id": "Dagger",
+    "Name": "Daggers"
+  },
+  {
+    "_rid": 8,
+    "Id": "Wand",
+    "Name": "Wands"
+  },
+  {
+    "_rid": 9,
+    "Id": "One Hand Sword",
+    "Name": "One Hand Swords"
+  },
+  {
+    "_rid": 10,
+    "Id": "DONOTUSE6",
+    "Name": ""
+  },
+  {
+    "_rid": 11,
+    "Id": "One Hand Axe",
+    "Name": "One Hand Axes"
+  },
+  {
+    "_rid": 12,
+    "Id": "One Hand Mace",
+    "Name": "One Hand Maces"
+  },
+  {
+    "_rid": 13,
+    "Id": "Bow",
+    "Name": "Bows"
+  },
+  {
+    "_rid": 14,
+    "Id": "Staff",
+    "Name": "Staves"
+  },
+  {
+    "_rid": 15,
+    "Id": "Two Hand Sword",
+    "Name": "Two Hand Swords"
+  },
+  {
+    "_rid": 16,
+    "Id": "Two Hand Axe",
+    "Name": "Two Hand Axes"
+  },
+  {
+    "_rid": 17,
+    "Id": "Two Hand Mace",
+    "Name": "Two Hand Maces"
+  },
+  {
+    "_rid": 18,
+    "Id": "Active Skill Gem",
+    "Name": "Skill Gems"
+  },
+  {
+    "_rid": 19,
+    "Id": "Support Skill Gem",
+    "Name": "Support Gems"
+  },
+  {
+    "_rid": 20,
+    "Id": "Quiver",
+    "Name": "Quivers"
+  },
+  {
+    "_rid": 21,
+    "Id": "Belt",
+    "Name": "Belts"
+  },
+  {
+    "_rid": 22,
+    "Id": "Gloves",
+    "Name": "Gloves"
+  },
+  {
+    "_rid": 23,
+    "Id": "Boots",
+    "Name": "Boots"
+  },
+  {
+    "_rid": 24,
+    "Id": "Body Armour",
+    "Name": "Body Armours"
+  },
+  {
+    "_rid": 25,
+    "Id": "Helmet",
+    "Name": "Helmets"
+  },
+  {
+    "_rid": 26,
+    "Id": "Shield",
+    "Name": "Shields"
+  },
+  {
+    "_rid": 27,
+    "Id": "SmallRelic",
+    "Name": "Small Relics"
+  },
+  {
+    "_rid": 28,
+    "Id": "MediumRelic",
+    "Name": "Medium Relics"
+  },
+  {
+    "_rid": 29,
+    "Id": "LargeRelic",
+    "Name": "Large Relics"
+  },
+  {
+    "_rid": 30,
+    "Id": "StackableCurrency",
+    "Name": "Stackable Currency"
+  },
+  {
+    "_rid": 31,
+    "Id": "QuestItem",
+    "Name": "Quest Items"
+  },
+  {
+    "_rid": 32,
+    "Id": "Sceptre",
+    "Name": "Sceptres"
+  },
+  {
+    "_rid": 33,
+    "Id": "UtilityFlask",
+    "Name": "Charms"
+  },
+  {
+    "_rid": 34,
+    "Id": "DONOTUSE7",
+    "Name": ""
+  },
+  {
+    "_rid": 35,
+    "Id": "Map",
+    "Name": "Waystones"
+  },
+  {
+    "_rid": 36,
+    "Id": "Unarmed",
+    "Name": ""
+  },
+  {
+    "_rid": 37,
+    "Id": "FishingRod",
+    "Name": "Fishing Rods"
+  },
+  {
+    "_rid": 38,
+    "Id": "MapFragment",
+    "Name": "Map Fragments"
+  },
+  {
+    "_rid": 39,
+    "Id": "HideoutDoodad",
+    "Name": "Hideout Doodads"
+  },
+  {
+    "_rid": 40,
+    "Id": "Microtransaction",
+    "Name": "Microtransactions"
+  },
+  {
+    "_rid": 41,
+    "Id": "Jewel",
+    "Name": "Jewels"
+  },
+  {
+    "_rid": 42,
+    "Id": "DivinationCard",
+    "Name": "Divination Cards"
+  },
+  {
+    "_rid": 43,
+    "Id": "DONOTUSE8",
+    "Name": ""
+  },
+  {
+    "_rid": 44,
+    "Id": "DONOTUSE9",
+    "Name": ""
+  },
+  {
+    "_rid": 45,
+    "Id": "DONOTUSE10",
+    "Name": ""
+  },
+  {
+    "_rid": 46,
+    "Id": "MiscMapItem",
+    "Name": "Misc Map Items"
+  },
+  {
+    "_rid": 47,
+    "Id": "Leaguestone",
+    "Name": "Leaguestones"
+  },
+  {
+    "_rid": 48,
+    "Id": "PantheonSoul",
+    "Name": "Pantheon Souls"
+  },
+  {
+    "_rid": 49,
+    "Id": "UniqueFragment",
+    "Name": "Pieces"
+  },
+  {
+    "_rid": 50,
+    "Id": "AbyssJewel",
+    "Name": "Abyss Jewels"
+  },
+  {
+    "_rid": 51,
+    "Id": "IncursionItem",
+    "Name": "Incursion Items"
+  },
+  {
+    "_rid": 52,
+    "Id": "DelveSocketableCurrency",
+    "Name": "Delve Socketable Currency"
+  },
+  {
+    "_rid": 53,
+    "Id": "Incubator",
+    "Name": "Incubators"
+  },
+  {
+    "_rid": 54,
+    "Id": "UniqueShard",
+    "Name": "Shards"
+  },
+  {
+    "_rid": 55,
+    "Id": "UniqueShardBase",
+    "Name": "Shard Hearts"
+  },
+  {
+    "_rid": 56,
+    "Id": "DONOTUSE11",
+    "Name": ""
+  },
+  {
+    "_rid": 57,
+    "Id": "Warstaff",
+    "Name": "Quarterstaves"
+  },
+  {
+    "_rid": 58,
+    "Id": "DelveStackableSocketableCurrency",
+    "Name": "Delve Stackable Socketable Currency"
+  },
+  {
+    "_rid": 59,
+    "Id": "AtlasUpgradeItem",
+    "Name": "Atlas Upgrade Items"
+  },
+  {
+    "_rid": 60,
+    "Id": "DONOTUSE4",
+    "Name": ""
+  },
+  {
+    "_rid": 61,
+    "Id": "HiddenItem",
+    "Name": "Hidden Items"
+  },
+  {
+    "_rid": 62,
+    "Id": "DONOTUSE1",
+    "Name": ""
+  },
+  {
+    "_rid": 63,
+    "Id": "DONOTUSE2",
+    "Name": ""
+  },
+  {
+    "_rid": 64,
+    "Id": "DONOTUSE3",
+    "Name": ""
+  },
+  {
+    "_rid": 65,
+    "Id": "HeistContract",
+    "Name": "Contracts"
+  },
+  {
+    "_rid": 66,
+    "Id": "HeistEquipmentWeapon",
+    "Name": "Heist Gear"
+  },
+  {
+    "_rid": 67,
+    "Id": "HeistEquipmentTool",
+    "Name": "Heist Tools"
+  },
+  {
+    "_rid": 68,
+    "Id": "HeistEquipmentUtility",
+    "Name": "Heist Cloaks"
+  },
+  {
+    "_rid": 69,
+    "Id": "HeistEquipmentReward",
+    "Name": "Heist Brooches"
+  },
+  {
+    "_rid": 70,
+    "Id": "HeistBlueprint",
+    "Name": "Blueprints"
+  },
+  {
+    "_rid": 71,
+    "Id": "Trinket",
+    "Name": "Trinkets"
+  },
+  {
+    "_rid": 72,
+    "Id": "HeistObjective",
+    "Name": "Heist Targets"
+  },
+  {
+    "_rid": 73,
+    "Id": "ExpeditionLogbook",
+    "Name": "Expedition Logbooks"
+  },
+  {
+    "_rid": 74,
+    "Id": "IncubatorStackable",
+    "Name": "Incubators"
+  },
+  {
+    "_rid": 75,
+    "Id": "ArchnemesisMod",
+    "Name": "Archnemesis Mods"
+  },
+  {
+    "_rid": 76,
+    "Id": "Meta Skill Gem",
+    "Name": ""
+  },
+  {
+    "_rid": 77,
+    "Id": "Spear",
+    "Name": "Spears"
+  },
+  {
+    "_rid": 78,
+    "Id": "Crossbow",
+    "Name": "Crossbows"
+  },
+  {
+    "_rid": 79,
+    "Id": "Focus",
+    "Name": "Foci"
+  },
+  {
+    "_rid": 80,
+    "Id": "InstanceLocalItem",
+    "Name": "Instance Local Items"
+  },
+  {
+    "_rid": 81,
+    "Id": "SentinelDrone",
+    "Name": "Sentinels"
+  },
+  {
+    "_rid": 82,
+    "Id": "MemoryLine",
+    "Name": "Memories"
+  },
+  {
+    "_rid": 83,
+    "Id": "Flail",
+    "Name": "Flails"
+  },
+  {
+    "_rid": 84,
+    "Id": "Relic",
+    "Name": "Relics"
+  },
+  {
+    "_rid": 85,
+    "Id": "SanctumSpecialRelic",
+    "Name": "Sanctified Relics"
+  },
+  {
+    "_rid": 86,
+    "Id": "Breachstone",
+    "Name": "Breachstones"
+  },
+  {
+    "_rid": 87,
+    "Id": "GiftBox",
+    "Name": ""
+  },
+  {
+    "_rid": 88,
+    "Id": "VaultKey",
+    "Name": "Vault Keys"
+  },
+  {
+    "_rid": 89,
+    "Id": "ItemisedSanctum",
+    "Name": "Trial Coins"
+  },
+  {
+    "_rid": 90,
+    "Id": "DONOTUSE12",
+    "Name": ""
+  },
+  {
+    "_rid": 91,
+    "Id": "UncutSkillGem",
+    "Name": ""
+  },
+  {
+    "_rid": 92,
+    "Id": "Buckler",
+    "Name": "Bucklers"
+  },
+  {
+    "_rid": 93,
+    "Id": "Thrown One Hand Axe",
+    "Name": ""
+  },
+  {
+    "_rid": 94,
+    "Id": "Thrown Two Hand Axe",
+    "Name": ""
+  },
+  {
+    "_rid": 95,
+    "Id": "ConventionTreasure",
+    "Name": ""
+  },
+  {
+    "_rid": 96,
+    "Id": "TrapTool",
+    "Name": "Traps"
+  },
+  {
+    "_rid": 97,
+    "Id": "Crossbow Attachment REMOVE",
+    "Name": ""
+  },
+  {
+    "_rid": 98,
+    "Id": "SkillGemToken",
+    "Name": "Currency"
+  },
+  {
+    "_rid": 99,
+    "Id": "Nothing",
+    "Name": ""
+  },
+  {
+    "_rid": 100,
+    "Id": "UltimatumKey",
+    "Name": "Inscribed Ultimatum"
+  },
+  {
+    "_rid": 101,
+    "Id": "UncutSupportGem",
+    "Name": ""
+  },
+  {
+    "_rid": 102,
+    "Id": "UncutReservationGem",
+    "Name": ""
+  },
+  {
+    "_rid": 103,
+    "Id": "Thrown Shield",
+    "Name": ""
+  },
+  {
+    "_rid": 104,
+    "Id": "SoulCore",
+    "Name": "Socketable"
+  },
+  {
+    "_rid": 105,
+    "Id": "TowerAugmentation",
+    "Name": "Tablet"
+  },
+  {
+    "_rid": 106,
+    "Id": "Omen",
+    "Name": "Omen"
+  },
+  {
+    "_rid": 107,
+    "Id": "PinnacleKey",
+    "Name": "Pinnacle Keys"
+  }
+]

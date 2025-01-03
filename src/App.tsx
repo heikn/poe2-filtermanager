@@ -30,7 +30,7 @@ export const App = () => {
   const contentRefs = useRef<(HTMLDivElement | null)[]>([])
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(null)
-
+  
   // Load blocks from local storage
   useEffect(() => {
     const blocks = localStorage.getItem("blocks")

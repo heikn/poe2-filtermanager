@@ -31,11 +31,45 @@ import {
 } from "@/components/ui/select"
 import { BlockType, BlockProps } from "@/types"
 import { alertSounds, colorPalette, minimapIcons } from "@/constants"
+import { Button } from "./components/ui/button"
+
+import {
+  DrawerActionTrigger,
+  DrawerBackdrop,
+  DrawerBody,
+  DrawerCloseTrigger,
+  DrawerContent,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerRoot,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
+import { ItemClasses } from "./ItemClasses"
+import { BaseTypes } from "./BaseTypes"
 
 const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
+
   const playSound = (soundFile: string) => {
     const audio = new Audio(`/assets/sounds/${soundFile}`)
     audio.play().catch((e) => console.error(e))
+  }
+
+  const handleItemSelect = (item : any, dataType: string) => {
+    switch(dataType){
+      case "basetype":
+        updateBlock(index, {
+          ...block,
+          basetype: { value: block.basetype.value + ` "${item.Name}"`, exact: block.basetype.exact }
+        })
+        break
+      case "itemClass":
+        updateBlock(index, {
+          ...block,
+          class: { value: block.class.value + ` "${item.Name}"`, exact: block.class.exact }
+        })
+        break
+    }
   }
 
   return (
@@ -78,6 +112,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
         >
           Exact?
         </Checkbox>
+        <DataDrawer dataType={"itemClass"} buttonLabel={"Item classes"} handleItemSelect={handleItemSelect}/>
       </HStack>
       <HStack mt={1}>
         <Input
@@ -101,6 +136,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
         >
           Exact?
         </Checkbox>
+        <DataDrawer dataType={"basetype"} buttonLabel={"Basetypes"} handleItemSelect={handleItemSelect}/>
       </HStack>
       <Heading size="sm" mt={4}>
         Item Rarity
@@ -513,6 +549,33 @@ const ColorPicker = (props: {
         </HStack>
       </ColorPickerContent>
     </ColorPickerRoot>
+  )
+}
+
+const DataDrawer: React.FC<{dataType: string, buttonLabel: string, handleItemSelect: (item: any, dataType: string)=>void }> = ({ dataType, buttonLabel, handleItemSelect }) => {
+  return(
+    <DrawerRoot>
+    <DrawerBackdrop />
+    <DrawerTrigger asChild>
+      <Button w={24}>
+        {buttonLabel}
+      </Button>
+    </DrawerTrigger>
+    <DrawerContent offset="4" rounded="md">
+      <DrawerHeader>
+        <DrawerTitle>{buttonLabel}</DrawerTitle>
+      </DrawerHeader>
+      <DrawerBody>
+        {dataType === "basetype" ? <BaseTypes handleItemSelect={handleItemSelect}/> : <ItemClasses handleItemSelect={handleItemSelect}/>}
+      </DrawerBody>
+      <DrawerFooter>
+        <DrawerActionTrigger asChild>
+          <Button variant="outline">Close</Button>
+        </DrawerActionTrigger>
+      </DrawerFooter>
+      <DrawerCloseTrigger />
+    </DrawerContent>
+  </DrawerRoot>
   )
 }
 

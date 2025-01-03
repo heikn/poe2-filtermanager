@@ -1,0 +1,7772 @@
+[
+  {
+    "Id": "Metadata/Items/Currency/GoldCoin",
+    "ItemClass": 30,
+    "Name": "Gold"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumKey",
+    "ItemClass": 89,
+    "Name": "Djinn Barya"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Sanctum/SanctumKeyQuest",
+    "ItemClass": 31,
+    "Name": "Balbala's Barya"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumFloor1",
+    "ItemClass": 89,
+    "Name": "Test of Strength Barya"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumFloor2",
+    "ItemClass": 89,
+    "Name": "Test of Will Barya"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumFloor3",
+    "ItemClass": 89,
+    "Name": "Test of Cunning Barya"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumFloor4",
+    "ItemClass": 89,
+    "Name": "Test of Time Barya"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumBronzeKey",
+    "ItemClass": 30,
+    "Name": "Bronze Key"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumSilverKey",
+    "ItemClass": 30,
+    "Name": "Silver Key"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumGoldKey",
+    "ItemClass": 30,
+    "Name": "Gold Key"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumBronzeKeyDrop",
+    "ItemClass": 30,
+    "Name": "Bronze Key"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumSilverKeyDrop",
+    "ItemClass": 30,
+    "Name": "Silver Key"
+  },
+  {
+    "Id": "Metadata/Items/Sanctum/SanctumGoldKeyDrop",
+    "ItemClass": 30,
+    "Name": "Gold Key"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword1",
+    "ItemClass": 9,
+    "Name": "Shortsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword2",
+    "ItemClass": 9,
+    "Name": "Broadsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword3",
+    "ItemClass": 9,
+    "Name": "Vampiric Blade"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword4",
+    "ItemClass": 9,
+    "Name": "Scimitar"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword5",
+    "ItemClass": 9,
+    "Name": "Charred Shortsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword6",
+    "ItemClass": 9,
+    "Name": "Sickle Sword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword7",
+    "ItemClass": 9,
+    "Name": "Falchion"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword8",
+    "ItemClass": 9,
+    "Name": "Treasured Blade"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword9",
+    "ItemClass": 9,
+    "Name": "Cutlass"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword10",
+    "ItemClass": 9,
+    "Name": "Runic Shortsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword11",
+    "ItemClass": 9,
+    "Name": "Messer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword12",
+    "ItemClass": 9,
+    "Name": "Commander Sword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSword13",
+    "ItemClass": 9,
+    "Name": "Dark Blade"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword1",
+    "ItemClass": 15,
+    "Name": "Corroded Longsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword2",
+    "ItemClass": 15,
+    "Name": "Iron Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword3",
+    "ItemClass": 15,
+    "Name": "Blessed Claymore"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword4",
+    "ItemClass": 15,
+    "Name": "Broad Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword5",
+    "ItemClass": 15,
+    "Name": "Rippled Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword6",
+    "ItemClass": 15,
+    "Name": "Arced Longsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword7",
+    "ItemClass": 15,
+    "Name": "Stone Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword8",
+    "ItemClass": 15,
+    "Name": "Obsidian Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword9",
+    "ItemClass": 15,
+    "Name": "Keen Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword10",
+    "ItemClass": 15,
+    "Name": "Ancient Greatblade"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword11",
+    "ItemClass": 15,
+    "Name": "Flanged Greatblade"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword12",
+    "ItemClass": 15,
+    "Name": "Regalia Longsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSword13",
+    "ItemClass": 15,
+    "Name": "Ultra Greatsword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe1",
+    "ItemClass": 11,
+    "Name": "Dull Hatchet"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe2",
+    "ItemClass": 11,
+    "Name": "Hook Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe3",
+    "ItemClass": 11,
+    "Name": "Bearded Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe4",
+    "ItemClass": 11,
+    "Name": "Extended Cleaver"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe5",
+    "ItemClass": 11,
+    "Name": "Bandit Hatchet"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe6",
+    "ItemClass": 11,
+    "Name": "Crescent Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe7",
+    "ItemClass": 11,
+    "Name": "Carving Hatchet"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe8",
+    "ItemClass": 11,
+    "Name": "Sacrificial Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe9",
+    "ItemClass": 11,
+    "Name": "Boarding Hatchet"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe10",
+    "ItemClass": 11,
+    "Name": "Fury Cleaver"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe11",
+    "ItemClass": 11,
+    "Name": "Battle Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe12",
+    "ItemClass": 11,
+    "Name": "Profane Cleaver"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxe13",
+    "ItemClass": 11,
+    "Name": "Dread Hatchet"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe1",
+    "ItemClass": 16,
+    "Name": "Splitting Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe2",
+    "ItemClass": 16,
+    "Name": "Light Halberd"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe3",
+    "ItemClass": 16,
+    "Name": "Executioner Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe4",
+    "ItemClass": 16,
+    "Name": "Arched Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe5",
+    "ItemClass": 16,
+    "Name": "Elegant Glaive"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe6",
+    "ItemClass": 16,
+    "Name": "Savage Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe7",
+    "ItemClass": 16,
+    "Name": "Rending Halberd"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe8",
+    "ItemClass": 16,
+    "Name": "Jagged Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe9",
+    "ItemClass": 16,
+    "Name": "Reaver Glaive"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe10",
+    "ItemClass": 16,
+    "Name": "Ember Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe11",
+    "ItemClass": 16,
+    "Name": "Ceremonial Halberd"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe12",
+    "ItemClass": 16,
+    "Name": "Monument Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxe13",
+    "ItemClass": 16,
+    "Name": "Vile Greataxe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace1",
+    "ItemClass": 12,
+    "Name": "Wooden Club"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace2",
+    "ItemClass": 12,
+    "Name": "Smithing Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace3",
+    "ItemClass": 12,
+    "Name": "Slim Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace4",
+    "ItemClass": 12,
+    "Name": "Spiked Club"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace5",
+    "ItemClass": 12,
+    "Name": "Warpick"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace6",
+    "ItemClass": 12,
+    "Name": "Plated Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace7",
+    "ItemClass": 12,
+    "Name": "Brigand Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace8",
+    "ItemClass": 12,
+    "Name": "Construct Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace9",
+    "ItemClass": 12,
+    "Name": "Morning Star"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace10",
+    "ItemClass": 12,
+    "Name": "Jade Club"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace11",
+    "ItemClass": 12,
+    "Name": "Lumen Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace12",
+    "ItemClass": 12,
+    "Name": "Execratus Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace13",
+    "ItemClass": 12,
+    "Name": "Torment Club"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace1",
+    "ItemClass": 17,
+    "Name": "Felled Greatclub"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace2",
+    "ItemClass": 17,
+    "Name": "Oak Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace3",
+    "ItemClass": 17,
+    "Name": "Forge Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace4",
+    "ItemClass": 17,
+    "Name": "Studded Greatclub"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace5",
+    "ItemClass": 17,
+    "Name": "Cultist Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace6",
+    "ItemClass": 17,
+    "Name": "Temple Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace7",
+    "ItemClass": 17,
+    "Name": "Leaden Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace8",
+    "ItemClass": 17,
+    "Name": "Crumbling Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace9",
+    "ItemClass": 17,
+    "Name": "Pointed Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace10",
+    "ItemClass": 17,
+    "Name": "Totemic Greatclub"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace11",
+    "ItemClass": 17,
+    "Name": "Greatmace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace12",
+    "ItemClass": 17,
+    "Name": "Precise Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace13",
+    "ItemClass": 17,
+    "Name": "Giant Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear1",
+    "ItemClass": 77,
+    "Name": "Hardwood Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear2",
+    "ItemClass": 77,
+    "Name": "Ironhead Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear3",
+    "ItemClass": 77,
+    "Name": "Hunting Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear4",
+    "ItemClass": 77,
+    "Name": "Winged Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear5",
+    "ItemClass": 77,
+    "Name": "War Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear6",
+    "ItemClass": 77,
+    "Name": "Forked Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear7",
+    "ItemClass": 77,
+    "Name": "Barbed Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear8",
+    "ItemClass": 77,
+    "Name": "Broad Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear9",
+    "ItemClass": 77,
+    "Name": "Crossblade Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear10",
+    "ItemClass": 77,
+    "Name": "Seaglass Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear11",
+    "ItemClass": 77,
+    "Name": "Sword Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear12",
+    "ItemClass": 77,
+    "Name": "Striking Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpear13",
+    "ItemClass": 77,
+    "Name": "Helix Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw1",
+    "ItemClass": 6,
+    "Name": "Crude Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw2",
+    "ItemClass": 6,
+    "Name": "Pict Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw3",
+    "ItemClass": 6,
+    "Name": "Wolfbone Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw4",
+    "ItemClass": 6,
+    "Name": "Forked Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw5",
+    "ItemClass": 6,
+    "Name": "Plated Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw6",
+    "ItemClass": 6,
+    "Name": "Edged Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw7",
+    "ItemClass": 6,
+    "Name": "Arced Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw8",
+    "ItemClass": 6,
+    "Name": "Hooked Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw9",
+    "ItemClass": 6,
+    "Name": "Razorglass Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw10",
+    "ItemClass": 6,
+    "Name": "Sharktooth Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw11",
+    "ItemClass": 6,
+    "Name": "Armoured Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw12",
+    "ItemClass": 6,
+    "Name": "Piercing Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClaw13",
+    "ItemClass": 6,
+    "Name": "Talon Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger1",
+    "ItemClass": 7,
+    "Name": "Glass Shank"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger2",
+    "ItemClass": 7,
+    "Name": "Crone Knife"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger3",
+    "ItemClass": 7,
+    "Name": "Simple Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger4",
+    "ItemClass": 7,
+    "Name": "Skinning Knife"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger5",
+    "ItemClass": 7,
+    "Name": "Moon Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger6",
+    "ItemClass": 7,
+    "Name": "Engraved Knife"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger7",
+    "ItemClass": 7,
+    "Name": "Obsidian Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger8",
+    "ItemClass": 7,
+    "Name": "Bloodletting Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger9",
+    "ItemClass": 7,
+    "Name": "Mail Breaker"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger10",
+    "ItemClass": 7,
+    "Name": "Kris Knife"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger11",
+    "ItemClass": 7,
+    "Name": "Parrying Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger12",
+    "ItemClass": 7,
+    "Name": "Arcane Dirk"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDagger13",
+    "ItemClass": 7,
+    "Name": "Cinquedea"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff1",
+    "ItemClass": 57,
+    "Name": "Wrapped Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff2",
+    "ItemClass": 57,
+    "Name": "Long Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff3",
+    "ItemClass": 57,
+    "Name": "Gothic Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff4",
+    "ItemClass": 57,
+    "Name": "Crackling Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff5",
+    "ItemClass": 57,
+    "Name": "Crescent Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff6",
+    "ItemClass": 57,
+    "Name": "Steelpoint Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff7",
+    "ItemClass": 57,
+    "Name": "Slicing Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff8",
+    "ItemClass": 57,
+    "Name": "Barrier Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff9",
+    "ItemClass": 57,
+    "Name": "Hefty Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff10",
+    "ItemClass": 57,
+    "Name": "Smooth Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff11",
+    "ItemClass": 57,
+    "Name": "Anima Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff12",
+    "ItemClass": 57,
+    "Name": "Graceful Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff13",
+    "ItemClass": 57,
+    "Name": "Wyrm Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail1",
+    "ItemClass": 83,
+    "Name": "Splintered Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail2",
+    "ItemClass": 83,
+    "Name": "Chain Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail3",
+    "ItemClass": 83,
+    "Name": "Holy Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail4",
+    "ItemClass": 83,
+    "Name": "Iron Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail5",
+    "ItemClass": 83,
+    "Name": "Twin Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail6",
+    "ItemClass": 83,
+    "Name": "Slender Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail7",
+    "ItemClass": 83,
+    "Name": "Stone Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail8",
+    "ItemClass": 83,
+    "Name": "Ring Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail9",
+    "ItemClass": 83,
+    "Name": "Guarded Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail10",
+    "ItemClass": 83,
+    "Name": "Icicle Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail11",
+    "ItemClass": 83,
+    "Name": "Tearing Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail12",
+    "ItemClass": 83,
+    "Name": "Great Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlail13",
+    "ItemClass": 83,
+    "Name": "Abyssal Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand1",
+    "ItemClass": 8,
+    "Name": "Withered Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand2",
+    "ItemClass": 8,
+    "Name": "Bone Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand3",
+    "ItemClass": 8,
+    "Name": "Attuned Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand4",
+    "ItemClass": 8,
+    "Name": "Siphoning Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand5",
+    "ItemClass": 8,
+    "Name": "Volatile Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand6",
+    "ItemClass": 8,
+    "Name": "Galvanic Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand7",
+    "ItemClass": 8,
+    "Name": "Acrid Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand8",
+    "ItemClass": 8,
+    "Name": "Offering Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand9",
+    "ItemClass": 8,
+    "Name": "Frigid Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand10",
+    "ItemClass": 8,
+    "Name": "Torture Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand11",
+    "ItemClass": 8,
+    "Name": "Critical Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand12",
+    "ItemClass": 8,
+    "Name": "Primordial Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWand13",
+    "ItemClass": 8,
+    "Name": "Dueling Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff1",
+    "ItemClass": 14,
+    "Name": "Ashen Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff2",
+    "ItemClass": 14,
+    "Name": "Gelid Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff3",
+    "ItemClass": 14,
+    "Name": "Voltaic Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff4",
+    "ItemClass": 14,
+    "Name": "Spriggan Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff5",
+    "ItemClass": 14,
+    "Name": "Pyrophyte Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff6",
+    "ItemClass": 14,
+    "Name": "Chiming Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff7",
+    "ItemClass": 14,
+    "Name": "Rending Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff8",
+    "ItemClass": 14,
+    "Name": "Reaping Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff9",
+    "ItemClass": 14,
+    "Name": "Icicle Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff10",
+    "ItemClass": 14,
+    "Name": "Roaring Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff11",
+    "ItemClass": 14,
+    "Name": "Paralysing Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff12",
+    "ItemClass": 14,
+    "Name": "Cleric Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaff13",
+    "ItemClass": 14,
+    "Name": "Dark Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow1",
+    "ItemClass": 13,
+    "Name": "Crude Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2",
+    "ItemClass": 13,
+    "Name": "Shortbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3",
+    "ItemClass": 13,
+    "Name": "Warden Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow4",
+    "ItemClass": 13,
+    "Name": "Recurve Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5",
+    "ItemClass": 13,
+    "Name": "Composite Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6",
+    "ItemClass": 13,
+    "Name": "Dualstring Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7",
+    "ItemClass": 13,
+    "Name": "Cultist Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8",
+    "ItemClass": 13,
+    "Name": "Zealot Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow9",
+    "ItemClass": 13,
+    "Name": "Artillery Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow10",
+    "ItemClass": 13,
+    "Name": "Tribal Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow11",
+    "ItemClass": 13,
+    "Name": "Greatbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow12",
+    "ItemClass": 13,
+    "Name": "Double Limb Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow13",
+    "ItemClass": 13,
+    "Name": "Heavy Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow1",
+    "ItemClass": 78,
+    "Name": "Makeshift Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2",
+    "ItemClass": 78,
+    "Name": "Tense Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3",
+    "ItemClass": 78,
+    "Name": "Sturdy Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4",
+    "ItemClass": 78,
+    "Name": "Varnished Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5",
+    "ItemClass": 78,
+    "Name": "Dyad Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow6",
+    "ItemClass": 78,
+    "Name": "Alloy Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7",
+    "ItemClass": 78,
+    "Name": "Bombard Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8",
+    "ItemClass": 78,
+    "Name": "Construct Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow9",
+    "ItemClass": 78,
+    "Name": "Blackfire Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow10",
+    "ItemClass": 78,
+    "Name": "Piercing Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow11",
+    "ItemClass": 78,
+    "Name": "Cumbrous Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow12",
+    "ItemClass": 78,
+    "Name": "Dedalian Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow13",
+    "ItemClass": 78,
+    "Name": "Esoteric Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre1",
+    "ItemClass": 32,
+    "Name": "Rattling Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre2",
+    "ItemClass": 32,
+    "Name": "Stoic Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre3",
+    "ItemClass": 32,
+    "Name": "Lupine Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre4",
+    "ItemClass": 32,
+    "Name": "Omen Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre5",
+    "ItemClass": 32,
+    "Name": "Ochre Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre6a",
+    "ItemClass": 32,
+    "Name": "Shrine Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre6b",
+    "ItemClass": 32,
+    "Name": "Shrine Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre6c",
+    "ItemClass": 32,
+    "Name": "Shrine Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre7",
+    "ItemClass": 32,
+    "Name": "Devouring Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre8",
+    "ItemClass": 32,
+    "Name": "Clasped Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre9",
+    "ItemClass": 32,
+    "Name": "Devotional Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre10",
+    "ItemClass": 32,
+    "Name": "Wrath Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre11",
+    "ItemClass": 32,
+    "Name": "Aromatic Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre12",
+    "ItemClass": 32,
+    "Name": "Pious Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Sceptres/FourSceptre13",
+    "ItemClass": 32,
+    "Name": "Hallowed Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap1",
+    "ItemClass": 96,
+    "Name": "Clay Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap2",
+    "ItemClass": 96,
+    "Name": "Clamping Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap3",
+    "ItemClass": 96,
+    "Name": "Shrapnel Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap4",
+    "ItemClass": 96,
+    "Name": "Urn Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap5",
+    "ItemClass": 96,
+    "Name": "Incense Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap6",
+    "ItemClass": 96,
+    "Name": "Bladed Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap7",
+    "ItemClass": 96,
+    "Name": "Dart Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap8",
+    "ItemClass": 96,
+    "Name": "Spike Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap9",
+    "ItemClass": 96,
+    "Name": "Coiled Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap10",
+    "ItemClass": 96,
+    "Name": "Lead Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap11",
+    "ItemClass": 96,
+    "Name": "Medallion Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap12",
+    "ItemClass": 96,
+    "Name": "Intricate Trap"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Traps/FourTrap13",
+    "ItemClass": 96,
+    "Name": "Refined Trap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr1",
+    "ItemClass": 24,
+    "Name": "Rusted Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr2",
+    "ItemClass": 24,
+    "Name": "Fur Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr3",
+    "ItemClass": 24,
+    "Name": "Iron Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr4",
+    "ItemClass": 24,
+    "Name": "Raider Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr5",
+    "ItemClass": 24,
+    "Name": "Maraketh Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr6",
+    "ItemClass": 24,
+    "Name": "Steel Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr7",
+    "ItemClass": 24,
+    "Name": "Full Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr8",
+    "ItemClass": 24,
+    "Name": "Vaal Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr9",
+    "ItemClass": 24,
+    "Name": "Juggernaut Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr10",
+    "ItemClass": 24,
+    "Name": "Chieftain Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr11",
+    "ItemClass": 24,
+    "Name": "Colosseum Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr12",
+    "ItemClass": 24,
+    "Name": "Champion Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr13",
+    "ItemClass": 24,
+    "Name": "Glorious Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr14",
+    "ItemClass": 24,
+    "Name": "Conqueror Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr15",
+    "ItemClass": 24,
+    "Name": "Abyssal Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex1",
+    "ItemClass": 24,
+    "Name": "Leather Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex2",
+    "ItemClass": 24,
+    "Name": "Quilted Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex3",
+    "ItemClass": 24,
+    "Name": "Pathfinder Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex4",
+    "ItemClass": 24,
+    "Name": "Shrouded Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex5",
+    "ItemClass": 24,
+    "Name": "Rhoahide Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex6",
+    "ItemClass": 24,
+    "Name": "Studded Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex7",
+    "ItemClass": 24,
+    "Name": "Scout's Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex8",
+    "ItemClass": 24,
+    "Name": "Serpentscale Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex9",
+    "ItemClass": 24,
+    "Name": "Corsair Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex10",
+    "ItemClass": 24,
+    "Name": "Smuggler Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex11",
+    "ItemClass": 24,
+    "Name": "Strider Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex12",
+    "ItemClass": 24,
+    "Name": "Hardleather Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex13",
+    "ItemClass": 24,
+    "Name": "Exquisite Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex14",
+    "ItemClass": 24,
+    "Name": "Mail Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex15",
+    "ItemClass": 24,
+    "Name": "Armoured Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt1",
+    "ItemClass": 24,
+    "Name": "Tattered Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt2",
+    "ItemClass": 24,
+    "Name": "Feathered Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt3",
+    "ItemClass": 24,
+    "Name": "Hexer's Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt4",
+    "ItemClass": 24,
+    "Name": "Bone Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt5",
+    "ItemClass": 24,
+    "Name": "Silk Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt6",
+    "ItemClass": 24,
+    "Name": "Keth Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt7",
+    "ItemClass": 24,
+    "Name": "Votive Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt8",
+    "ItemClass": 24,
+    "Name": "Altar Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt9",
+    "ItemClass": 24,
+    "Name": "Elementalist Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt10",
+    "ItemClass": 24,
+    "Name": "Mystic Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt11",
+    "ItemClass": 24,
+    "Name": "Imperial Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt12",
+    "ItemClass": 24,
+    "Name": "Plated Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt13",
+    "ItemClass": 24,
+    "Name": "Havoc Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt14",
+    "ItemClass": 24,
+    "Name": "Enlightened Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt15",
+    "ItemClass": 24,
+    "Name": "Arcane Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex1",
+    "ItemClass": 24,
+    "Name": "Chain Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex2",
+    "ItemClass": 24,
+    "Name": "Rogue Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex3",
+    "ItemClass": 24,
+    "Name": "Vagabond Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex4",
+    "ItemClass": 24,
+    "Name": "Cloaked Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex5",
+    "ItemClass": 24,
+    "Name": "Explorer Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex6",
+    "ItemClass": 24,
+    "Name": "Scale Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex7",
+    "ItemClass": 24,
+    "Name": "Knight Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex8",
+    "ItemClass": 24,
+    "Name": "Ancestral Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex9",
+    "ItemClass": 24,
+    "Name": "Lamellar Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex10",
+    "ItemClass": 24,
+    "Name": "Gladiator Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex11",
+    "ItemClass": 24,
+    "Name": "Heroic Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex12a",
+    "ItemClass": 24,
+    "Name": "Tournament Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex12b",
+    "ItemClass": 24,
+    "Name": "Tournament Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex12c",
+    "ItemClass": 24,
+    "Name": "Tournament Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex13",
+    "ItemClass": 24,
+    "Name": "Slayer Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt1",
+    "ItemClass": 24,
+    "Name": "Pilgrim Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt2",
+    "ItemClass": 24,
+    "Name": "Pelt Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt3",
+    "ItemClass": 24,
+    "Name": "Mail Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt4",
+    "ItemClass": 24,
+    "Name": "Shaman Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt5",
+    "ItemClass": 24,
+    "Name": "Ironclad Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt6",
+    "ItemClass": 24,
+    "Name": "Sacrificial Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt7",
+    "ItemClass": 24,
+    "Name": "Cleric Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt8",
+    "ItemClass": 24,
+    "Name": "Tideseer Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt9",
+    "ItemClass": 24,
+    "Name": "Gilded Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt10",
+    "ItemClass": 24,
+    "Name": "Venerated Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt11",
+    "ItemClass": 24,
+    "Name": "Revered Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt12",
+    "ItemClass": 24,
+    "Name": "Corvus Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt13",
+    "ItemClass": 24,
+    "Name": "Zenith Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt1",
+    "ItemClass": 24,
+    "Name": "Hermit Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt2",
+    "ItemClass": 24,
+    "Name": "Waxed Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt3",
+    "ItemClass": 24,
+    "Name": "Marabout Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt4",
+    "ItemClass": 24,
+    "Name": "Wayfarer Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt5",
+    "ItemClass": 24,
+    "Name": "Anchorite Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt6",
+    "ItemClass": 24,
+    "Name": "Scalper's Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt7",
+    "ItemClass": 24,
+    "Name": "Scoundrel Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt8",
+    "ItemClass": 24,
+    "Name": "Ascetic Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt9",
+    "ItemClass": 24,
+    "Name": "Clandestine Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt10",
+    "ItemClass": 24,
+    "Name": "Monastic Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt11",
+    "ItemClass": 24,
+    "Name": "Torment Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt12",
+    "ItemClass": 24,
+    "Name": "Devout Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt13",
+    "ItemClass": 24,
+    "Name": "Assassin Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr1",
+    "ItemClass": 25,
+    "Name": "Rusted Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr2",
+    "ItemClass": 25,
+    "Name": "Soldier Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr3",
+    "ItemClass": 25,
+    "Name": "Wrapped Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr4",
+    "ItemClass": 25,
+    "Name": "Spired Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr5",
+    "ItemClass": 25,
+    "Name": "Elite Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr6",
+    "ItemClass": 25,
+    "Name": "Warrior Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr7",
+    "ItemClass": 25,
+    "Name": "Commander Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr8",
+    "ItemClass": 25,
+    "Name": "Fierce Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr9",
+    "ItemClass": 25,
+    "Name": "Dueling Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr10",
+    "ItemClass": 25,
+    "Name": "Goliath Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr11",
+    "ItemClass": 25,
+    "Name": "Guardian Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex1",
+    "ItemClass": 25,
+    "Name": "Shabby Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex2",
+    "ItemClass": 25,
+    "Name": "Felt Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex3",
+    "ItemClass": 25,
+    "Name": "Lace Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex4",
+    "ItemClass": 25,
+    "Name": "Swathed Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex5",
+    "ItemClass": 25,
+    "Name": "Hunter Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex6",
+    "ItemClass": 25,
+    "Name": "Viper Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex7",
+    "ItemClass": 25,
+    "Name": "Corsair Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex8",
+    "ItemClass": 25,
+    "Name": "Leatherbound Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex9",
+    "ItemClass": 25,
+    "Name": "Velvet Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex10",
+    "ItemClass": 25,
+    "Name": "Covert Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex11",
+    "ItemClass": 25,
+    "Name": "Armoured Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt1",
+    "ItemClass": 25,
+    "Name": "Twig Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt2",
+    "ItemClass": 25,
+    "Name": "Wicker Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt3",
+    "ItemClass": 25,
+    "Name": "Beaded Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt4",
+    "ItemClass": 25,
+    "Name": "Chain Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt5",
+    "ItemClass": 25,
+    "Name": "Feathered Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt6",
+    "ItemClass": 25,
+    "Name": "Gold Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt7",
+    "ItemClass": 25,
+    "Name": "Coral Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt8",
+    "ItemClass": 25,
+    "Name": "Jade Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt9",
+    "ItemClass": 25,
+    "Name": "Noble Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt10",
+    "ItemClass": 25,
+    "Name": "Twilight Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt11",
+    "ItemClass": 25,
+    "Name": "Magus Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex1",
+    "ItemClass": 25,
+    "Name": "Brimmed Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex2",
+    "ItemClass": 25,
+    "Name": "Guarded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex3",
+    "ItemClass": 25,
+    "Name": "Visored Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex4",
+    "ItemClass": 25,
+    "Name": "Cowled Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex5",
+    "ItemClass": 25,
+    "Name": "Shielded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex6",
+    "ItemClass": 25,
+    "Name": "Closed Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex7",
+    "ItemClass": 25,
+    "Name": "Decorated Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex8",
+    "ItemClass": 25,
+    "Name": "Gallant Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt1",
+    "ItemClass": 25,
+    "Name": "Iron Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt2",
+    "ItemClass": 25,
+    "Name": "Horned Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt3",
+    "ItemClass": 25,
+    "Name": "Cultist Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt4",
+    "ItemClass": 25,
+    "Name": "Martyr Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt5",
+    "ItemClass": 25,
+    "Name": "Heavy Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt6",
+    "ItemClass": 25,
+    "Name": "Spiritbone Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt7",
+    "ItemClass": 25,
+    "Name": "Lavish Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt8",
+    "ItemClass": 25,
+    "Name": "Templar Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt1",
+    "ItemClass": 25,
+    "Name": "Hewn Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt2",
+    "ItemClass": 25,
+    "Name": "Face Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt3",
+    "ItemClass": 25,
+    "Name": "Hooded Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt4",
+    "ItemClass": 25,
+    "Name": "Veiled Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt5",
+    "ItemClass": 25,
+    "Name": "Tribal Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt6",
+    "ItemClass": 25,
+    "Name": "Solid Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt7",
+    "ItemClass": 25,
+    "Name": "Shaded Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt8",
+    "ItemClass": 25,
+    "Name": "Death Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr1",
+    "ItemClass": 22,
+    "Name": "Stocky Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr2",
+    "ItemClass": 22,
+    "Name": "Riveted Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr3",
+    "ItemClass": 22,
+    "Name": "Tempered Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr4",
+    "ItemClass": 22,
+    "Name": "Bolstered Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr5",
+    "ItemClass": 22,
+    "Name": "Moulded Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr6",
+    "ItemClass": 22,
+    "Name": "Detailed Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr7",
+    "ItemClass": 22,
+    "Name": "Titan Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr8",
+    "ItemClass": 22,
+    "Name": "Grand Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex1",
+    "ItemClass": 22,
+    "Name": "Suede Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex2",
+    "ItemClass": 22,
+    "Name": "Firm Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex3",
+    "ItemClass": 22,
+    "Name": "Bound Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex4",
+    "ItemClass": 22,
+    "Name": "Sectioned Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex5",
+    "ItemClass": 22,
+    "Name": "Spined Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex6",
+    "ItemClass": 22,
+    "Name": "Fine Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex7",
+    "ItemClass": 22,
+    "Name": "Hardened Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex8",
+    "ItemClass": 22,
+    "Name": "Engraved Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt1",
+    "ItemClass": 22,
+    "Name": "Torn Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt2",
+    "ItemClass": 22,
+    "Name": "Sombre Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt3",
+    "ItemClass": 22,
+    "Name": "Stitched Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt4",
+    "ItemClass": 22,
+    "Name": "Jewelled Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt5",
+    "ItemClass": 22,
+    "Name": "Intricate Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt6",
+    "ItemClass": 22,
+    "Name": "Pauascale Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt7",
+    "ItemClass": 22,
+    "Name": "Embroidered Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt8",
+    "ItemClass": 22,
+    "Name": "Adorned Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex1",
+    "ItemClass": 22,
+    "Name": "Ringmail Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex2",
+    "ItemClass": 22,
+    "Name": "Layered Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex3",
+    "ItemClass": 22,
+    "Name": "Doubled Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex4",
+    "ItemClass": 22,
+    "Name": "Plate Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex5",
+    "ItemClass": 22,
+    "Name": "Burnished Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex6",
+    "ItemClass": 22,
+    "Name": "Ornate Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt1",
+    "ItemClass": 22,
+    "Name": "Rope Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt2",
+    "ItemClass": 22,
+    "Name": "Aged Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt3",
+    "ItemClass": 22,
+    "Name": "Goldcast Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt4",
+    "ItemClass": 22,
+    "Name": "Diviner Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt5",
+    "ItemClass": 22,
+    "Name": "Righteous Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt6",
+    "ItemClass": 22,
+    "Name": "Signet Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt1",
+    "ItemClass": 22,
+    "Name": "Gauze Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt2",
+    "ItemClass": 22,
+    "Name": "Linen Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt3",
+    "ItemClass": 22,
+    "Name": "Spiral Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt4",
+    "ItemClass": 22,
+    "Name": "Buckled Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt5",
+    "ItemClass": 22,
+    "Name": "Furtive Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt6",
+    "ItemClass": 22,
+    "Name": "Utility Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr1",
+    "ItemClass": 23,
+    "Name": "Rough Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr2",
+    "ItemClass": 23,
+    "Name": "Iron Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr3",
+    "ItemClass": 23,
+    "Name": "Bronze Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr4",
+    "ItemClass": 23,
+    "Name": "Trimmed Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr5",
+    "ItemClass": 23,
+    "Name": "Stone Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr6",
+    "ItemClass": 23,
+    "Name": "Reefsteel Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr7",
+    "ItemClass": 23,
+    "Name": "Monument Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr8",
+    "ItemClass": 23,
+    "Name": "Totemic Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex1",
+    "ItemClass": 23,
+    "Name": "Rawhide Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex2",
+    "ItemClass": 23,
+    "Name": "Laced Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex3",
+    "ItemClass": 23,
+    "Name": "Embossed Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex4",
+    "ItemClass": 23,
+    "Name": "Steeltoe Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex5",
+    "ItemClass": 23,
+    "Name": "Lizardscale Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex6",
+    "ItemClass": 23,
+    "Name": "Flared Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex7",
+    "ItemClass": 23,
+    "Name": "Leatherplate Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex8",
+    "ItemClass": 23,
+    "Name": "Embroidered Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt1",
+    "ItemClass": 23,
+    "Name": "Straw Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt2",
+    "ItemClass": 23,
+    "Name": "Wrapped Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt3",
+    "ItemClass": 23,
+    "Name": "Lattice Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt4",
+    "ItemClass": 23,
+    "Name": "Silk Slippers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt5",
+    "ItemClass": 23,
+    "Name": "Feathered Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt6",
+    "ItemClass": 23,
+    "Name": "Flax Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt7",
+    "ItemClass": 23,
+    "Name": "Studded Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt8",
+    "ItemClass": 23,
+    "Name": "Elaborate Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex1",
+    "ItemClass": 23,
+    "Name": "Mail Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex2",
+    "ItemClass": 23,
+    "Name": "Braced Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex3",
+    "ItemClass": 23,
+    "Name": "Stacked Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex4",
+    "ItemClass": 23,
+    "Name": "Covered Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex5",
+    "ItemClass": 23,
+    "Name": "Flexile Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex6",
+    "ItemClass": 23,
+    "Name": "Bold Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt1",
+    "ItemClass": 23,
+    "Name": "Padded Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt2",
+    "ItemClass": 23,
+    "Name": "Secured Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt3",
+    "ItemClass": 23,
+    "Name": "Pelt Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt4",
+    "ItemClass": 23,
+    "Name": "Weaver Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt5",
+    "ItemClass": 23,
+    "Name": "Gilt Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt6",
+    "ItemClass": 23,
+    "Name": "Pious Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt1",
+    "ItemClass": 23,
+    "Name": "Frayed Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt2",
+    "ItemClass": 23,
+    "Name": "Threaded Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt3",
+    "ItemClass": 23,
+    "Name": "Hunting Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt4",
+    "ItemClass": 23,
+    "Name": "Steelpoint Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt5",
+    "ItemClass": 23,
+    "Name": "Velour Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt6",
+    "ItemClass": 23,
+    "Name": "Bladed Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr1",
+    "ItemClass": 26,
+    "Name": "Splintered Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr2",
+    "ItemClass": 26,
+    "Name": "Painted Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr3",
+    "ItemClass": 26,
+    "Name": "Braced Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr4",
+    "ItemClass": 26,
+    "Name": "Barricade Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr5",
+    "ItemClass": 26,
+    "Name": "Effigial Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr6",
+    "ItemClass": 26,
+    "Name": "Rampart Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr7",
+    "ItemClass": 26,
+    "Name": "Heraldric Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr8",
+    "ItemClass": 26,
+    "Name": "Stone Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr9",
+    "ItemClass": 26,
+    "Name": "Crucible Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr10",
+    "ItemClass": 26,
+    "Name": "Ancestor Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr11",
+    "ItemClass": 26,
+    "Name": "Phalanx Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr12",
+    "ItemClass": 26,
+    "Name": "Defiant Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr13",
+    "ItemClass": 26,
+    "Name": "Blacksteel Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex1",
+    "ItemClass": 26,
+    "Name": "Hardwood Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex2",
+    "ItemClass": 26,
+    "Name": "Pelage Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex3",
+    "ItemClass": 26,
+    "Name": "Studded Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex4",
+    "ItemClass": 26,
+    "Name": "Crescent Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex5",
+    "ItemClass": 26,
+    "Name": "Chiseled Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex6",
+    "ItemClass": 26,
+    "Name": "Feathered Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex7",
+    "ItemClass": 26,
+    "Name": "Stratified Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex8",
+    "ItemClass": 26,
+    "Name": "Carved Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex9",
+    "ItemClass": 26,
+    "Name": "Mosaic Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex10",
+    "ItemClass": 26,
+    "Name": "Aureate Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex11",
+    "ItemClass": 26,
+    "Name": "Grand Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt1",
+    "ItemClass": 26,
+    "Name": "Blazon Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt2",
+    "ItemClass": 26,
+    "Name": "Sigil Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt3",
+    "ItemClass": 26,
+    "Name": "Emblem Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt4",
+    "ItemClass": 26,
+    "Name": "Jingling Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt5",
+    "ItemClass": 26,
+    "Name": "Sectarian Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt6",
+    "ItemClass": 26,
+    "Name": "Omen Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt7",
+    "ItemClass": 26,
+    "Name": "Wayward Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt8",
+    "ItemClass": 26,
+    "Name": "Seer Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt9",
+    "ItemClass": 26,
+    "Name": "Stoic Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt10",
+    "ItemClass": 26,
+    "Name": "Empyreal Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt11",
+    "ItemClass": 26,
+    "Name": "Deified Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex1",
+    "ItemClass": 26,
+    "Name": "Leather Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex2",
+    "ItemClass": 26,
+    "Name": "Wooden Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex3",
+    "ItemClass": 26,
+    "Name": "Plated Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex4",
+    "ItemClass": 26,
+    "Name": "Iron Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex5",
+    "ItemClass": 26,
+    "Name": "Ridged Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex6",
+    "ItemClass": 26,
+    "Name": "Spiked Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex7",
+    "ItemClass": 26,
+    "Name": "Ringed Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex8",
+    "ItemClass": 26,
+    "Name": "Edged Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex9",
+    "ItemClass": 26,
+    "Name": "Laminate Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex10",
+    "ItemClass": 26,
+    "Name": "Pearl Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex11",
+    "ItemClass": 26,
+    "Name": "Ornate Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex12",
+    "ItemClass": 26,
+    "Name": "Array Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex13",
+    "ItemClass": 26,
+    "Name": "Aegis Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus1",
+    "ItemClass": 79,
+    "Name": "Twig Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus2",
+    "ItemClass": 79,
+    "Name": "Woven Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus3",
+    "ItemClass": 79,
+    "Name": "Antler Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus4",
+    "ItemClass": 79,
+    "Name": "Engraved Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus5",
+    "ItemClass": 79,
+    "Name": "Tonal Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus6",
+    "ItemClass": 79,
+    "Name": "Crystal Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus7",
+    "ItemClass": 79,
+    "Name": "Voodoo Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus8",
+    "ItemClass": 79,
+    "Name": "Plumed Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus9",
+    "ItemClass": 79,
+    "Name": "Jade Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus10",
+    "ItemClass": 79,
+    "Name": "Paua Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus11",
+    "ItemClass": 79,
+    "Name": "Elegant Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus12",
+    "ItemClass": 79,
+    "Name": "Attuned Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus13",
+    "ItemClass": 79,
+    "Name": "Magus Focus"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver1",
+    "ItemClass": 20,
+    "Name": "Broadhead Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver2",
+    "ItemClass": 20,
+    "Name": "Fire Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver3",
+    "ItemClass": 20,
+    "Name": "Sacral Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver4",
+    "ItemClass": 20,
+    "Name": "Two-Point Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver5",
+    "ItemClass": 20,
+    "Name": "Blunt Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver6",
+    "ItemClass": 20,
+    "Name": "Toxic Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver7",
+    "ItemClass": 20,
+    "Name": "Serrated Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver8",
+    "ItemClass": 20,
+    "Name": "Primed Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver9",
+    "ItemClass": 20,
+    "Name": "Penetrating Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver10",
+    "ItemClass": 20,
+    "Name": "Volant Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiver11",
+    "ItemClass": 20,
+    "Name": "Visceral Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet1",
+    "ItemClass": 4,
+    "Name": "Crimson Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet2",
+    "ItemClass": 4,
+    "Name": "Azure Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet3",
+    "ItemClass": 4,
+    "Name": "Amber Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet4",
+    "ItemClass": 4,
+    "Name": "Jade Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet5",
+    "ItemClass": 4,
+    "Name": "Lapis Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet6",
+    "ItemClass": 4,
+    "Name": "Lunar Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet7",
+    "ItemClass": 4,
+    "Name": "Bloodstone Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet8",
+    "ItemClass": 4,
+    "Name": "Stellar Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet9",
+    "ItemClass": 4,
+    "Name": "Solar Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmulet10",
+    "ItemClass": 4,
+    "Name": "Gold Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing1",
+    "ItemClass": 5,
+    "Name": "Iron Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing2",
+    "ItemClass": 5,
+    "Name": "Lazuli Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing3",
+    "ItemClass": 5,
+    "Name": "Ruby Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing4",
+    "ItemClass": 5,
+    "Name": "Sapphire Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing5",
+    "ItemClass": 5,
+    "Name": "Topaz Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing6",
+    "ItemClass": 5,
+    "Name": "Amethyst Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing7",
+    "ItemClass": 5,
+    "Name": "Emerald Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing8",
+    "ItemClass": 5,
+    "Name": "Pearl Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing9",
+    "ItemClass": 5,
+    "Name": "Prismatic Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing10",
+    "ItemClass": 5,
+    "Name": "Gold Ring"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRing11",
+    "ItemClass": 5,
+    "Name": "Unset Ring"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt1",
+    "ItemClass": 21,
+    "Name": "Rawhide Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt2",
+    "ItemClass": 21,
+    "Name": "Linen Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt3",
+    "ItemClass": 21,
+    "Name": "Wide Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt4",
+    "ItemClass": 21,
+    "Name": "Long Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt5",
+    "ItemClass": 21,
+    "Name": "Plate Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt6",
+    "ItemClass": 21,
+    "Name": "Ornate Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt7",
+    "ItemClass": 21,
+    "Name": "Mail Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt8",
+    "ItemClass": 21,
+    "Name": "Double Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt9",
+    "ItemClass": 21,
+    "Name": "Heavy Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt10",
+    "ItemClass": 21,
+    "Name": "Utility Belt"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBelt11",
+    "ItemClass": 21,
+    "Name": "Fine Belt"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife1",
+    "ItemClass": 0,
+    "Name": "Lesser Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife2",
+    "ItemClass": 0,
+    "Name": "Medium Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife3",
+    "ItemClass": 0,
+    "Name": "Greater Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife4",
+    "ItemClass": 0,
+    "Name": "Grand Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife5",
+    "ItemClass": 0,
+    "Name": "Giant Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife6",
+    "ItemClass": 0,
+    "Name": "Colossal Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife7",
+    "ItemClass": 0,
+    "Name": "Gargantuan Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife8",
+    "ItemClass": 0,
+    "Name": "Transcendent Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskLife9",
+    "ItemClass": 0,
+    "Name": "Ultimate Life Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana1",
+    "ItemClass": 1,
+    "Name": "Lesser Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana2",
+    "ItemClass": 1,
+    "Name": "Medium Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana3",
+    "ItemClass": 1,
+    "Name": "Greater Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana4",
+    "ItemClass": 1,
+    "Name": "Grand Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana5",
+    "ItemClass": 1,
+    "Name": "Giant Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana6",
+    "ItemClass": 1,
+    "Name": "Colossal Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana7",
+    "ItemClass": 1,
+    "Name": "Gargantuan Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana8",
+    "ItemClass": 1,
+    "Name": "Transcendent Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourFlaskMana9",
+    "ItemClass": 1,
+    "Name": "Ultimate Mana Flask"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm1",
+    "ItemClass": 33,
+    "Name": "Thawing Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm2",
+    "ItemClass": 33,
+    "Name": "Staunching Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm3",
+    "ItemClass": 33,
+    "Name": "Antidote Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm4",
+    "ItemClass": 33,
+    "Name": "Dousing Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm5",
+    "ItemClass": 33,
+    "Name": "Grounding Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm6",
+    "ItemClass": 33,
+    "Name": "Stone Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm7",
+    "ItemClass": 33,
+    "Name": "Silver Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm8",
+    "ItemClass": 33,
+    "Name": "Ruby Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm9",
+    "ItemClass": 33,
+    "Name": "Sapphire Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm10",
+    "ItemClass": 33,
+    "Name": "Topaz Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm11",
+    "ItemClass": 33,
+    "Name": "Amethyst Charm"
+  },
+  {
+    "Id": "Metadata/Items/Flasks/FourCharm12",
+    "ItemClass": 33,
+    "Name": "Golden Charm"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRingBase",
+    "ItemClass": 5,
+    "Name": "Ring"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDexIntBase",
+    "ItemClass": 24,
+    "Name": "Garment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDexInt1",
+    "ItemClass": 24,
+    "Name": "Grand Regalia"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDexInt1",
+    "ItemClass": 25,
+    "Name": "Grand Visage"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDexInt1",
+    "ItemClass": 22,
+    "Name": "Grand Manchettes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDexInt1",
+    "ItemClass": 23,
+    "Name": "Grand Cuisses"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRingBreach",
+    "ItemClass": 5,
+    "Name": "Breach Ring"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/FourOneHandSwordGamble",
+    "ItemClass": 61,
+    "Name": "Random One Handed Sword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/FourTwoHandSwordGamble",
+    "ItemClass": 61,
+    "Name": "Random Two Handed Sword"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/FourOneHandAxeGamble",
+    "ItemClass": 61,
+    "Name": "Random One Handed Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/FourTwoHandAxeGamble",
+    "ItemClass": 61,
+    "Name": "Random Two Handed Axe"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMaceGamble",
+    "ItemClass": 61,
+    "Name": "Random One Handed Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMaceGamble",
+    "ItemClass": 61,
+    "Name": "Random Two Handed Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandSpears/FourSpearGamble",
+    "ItemClass": 61,
+    "Name": "Random Spear"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Claws/FourClawGamble",
+    "ItemClass": 61,
+    "Name": "Random Claw"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Daggers/FourDaggerGamble",
+    "ItemClass": 61,
+    "Name": "Random Dagger"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaffGamble",
+    "ItemClass": 61,
+    "Name": "Random Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Flails/FourFlailGamble",
+    "ItemClass": 61,
+    "Name": "Random Flail"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Wands/FourWandGamble",
+    "ItemClass": 61,
+    "Name": "Random Wand"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourStaffGamble",
+    "ItemClass": 61,
+    "Name": "Random Staff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBowGamble",
+    "ItemClass": 61,
+    "Name": "Random Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbowGamble",
+    "ItemClass": 61,
+    "Name": "Random Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourSceptreGamble",
+    "ItemClass": 61,
+    "Name": "Random Sceptre"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/Traps/FourTrapGamble",
+    "ItemClass": 61,
+    "Name": "Random Trap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Body Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Helmet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrGamble",
+    "ItemClass": 61,
+    "Name": "Random Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrIntGamble",
+    "ItemClass": 61,
+    "Name": "Random Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDexGamble",
+    "ItemClass": 61,
+    "Name": "Random Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocusGamble",
+    "ItemClass": 61,
+    "Name": "Random Focus"
+  },
+  {
+    "Id": "Metadata/Items/Quivers/FourQuiverGamble",
+    "ItemClass": 61,
+    "Name": "Random Quiver"
+  },
+  {
+    "Id": "Metadata/Items/Amulets/FourAmuletGamble",
+    "ItemClass": 61,
+    "Name": "Random Amulet"
+  },
+  {
+    "Id": "Metadata/Items/Rings/FourRingGamble",
+    "ItemClass": 61,
+    "Name": "Random Ring"
+  },
+  {
+    "Id": "Metadata/Items/Belts/FourBeltGamble",
+    "ItemClass": 61,
+    "Name": "Random Belt"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace2Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Smithing Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace3Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Slim Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace5Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Warpick"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace6Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Plated Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace7Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Brigand Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace8Cruel",
+    "ItemClass": 12,
+    "Name": "Advanced Construct Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace2Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Oak Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace3Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Forge Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace5Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Cultist Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace6Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Temple Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace7Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Leaden Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace8Cruel",
+    "ItemClass": 17,
+    "Name": "Advanced Crumbling Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff2Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Long Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff3Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Gothic Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff4Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Crackling Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff5Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Crescent Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff7Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Slicing Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff8Cruel",
+    "ItemClass": 57,
+    "Name": "Advanced Barrier Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Shortbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Warden Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Composite Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Dualstring Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Cultist Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Cruel",
+    "ItemClass": 13,
+    "Name": "Advanced Zealot Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Tense Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Sturdy Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Varnished Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Dyad Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Bombard Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Cruel",
+    "ItemClass": 78,
+    "Name": "Advanced Forlorn Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Fur Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Iron Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Maraketh Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Steel Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr7Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Full Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr8Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Vaal Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Quilted Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Pathfinder Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Rhoahide Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Studded Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex7Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Scout's Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex8Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Serpentscale Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Feathered Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Hexer's Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Silk Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Keth Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt7Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Votive Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt8Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Altar Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex1Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Chain Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Rogue Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Vagabond Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex4Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Cloaked Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Explorer Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Scale Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt1Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Pilgrim Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Pelt Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Mail Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt4Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Shaman Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Ironclad Vestments"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Sacrificial Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt1Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Hermit Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt2Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Waxed Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt3Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Marabout Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt4Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Wayfarer Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt5Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Anchorite Garb"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt6Cruel",
+    "ItemClass": 24,
+    "Name": "Advanced Scalper's Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Rusted Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Soldier Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Wrapped Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Spired Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Elite Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Shabby Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Felt Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Lace Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Swathed Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Hunter Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Twig Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Wicker Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Beaded Circlet"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Chain Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Feathered Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Brimmed Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Guarded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Visored Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Cowled Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Shielded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Iron Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Horned Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Cultist Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Martyr Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Heavy Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt1Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Hewn Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt2Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Face Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt3Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Hooded Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt4Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Veiled Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt5Cruel",
+    "ItemClass": 25,
+    "Name": "Advanced Tribal Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Riveted Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Tempered Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr4Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Bolstered Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr5Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Moulded Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Firm Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Bound Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex4Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Sectioned Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex5Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Spined Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Sombre Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Stitched Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt4Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Jewelled Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt5Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Intricate Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex1Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Ringmail Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Layered Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Doubled Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt1Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Rope Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Aged Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Goldcast Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt1Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Gauze Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt2Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Linen Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt3Cruel",
+    "ItemClass": 22,
+    "Name": "Advanced Spiral Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Iron Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Bronze Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr4Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Trimmed Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr5Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Stone Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Laced Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Embossed Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex4Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Steeltoe Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex5Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Lizardscale Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Wrapped Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Lattice Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt4Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Silk Slippers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt5Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Feathered Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex1Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Mail Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Braced Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Stacked Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt1Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Padded Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Secured Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Pelt Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt1Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Frayed Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt2Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Threaded Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt3Cruel",
+    "ItemClass": 23,
+    "Name": "Advanced Hunting Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr2Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Painted Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr3Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Braced Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr5Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Effigial Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr6Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Rampart Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr7Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Heraldric Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr8Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Stone Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex1Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Hardwood Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex2Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Pelage Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex3Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Studded Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex4Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Crescent Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex5Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Chiseled Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex6Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Feathered Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt1Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Blazon Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt2Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Sigil Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt3Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Emblem Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt4Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Jingling Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt5Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Sectarian Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt6Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Omen Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex2Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Wooden Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex3Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Plated Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex5Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Ridged Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex6Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Spiked Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex7Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Ringed Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex8Cruel",
+    "ItemClass": 26,
+    "Name": "Advanced Edged Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus2Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Woven Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus3Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Antler Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus5Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Tonal Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus6Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Crystal Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus7Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Voodoo Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus8Cruel",
+    "ItemClass": 79,
+    "Name": "Advanced Plumed Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr3Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Iron Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Steel Plate"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStr8Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Vaal Cuirass"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex3Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Pathfinder Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Studded Vest"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDex8Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Serpentscale Coat"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt3Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Hexer's Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Keth Raiment"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyInt8Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Altar Robe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex2Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Rogue Armour"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex4aEndgame",
+    "ItemClass": 24,
+    "Name": "Expert Cloaked Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex4bEndgame",
+    "ItemClass": 24,
+    "Name": "Expert Cloaked Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex4cEndgame",
+    "ItemClass": 24,
+    "Name": "Expert Cloaked Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrDex6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Scale Mail"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt2Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Pelt Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt4Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Shaman Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyStrInt6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Sacrificial Mantle"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt2Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Waxed Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt4Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Wayfarer Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/BodyArmours/FourBodyDexInt6Endgame",
+    "ItemClass": 24,
+    "Name": "Expert Scalper's Jacket"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Soldier Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Spired Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStr5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Elite Greathelm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Felt Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Swathed Cap"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDex5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Hunter Hood"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Wicker Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Chain Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetInt5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Feathered Tiara"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Guarded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Cowled Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrDex5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Shielded Helm"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Horned Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Martyr Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetStrInt5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Heavy Crown"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt2Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Face Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt4Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Veiled Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Helmets/FourHelmetDexInt5Endgame",
+    "ItemClass": 25,
+    "Name": "Expert Tribal Mask"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Riveted Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr4Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Bolstered Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStr5Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Moulded Mitts"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Firm Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex4Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Sectioned Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDex5Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Spined Bracers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Sombre Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt4Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Jewelled Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesInt5Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Intricate Gloves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex1Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Ringmail Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Layered Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrDex3Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Doubled Gauntlets"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt1Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Rope Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Aged Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesStrInt3Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Goldcast Cuffs"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt1Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Gauze Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt2Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Linen Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Gloves/FourGlovesDexInt3Endgame",
+    "ItemClass": 22,
+    "Name": "Expert Spiral Wraps"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Iron Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr4Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Trimmed Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStr5Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Stone Greaves"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Laced Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex4Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Steeltoe Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDex5Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Lizardscale Boots"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Wrapped Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt4Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Silk Slippers"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsInt5Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Feathered Sandals"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex1Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Mail Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Braced Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrDex3Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Stacked Sabatons"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt1Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Padded Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Secured Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsStrInt3Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Pelt Leggings"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt1Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Frayed Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt2Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Threaded Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Boots/FourBootsDexInt3Endgame",
+    "ItemClass": 23,
+    "Name": "Expert Hunting Shoes"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr3Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Braced Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr6Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Rampart Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStr8Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Stone Tower Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex2Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Pelage Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex4Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Crescent Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrDex6Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Feathered Targe"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt2Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Sigil Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt4Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Jingling Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldStrInt6Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Omen Crest Shield"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex3Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Plated Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex6Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Spiked Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Shields/FourShieldDex8Endgame",
+    "ItemClass": 26,
+    "Name": "Expert Edged Buckler"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus3Endgame",
+    "ItemClass": 79,
+    "Name": "Expert Antler Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus6Endgame",
+    "ItemClass": 79,
+    "Name": "Expert Crystal Focus"
+  },
+  {
+    "Id": "Metadata/Items/Armours/Focii/FourFocus8Endgame",
+    "ItemClass": 79,
+    "Name": "Expert Plumed Focus"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace3Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Slim Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace6Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Plated Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace2Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Smithing Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace5Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Warpick"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace8Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Construct Hammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/FourOneHandMace7Endgame",
+    "ItemClass": 12,
+    "Name": "Expert Brigand Mace"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace3Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Forge Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace6Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Temple Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace2Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Oak Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace5Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Cultist Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace8Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Crumbling Maul"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/FourTwoHandMace7Endgame",
+    "ItemClass": 17,
+    "Name": "Expert Leaden Greathammer"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff3Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Gothic Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff5Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Crescent Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff2Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Long Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff4Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Crackling Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff8Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Barrier Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff7Endgame",
+    "ItemClass": 57,
+    "Name": "Expert Slicing Quarterstaff"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow2Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Shortbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow5Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Composite Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow3Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Warden Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow6Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Dualstring Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow7Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Cultist Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Bows/FourBow8Endgame",
+    "ItemClass": 13,
+    "Name": "Expert Zealot Bow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow3Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Sturdy Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow4Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Varnished Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow2Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Tense Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow5Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Dyad Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow7Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Bombard Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/Weapons/TwoHandWeapons/Crossbows/FourCrossbow8Endgame",
+    "ItemClass": 78,
+    "Name": "Expert Forlorn Crossbow"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/Lute",
+    "ItemClass": 31,
+    "Name": "Una's Lute"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/Spikes",
+    "ItemClass": 31,
+    "Name": "Runed Spikes"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/CroneDrop",
+    "ItemClass": 31,
+    "Name": "Head of the Winter Wolf"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/ManorGargoyleDrop",
+    "ItemClass": 31,
+    "Name": "Candlemass' Essence"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/ManorGargoyleDropCruel",
+    "ItemClass": 31,
+    "Name": "Candlemass' Essence"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/FinnsPotion",
+    "ItemClass": 31,
+    "Name": "Vagrant's Brew"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/RunedArtifact1",
+    "ItemClass": 31,
+    "Name": "Runed Girdle"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/RunedArtifact2",
+    "ItemClass": 31,
+    "Name": "Runed Guard"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/RunedArtifact3",
+    "ItemClass": 31,
+    "Name": "Runed Skull Cap"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/GraveyardKey1",
+    "ItemClass": 31,
+    "Name": "Asinia's Memorial Key Piece"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/GraveyardKey2",
+    "ItemClass": 31,
+    "Name": "Draven's Memorial Key Piece"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/RingOfTheCount",
+    "ItemClass": 31,
+    "Name": "Count Lachlann's Ring"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/AncestralSteel",
+    "ItemClass": 31,
+    "Name": "Ancestral Steel"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/CrowbellSkillBook",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/UnaSkillBook",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/ScarecrowDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Scarecrow Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/SpiritDraught1",
+    "ItemClass": 31,
+    "Name": "Gembloom Skull"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/CraftingBenchTools",
+    "ItemClass": 31,
+    "Name": "Smithing Tools"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/GuillotineExecutionerDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Guillotine Executioner Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act1/GargoyleGolemDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Gargoyle Golem Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/AncientGateKey",
+    "ItemClass": 31,
+    "Name": "The Horn of the Vastiri"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/SerpentClanCasterBossDrop",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/BoneCultistShieldBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Bone Cultist Shield Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/MastodonTusks",
+    "ItemClass": 31,
+    "Name": "Mastodon Tusks"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/EyeOfTheTitan",
+    "ItemClass": 31,
+    "Name": "The Flame Ruby"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/EssenceOfTheWaterGod",
+    "ItemClass": 31,
+    "Name": "The Essence of Water"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/MedallionSerpentClan",
+    "ItemClass": 31,
+    "Name": "Kabala Clan Relic"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/MedallionHyenaClan",
+    "ItemClass": 31,
+    "Name": "Sun Clan Relic"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/MedallionCombined",
+    "ItemClass": 31,
+    "Name": "Sigil of the Third Pact"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/MaggotHusk",
+    "ItemClass": 31,
+    "Name": "Maggot Husk"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/StitchedBladder",
+    "ItemClass": 31,
+    "Name": "Stitched Bladder"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/GasFilledBladder",
+    "ItemClass": 31,
+    "Name": "Gas Filled Bladder"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/BurningHeart",
+    "ItemClass": 31,
+    "Name": "Burning Heart"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/DjinnFlaskEmpty",
+    "ItemClass": 31,
+    "Name": "Empty Decanter Djinnus"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/DjinnFlaskFull",
+    "ItemClass": 31,
+    "Name": "Full Decanter Djinnus"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/SuicideNote",
+    "ItemClass": 31,
+    "Name": "Final Letter"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/FinalLetterSkillBook",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act2/SpiritDraught2",
+    "ItemClass": 31,
+    "Name": "Gemrot Skull"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/DredgeFiendShamanBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Dredge Fiend Shaman Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/QuadrillaBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Quadrilla Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/QuadrillaSkillBook",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/BogWitchSkillBook",
+    "ItemClass": 31,
+    "Name": "Book of Specialisation"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/ViperNapuatziDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Viper Napuatzi Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable",
+    "ItemClass": 31,
+    "Name": "Venom Draught of Stone"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable2",
+    "ItemClass": 31,
+    "Name": "Venom Draught of the Veil"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable3",
+    "ItemClass": 31,
+    "Name": "Venom Draught of Clarity"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable4",
+    "ItemClass": 31,
+    "Name": "Venom Draught of the Lost"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable5",
+    "ItemClass": 31,
+    "Name": "Venom Draught of the Sky"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotionConsumable6",
+    "ItemClass": 31,
+    "Name": "Venom Draught of the Marshes"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SnakeLadyPotion",
+    "ItemClass": 31,
+    "Name": "Corpse-snake Venom"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGem",
+    "ItemClass": 80,
+    "Name": "Small Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGem2",
+    "ItemClass": 80,
+    "Name": "Small Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGem3",
+    "ItemClass": 80,
+    "Name": "Small Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGem4",
+    "ItemClass": 80,
+    "Name": "Small Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGemMedium",
+    "ItemClass": 80,
+    "Name": "Medium Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalKeyGemMedium2",
+    "ItemClass": 80,
+    "Name": "Medium Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalSoulGem",
+    "ItemClass": 31,
+    "Name": "Large Soul Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SoulCoreConsumable",
+    "ItemClass": 31,
+    "Name": "The Flame Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/ZigguratDoorKey",
+    "ItemClass": 31,
+    "Name": "Temple Door Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/BogWitchBroom",
+    "ItemClass": 31,
+    "Name": "Ignagduk's Ghastly Spear"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/EelMonsterBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Eel Monster Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalForgermasterHammer",
+    "ItemClass": 31,
+    "Name": "The Hammer of Kamasa"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/FrostCore1",
+    "ItemClass": 80,
+    "Name": "Frost Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/FrostCore2",
+    "ItemClass": 80,
+    "Name": "Frost Core"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol1",
+    "ItemClass": 31,
+    "Name": "Golden Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol2",
+    "ItemClass": 31,
+    "Name": "Grand Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol3",
+    "ItemClass": 31,
+    "Name": "Glorious Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol4",
+    "ItemClass": 31,
+    "Name": "Exquisite Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol5",
+    "ItemClass": 31,
+    "Name": "Elegant Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/GoldIdol6",
+    "ItemClass": 31,
+    "Name": "Exceptional Idol"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/AggoratDagger",
+    "ItemClass": 31,
+    "Name": "Sacrificial Dagger"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalSunWorshipperBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Vaal Sun Worshipper Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/VaalBloodPriestessBossDrop",
+    "ItemClass": 31,
+    "Name": "[DNT] Vaal Blood Priestess Boss Drop"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SacrificialHeart",
+    "ItemClass": 31,
+    "Name": "Sacrificial Heart"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/SpiritDraught3",
+    "ItemClass": 31,
+    "Name": "Gemcrust Skull"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemGlacialCascade",
+    "ItemClass": 18,
+    "Name": "Glacial Cascade"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemComet",
+    "ItemClass": 18,
+    "Name": "Comet"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemBladeNova",
+    "ItemClass": 18,
+    "Name": "[DNT] Blade Nova"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemFlameSlice",
+    "ItemClass": 18,
+    "Name": "[DNT] Flame Slice"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemRingOfBlades",
+    "ItemClass": 18,
+    "Name": "[DNT] RingOfBlades"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemComboKnifeThrow",
+    "ItemClass": 18,
+    "Name": "[DNT] Combo Knife Throw"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemTripleSlash",
+    "ItemClass": 18,
+    "Name": "[DNT] Triple Slash Combo"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemHyperSlash",
+    "ItemClass": 18,
+    "Name": "[DNT] Hyper Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemShadowDash",
+    "ItemClass": 18,
+    "Name": "[DNT] Shadow Dash"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemShadowAmbush",
+    "ItemClass": 18,
+    "Name": "[DNT] Shadow Ambush"
+  },
+  {
+    "Id": "Metadata/items/Gems/SkillGemStaffConsecrate",
+    "ItemClass": 18,
+    "Name": "Consecrate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemRipwireBallista",
+    "ItemClass": 18,
+    "Name": "Ripwire Ballista"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemManaTempest",
+    "ItemClass": 18,
+    "Name": "Mana Tempest"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUncut",
+    "ItemClass": 91,
+    "Name": "Uncut Skill Gem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUncutQuest",
+    "ItemClass": 91,
+    "Name": "Uncut Skill Gem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUncut",
+    "ItemClass": 101,
+    "Name": "Uncut Support Gem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemKillingPalm",
+    "ItemClass": 18,
+    "Name": "Killing Palm"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemShatteringPalm",
+    "ItemClass": 18,
+    "Name": "Shattering Palm"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemVolcano",
+    "ItemClass": 18,
+    "Name": "Volcano"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSummonWolfCompanion",
+    "ItemClass": 18,
+    "Name": "Summon Wolf"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSpinningThrow",
+    "ItemClass": 18,
+    "Name": "[DNT] Spinning Throw"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSpiralVolley",
+    "ItemClass": 18,
+    "Name": "Spiral Volley"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemDodgeRoll",
+    "ItemClass": 18,
+    "Name": "[DNT] Dodge Roll"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemShadowThiefSlash",
+    "ItemClass": 18,
+    "Name": "[DNT] Shadow Thief Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemLeapingAxeCatch",
+    "ItemClass": 18,
+    "Name": "[DNT] Leaping Axe Catch"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemStormBlade",
+    "ItemClass": 18,
+    "Name": "[DNT] Storm Blade"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemPlungingBlade",
+    "ItemClass": 18,
+    "Name": "[DNT] Plunging Blade"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemWolfHowl",
+    "ItemClass": 18,
+    "Name": "[DNT] Howl"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSpiralThrow",
+    "ItemClass": 18,
+    "Name": "[DNT] Spiral Throw"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemWolfLeapAttack",
+    "ItemClass": 18,
+    "Name": "[DNT] Leaping Claw"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemLightningBolt",
+    "ItemClass": 18,
+    "Name": "Lightning Bolt"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemBearRampage",
+    "ItemClass": 18,
+    "Name": "Rampage"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportEnervation",
+    "ItemClass": 19,
+    "Name": "Enervation"
+  },
+  {
+    "Id": "Metadata/items/Gems/SkillGemStaffUnleash",
+    "ItemClass": 18,
+    "Name": "Unleash"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeDominusPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeBrutusPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizePietyPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeWhiteMapPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeYellowMapPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeRedMapPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeTabulaRasaPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeKitavaPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeJewellersOrbPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizePortalScrollPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeWisdomScrollPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeQuicksilverFlaskPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeDivineOrbPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeOrbofFusingPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeExaltedOrbPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeChiselPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeChaosOrbPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeDuelistPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeMarauderPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeTemplarPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeRangerPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeWitchPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeShadowPin",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeWitchDeskPad",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeMarauderDeskPad",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeRangerDeskPad",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeChaosOrbDeskPad",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeCelestialCatSocks",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeChaosOrbSocks",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeTShirt",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/PrizeHoodie",
+    "ItemClass": 95,
+    "Name": "Convention Treasure"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemLightningStorm",
+    "ItemClass": 18,
+    "Name": "Lightning Storm"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemChanceToFreeze",
+    "ItemClass": 19,
+    "Name": "Chance to Freeze"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEssenceHarvest",
+    "ItemClass": 19,
+    "Name": "Essence Harvest"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemFuriousSlam",
+    "ItemClass": 18,
+    "Name": "Furious Slam"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFerociousRoar",
+    "ItemClass": 76,
+    "Name": "Ferocious Roar"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnShock",
+    "ItemClass": 76,
+    "Name": "Cast on Shock"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemInvocation",
+    "ItemClass": 19,
+    "Name": "Invocation"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnFreeze",
+    "ItemClass": 76,
+    "Name": "Cast on Freeze"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnIgnite",
+    "ItemClass": 76,
+    "Name": "Cast on Ignite"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnMeleeKill",
+    "ItemClass": 76,
+    "Name": "Cast on Melee Kill"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnDeath",
+    "ItemClass": 76,
+    "Name": "Cast on Death"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnCritical",
+    "ItemClass": 76,
+    "Name": "Cast on Critical"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastWhenStunned",
+    "ItemClass": 76,
+    "Name": "Cast when Stunned"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastWhenDamageTaken",
+    "ItemClass": 76,
+    "Name": "Cast when Damage Taken"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown1",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown2",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown3",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown4",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown5",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown6",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown7",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown8",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown9",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown10",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown11",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown12",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown13",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown14",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown15",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown16",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown17",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown18",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown19",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown20",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown21",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown22",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown23",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown24",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown25",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown26",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemUnknown27",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown1",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown2",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown3",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown4",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown5",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown6",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown7",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown8",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationSkillGemUnknown9",
+    "ItemClass": 18,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown1",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown2",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown3",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown4",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown5",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown6",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown7",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown8",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnknown9",
+    "ItemClass": 19,
+    "Name": "Coming Soon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemBarrierInvocation",
+    "ItemClass": 76,
+    "Name": "Barrier Invocation"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnDodge",
+    "ItemClass": 76,
+    "Name": "Cast on Dodge"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastWhileChannelling",
+    "ItemClass": 76,
+    "Name": "Cast while Channelling"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnMeleeStun",
+    "ItemClass": 76,
+    "Name": "Cast on Melee Stun"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemLingeringIllusion",
+    "ItemClass": 18,
+    "Name": "Lingering Illusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemGhostDance",
+    "ItemClass": 18,
+    "Name": "Ghost Dance"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemBindSpectre",
+    "ItemClass": 18,
+    "Name": "Bind Spectre"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemDominatingAura",
+    "ItemClass": 18,
+    "Name": "[DNT] Dominating Aura"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemShroud",
+    "ItemClass": 18,
+    "Name": "Shroud"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSummonMercenaryCompanion",
+    "ItemClass": 76,
+    "Name": "Summon Companion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemAncestralWarriorTotem",
+    "ItemClass": 76,
+    "Name": "Ancestral Warrior Totem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemMetaSpellTotem",
+    "ItemClass": 76,
+    "Name": "[DNT] Meta Spell Totem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemMetaBowTotem",
+    "ItemClass": 76,
+    "Name": "[DNT] Meta Bow Totem"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemPainOffering",
+    "ItemClass": 18,
+    "Name": "Pain Offering"
+  },
+  {
+    "Id": "Metadata/Items/Currency/BindSpectreToken",
+    "ItemClass": 98,
+    "Name": "[DNT] Bind Spectre Token"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemTempestFlurry",
+    "ItemClass": 18,
+    "Name": "Tempest Flurry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemStaggeringPalm",
+    "ItemClass": 18,
+    "Name": "Staggering Palm"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemChargedStaff",
+    "ItemClass": 18,
+    "Name": "Charged Staff"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSiphoningStrike",
+    "ItemClass": 18,
+    "Name": "Siphoning Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemTempestBell",
+    "ItemClass": 18,
+    "Name": "Tempest Bell"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFrozenLocus",
+    "ItemClass": 18,
+    "Name": "Frozen Locus"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBonestorm",
+    "ItemClass": 18,
+    "Name": "Bonestorm"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBoneCage",
+    "ItemClass": 18,
+    "Name": "Bone Cage"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSpreadingFrost",
+    "ItemClass": 19,
+    "Name": "Spreading Frost"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPinpointCritical",
+    "ItemClass": 19,
+    "Name": "Pinpoint Critical"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemUnearth",
+    "ItemClass": 18,
+    "Name": "Unearth"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemDetonatingArrow",
+    "ItemClass": 18,
+    "Name": "Detonating Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPoisonBurstArrow",
+    "ItemClass": 18,
+    "Name": "Poisonburst Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemToxicGrowth",
+    "ItemClass": 18,
+    "Name": "Toxic Growth"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemStormcallerArrow",
+    "ItemClass": 18,
+    "Name": "Stormcaller Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemLightningRod",
+    "ItemClass": 18,
+    "Name": "Lightning Rod"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSnipe",
+    "ItemClass": 18,
+    "Name": "Snipe"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGasArrow",
+    "ItemClass": 18,
+    "Name": "Gas Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSolarOrb",
+    "ItemClass": 18,
+    "Name": "Solar Orb"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFireball",
+    "ItemClass": 18,
+    "Name": "Fireball"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemElectrocutingArrow",
+    "ItemClass": 18,
+    "Name": "Electrocuting Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemColdSnap",
+    "ItemClass": 18,
+    "Name": "Cold Snap"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPerfectStrike",
+    "ItemClass": 18,
+    "Name": "Perfect Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShieldBlock",
+    "ItemClass": 18,
+    "Name": "Raise Shield"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemResonatingShield",
+    "ItemClass": 18,
+    "Name": "Resonating Shield"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemManaRemnants",
+    "ItemClass": 18,
+    "Name": "Mana Remnants"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemMagmaBarrier",
+    "ItemClass": 18,
+    "Name": "Magma Barrier"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemFreezingShards",
+    "ItemClass": 18,
+    "Name": "Freezing Shards"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemVineArrow",
+    "ItemClass": 18,
+    "Name": "Vine Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSummonRhoaMount",
+    "ItemClass": 18,
+    "Name": "Summon Rhoa Mount"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCorpseCloud",
+    "ItemClass": 18,
+    "Name": "Decompose"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemIgnition",
+    "ItemClass": 19,
+    "Name": "Ignition"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemRuthless",
+    "ItemClass": 19,
+    "Name": "Ruthless"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnbreakable",
+    "ItemClass": 19,
+    "Name": "Unbreakable"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLacerate",
+    "ItemClass": 19,
+    "Name": "Lacerate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBludgeon",
+    "ItemClass": 19,
+    "Name": "Bludgeon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemOverpower",
+    "ItemClass": 19,
+    "Name": "Overpower"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPersistence",
+    "ItemClass": 19,
+    "Name": "Persistence"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFastForward",
+    "ItemClass": 19,
+    "Name": "Fast Forward"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemRage",
+    "ItemClass": 19,
+    "Name": "Rage"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLifetap",
+    "ItemClass": 19,
+    "Name": "Lifetap"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemExecute",
+    "ItemClass": 19,
+    "Name": "Execute"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSearingFlame",
+    "ItemClass": 19,
+    "Name": "Searing Flame"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBehead",
+    "ItemClass": 19,
+    "Name": "Behead"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemJaggedGround",
+    "ItemClass": 19,
+    "Name": "Jagged Ground"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemExploitWeakness",
+    "ItemClass": 19,
+    "Name": "Exploit Weakness"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemImpactShockwave",
+    "ItemClass": 19,
+    "Name": "Impact Shockwave"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFirePenetration",
+    "ItemClass": 19,
+    "Name": "Fire Penetration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFireExposure",
+    "ItemClass": 19,
+    "Name": "Fire Exposure"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEnragedWarcry",
+    "ItemClass": 19,
+    "Name": "Enraged Warcry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFistOfWar",
+    "ItemClass": 19,
+    "Name": "Fist of War"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDevastate",
+    "ItemClass": 19,
+    "Name": "Devastate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemHeavySwing",
+    "ItemClass": 19,
+    "Name": "Heavy Swing"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLifeThief",
+    "ItemClass": 19,
+    "Name": "Life Thief"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBrutality",
+    "ItemClass": 19,
+    "Name": "Brutality"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBloodlust",
+    "ItemClass": 19,
+    "Name": "Bloodlust"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMeatShield",
+    "ItemClass": 19,
+    "Name": "Meat Shield"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemBreakEndurance",
+    "ItemClass": 19,
+    "Name": "Break Endurance"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEternalFlame",
+    "ItemClass": 19,
+    "Name": "Eternal Flame"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemInfernalLegion",
+    "ItemClass": 19,
+    "Name": "Infernal Legion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFireInfusion",
+    "ItemClass": 19,
+    "Name": "Fire Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemInspiration",
+    "ItemClass": 19,
+    "Name": "Inspiration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemImmolate",
+    "ItemClass": 19,
+    "Name": "Immolate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPremeditation",
+    "ItemClass": 19,
+    "Name": "Premeditation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemRagingCry",
+    "ItemClass": 19,
+    "Name": "Raging Cry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDemolisher",
+    "ItemClass": 19,
+    "Name": "Demolisher"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemRageforged",
+    "ItemClass": 19,
+    "Name": "Rageforged"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemArmourExplosion",
+    "ItemClass": 19,
+    "Name": "Armour Explosion"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemStompingGround",
+    "ItemClass": 19,
+    "Name": "Stomping Ground"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemCorruptingCry",
+    "ItemClass": 19,
+    "Name": "Corrupting Cry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDeepCuts",
+    "ItemClass": 19,
+    "Name": "Deep Cuts"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSplinter",
+    "ItemClass": 19,
+    "Name": "Splinter"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemRupture",
+    "ItemClass": 19,
+    "Name": "Rupture"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemDazingCry",
+    "ItemClass": 19,
+    "Name": "Dazing Cry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+    "ItemClass": 19,
+    "Name": "Primal Armament"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemVitality",
+    "ItemClass": 19,
+    "Name": "Vitality"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemHerbalism",
+    "ItemClass": 19,
+    "Name": "Herbalism"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemCannibalism",
+    "ItemClass": 19,
+    "Name": "Cannibalism"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemAftershock",
+    "ItemClass": 19,
+    "Name": "Aftershock"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemConduction",
+    "ItemClass": 19,
+    "Name": "Conduction"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPierce",
+    "ItemClass": 19,
+    "Name": "Pierce"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemScattershot",
+    "ItemClass": 19,
+    "Name": "Scattershot"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemWindWave",
+    "ItemClass": 19,
+    "Name": "Wind Wave"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEnvenom",
+    "ItemClass": 19,
+    "Name": "Envenom"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMaim",
+    "ItemClass": 19,
+    "Name": "Maim"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBlind",
+    "ItemClass": 19,
+    "Name": "Blind"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemAcceleration",
+    "ItemClass": 19,
+    "Name": "Acceleration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDeceleration",
+    "ItemClass": 19,
+    "Name": "Deceleration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemElectrocute",
+    "ItemClass": 19,
+    "Name": "Electrocute"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemOverabundance",
+    "ItemClass": 19,
+    "Name": "Overabundance"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMobility",
+    "ItemClass": 19,
+    "Name": "Mobility"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemOvercharge",
+    "ItemClass": 19,
+    "Name": "Overcharge"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+    "ItemClass": 19,
+    "Name": "Perpetual Charge"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPin",
+    "ItemClass": 19,
+    "Name": "Pin"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemChain",
+    "ItemClass": 19,
+    "Name": "Chain"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLightningPenetration",
+    "ItemClass": 19,
+    "Name": "Lightning Penetration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLightningExposure",
+    "ItemClass": 19,
+    "Name": "Lightning Exposure"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSecondWind",
+    "ItemClass": 19,
+    "Name": "Second Wind"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemNeuralOverload",
+    "ItemClass": 19,
+    "Name": "Neural Overload"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBurstingPlague",
+    "ItemClass": 19,
+    "Name": "Bursting Plague"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDeadlyHeralds",
+    "ItemClass": 19,
+    "Name": "Deadly Herald"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemCorrosion",
+    "ItemClass": 19,
+    "Name": "Corrosion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemInfusion",
+    "ItemClass": 19,
+    "Name": "Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLockdown",
+    "ItemClass": 19,
+    "Name": "Lockdown"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFork",
+    "ItemClass": 19,
+    "Name": "Fork"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemManaBounty",
+    "ItemClass": 19,
+    "Name": "Mana Bounty"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLifeBounty",
+    "ItemClass": 19,
+    "Name": "Life Bounty"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLastingShock",
+    "ItemClass": 19,
+    "Name": "Lasting Shock"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLightningInfusion",
+    "ItemClass": 19,
+    "Name": "Lightning Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLifeDrain",
+    "ItemClass": 19,
+    "Name": "Life Drain"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSoulDrain",
+    "ItemClass": 19,
+    "Name": "Soul Drain"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMartialTempo",
+    "ItemClass": 19,
+    "Name": "Martial Tempo"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBullseye",
+    "ItemClass": 19,
+    "Name": "Bullseye"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemInnervate",
+    "ItemClass": 19,
+    "Name": "Innervate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemProfusion",
+    "ItemClass": 19,
+    "Name": "Profusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemComorbidity",
+    "ItemClass": 19,
+    "Name": "Comorbidity"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMurderousIntent",
+    "ItemClass": 19,
+    "Name": "Murderous Intent"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMomentum",
+    "ItemClass": 19,
+    "Name": "Momentum"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemCrescendo",
+    "ItemClass": 19,
+    "Name": "Crescendo"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDeadlyPoison",
+    "ItemClass": 19,
+    "Name": "Deadly Poison"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemWindowOfOpportunity",
+    "ItemClass": 19,
+    "Name": "Window of Opportunity"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemSwiftAffliction",
+    "ItemClass": 19,
+    "Name": "Swift Affliction"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFusillade",
+    "ItemClass": 19,
+    "Name": "Fusillade"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemComboFinisher",
+    "ItemClass": 19,
+    "Name": "Combo Finisher"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEncumbrance",
+    "ItemClass": 19,
+    "Name": "Encumbrance"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLongshot",
+    "ItemClass": 19,
+    "Name": "Longshot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemCullingStrike",
+    "ItemClass": 19,
+    "Name": "Culling Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDiscombobulate",
+    "ItemClass": 19,
+    "Name": "Discombobulate"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBreakPosture",
+    "ItemClass": 19,
+    "Name": "Break Posture"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemIngenuity",
+    "ItemClass": 19,
+    "Name": "Ingenuity"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPrecision",
+    "ItemClass": 19,
+    "Name": "Precision"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemGlaciation",
+    "ItemClass": 19,
+    "Name": "Glaciation"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemEnergyBarrier",
+    "ItemClass": 19,
+    "Name": "Energy Barrier"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemWildfire",
+    "ItemClass": 19,
+    "Name": "Wildfire"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFrostNexus",
+    "ItemClass": 19,
+    "Name": "Frost Nexus"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemCoursingCurrent",
+    "ItemClass": 19,
+    "Name": "Coursing Current"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+    "ItemClass": 19,
+    "Name": "Magnified Effect"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+    "ItemClass": 19,
+    "Name": "Concentrated Effect"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSpellEcho",
+    "ItemClass": 19,
+    "Name": "Spell Echo"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemUnleash",
+    "ItemClass": 19,
+    "Name": "Unleash"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemAmbush",
+    "ItemClass": 19,
+    "Name": "Ambush"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBitingFrost",
+    "ItemClass": 19,
+    "Name": "Biting Frost"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemWitheringTouch",
+    "ItemClass": 19,
+    "Name": "Withering Touch"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemHourglass",
+    "ItemClass": 19,
+    "Name": "Hourglass"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFortress",
+    "ItemClass": 19,
+    "Name": "Fortress"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemColdPenetration",
+    "ItemClass": 19,
+    "Name": "Cold Penetration"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemColdExposure",
+    "ItemClass": 19,
+    "Name": "Cold Exposure"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFieryDeath",
+    "ItemClass": 19,
+    "Name": "Fiery Death"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFrozenVortex",
+    "ItemClass": 19,
+    "Name": "Frozen Vortex"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemShockSiphon",
+    "ItemClass": 19,
+    "Name": "Shock Siphon"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFrostfire",
+    "ItemClass": 19,
+    "Name": "Frostfire"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemStormfire",
+    "ItemClass": 19,
+    "Name": "Stormfire"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+    "ItemClass": 19,
+    "Name": "Inevitable Critical"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemElementalDischarge",
+    "ItemClass": 19,
+    "Name": "Elemental Discharge"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemManaFlare",
+    "ItemClass": 19,
+    "Name": "Mana Flare"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemHexBloom",
+    "ItemClass": 19,
+    "Name": "Hex Bloom"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSoulThief",
+    "ItemClass": 19,
+    "Name": "Soul Thief"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemElementalFocus",
+    "ItemClass": 19,
+    "Name": "Elemental Focus"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemElementalArmy",
+    "ItemClass": 19,
+    "Name": "Elemental Army"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemMinionInstability",
+    "ItemClass": 19,
+    "Name": "Minion Instability"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDeepFreeze",
+    "ItemClass": 19,
+    "Name": "Deep Freeze"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFeedingFrenzy",
+    "ItemClass": 19,
+    "Name": "Feeding Frenzy"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemArcaneSurge",
+    "ItemClass": 19,
+    "Name": "Arcane Surge"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemHeightenedCurse",
+    "ItemClass": 19,
+    "Name": "Heightened Curse"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemCorpseConservation",
+    "ItemClass": 19,
+    "Name": "Corpse Conservation"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemColdInfusion",
+    "ItemClass": 19,
+    "Name": "Cold Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemArcaneTempo",
+    "ItemClass": 19,
+    "Name": "Arcane Tempo"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemDecayingHex",
+    "ItemClass": 19,
+    "Name": "Decaying Hex"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemFocusedCurse",
+    "ItemClass": 19,
+    "Name": "Focused Curse"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemRitualisticCurse",
+    "ItemClass": 19,
+    "Name": "Ritualistic Curse"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemMinionPact",
+    "ItemClass": 19,
+    "Name": "Minion Pact"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemLastGasp",
+    "ItemClass": 19,
+    "Name": "Last Gasp"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemControlledDestruction",
+    "ItemClass": 19,
+    "Name": "Controlled Destruction"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemImpendingDoom",
+    "ItemClass": 19,
+    "Name": "Impending Doom"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemSupercritical",
+    "ItemClass": 19,
+    "Name": "Supercritical"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemIceBite",
+    "ItemClass": 19,
+    "Name": "Ice Bite"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemChaosInfusion",
+    "ItemClass": 19,
+    "Name": "Chaos Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFireMastery",
+    "ItemClass": 19,
+    "Name": "Fire Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemColdMastery",
+    "ItemClass": 19,
+    "Name": "Cold Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemLightningMastery",
+    "ItemClass": 19,
+    "Name": "Lightning Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemChaosMastery",
+    "ItemClass": 19,
+    "Name": "Chaos Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemPhysicalMastery",
+    "ItemClass": 19,
+    "Name": "Physical Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemMinionMastery",
+    "ItemClass": 19,
+    "Name": "Minion Mastery"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemChaoticFreeze",
+    "ItemClass": 19,
+    "Name": "Chaotic Freeze"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemIntenseAgony",
+    "ItemClass": 19,
+    "Name": "Intense Agony"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDrainAilments",
+    "ItemClass": 19,
+    "Name": "Drain Ailments"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemHinder",
+    "ItemClass": 19,
+    "Name": "Hinder"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemSpellCascade",
+    "ItemClass": 19,
+    "Name": "Spell Cascade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemSoulbreaker",
+    "ItemClass": 19,
+    "Name": "Soulbreaker"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemCursedGround",
+    "ItemClass": 19,
+    "Name": "Cursed Ground"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemClarity",
+    "ItemClass": 19,
+    "Name": "Clarity"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemRagingSpirits",
+    "ItemClass": 18,
+    "Name": "Raging Spirits"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/MushroomRed",
+    "ItemClass": 31,
+    "Name": "Red Mushroom"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/MushroomGreen",
+    "ItemClass": 31,
+    "Name": "Green Mushroom"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/Gallows/Act3/MushroomBlue",
+    "ItemClass": 31,
+    "Name": "Blue Mushroom"
+  },
+  {
+    "Id": "Metadata/Items/Pinnacle/PinnacleKey1",
+    "ItemClass": 107,
+    "Name": "Ancient Crisis Fragment"
+  },
+  {
+    "Id": "Metadata/Items/Pinnacle/PinnacleKey2",
+    "ItemClass": 107,
+    "Name": "Faded Crisis Fragment"
+  },
+  {
+    "Id": "Metadata/Items/Pinnacle/PinnacleKey3",
+    "ItemClass": 107,
+    "Name": "Weathered Crisis Fragment"
+  },
+  {
+    "Id": "Metadata/Items/UltimatumKey",
+    "ItemClass": 100,
+    "Name": "Inscribed Ultimatum"
+  },
+  {
+    "Id": "Metadata/Items/QuestItems/UltimatumKeyQuest",
+    "ItemClass": 31,
+    "Name": "Chimeral Inscribed Ultimatum"
+  },
+  {
+    "Id": "Metadata/Items/Ultimatum/TrialmasterKey1",
+    "ItemClass": 38,
+    "Name": "Cowardly Fate"
+  },
+  {
+    "Id": "Metadata/Items/Ultimatum/TrialmasterKey2",
+    "ItemClass": 38,
+    "Name": "Deadly Fate"
+  },
+  {
+    "Id": "Metadata/Items/Ultimatum/TrialmasterKey3",
+    "ItemClass": 38,
+    "Name": "Victorious Fate"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSandstormSwipe",
+    "ItemClass": 18,
+    "Name": "[DNT] Sandstorm Swipe"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemDetonateMinion",
+    "ItemClass": 18,
+    "Name": "Detonate Minion"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemRemoteSpearMine",
+    "ItemClass": 18,
+    "Name": "[DNT] Spear Mine"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSpearWindVortex",
+    "ItemClass": 18,
+    "Name": "[DNT] Spear Vortex"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSpearInfusingStrike",
+    "ItemClass": 18,
+    "Name": "[DNT] Infusing Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSpearLightningWarp",
+    "ItemClass": 18,
+    "Name": "Storm Surge"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemWindDancer",
+    "ItemClass": 18,
+    "Name": "Wind Dancer"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemProfaneRitual",
+    "ItemClass": 18,
+    "Name": "Profane Ritual"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSoulOffering",
+    "ItemClass": 18,
+    "Name": "Soul Offering"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemDarkEffigy",
+    "ItemClass": 18,
+    "Name": "Dark Effigy"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSkeletalWarriorWeaponSkill",
+    "ItemClass": 18,
+    "Name": "Skeletal Warrior"
+  },
+  {
+    "Id": "Metadata/Items/Gems/ReservationGemUncut",
+    "ItemClass": 102,
+    "Name": "Uncut Spirit Gem"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGrimFeast",
+    "ItemClass": 18,
+    "Name": "Grim Feast"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnMinionDeath",
+    "ItemClass": 76,
+    "Name": "Cast on Minion Death"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemScavengedPlating",
+    "ItemClass": 18,
+    "Name": "Scavenged Plating"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemSpinningInferno",
+    "ItemClass": 18,
+    "Name": "Spinning Inferno"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemManaDrain",
+    "ItemClass": 18,
+    "Name": "Mana Drain"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBoneBlast",
+    "ItemClass": 18,
+    "Name": "Bone Blast"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBlink",
+    "ItemClass": 18,
+    "Name": "Blink"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemMoltenBlast",
+    "ItemClass": 18,
+    "Name": "Molten Blast"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemMalice",
+    "ItemClass": 18,
+    "Name": "Malice"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHydra",
+    "ItemClass": 76,
+    "Name": "Hydra Familiar"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHammerOfTheGods",
+    "ItemClass": 18,
+    "Name": "Hammer of the Gods"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemLivingBombPlayer",
+    "ItemClass": 18,
+    "Name": "Living Bomb"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemStampede",
+    "ItemClass": 18,
+    "Name": "Stampede"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShieldWall",
+    "ItemClass": 18,
+    "Name": "Shield Wall"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShieldingCry",
+    "ItemClass": 18,
+    "Name": "Shielding Cry"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemEmberFusillade",
+    "ItemClass": 18,
+    "Name": "Ember Fusillade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHighVelocityRounds",
+    "ItemClass": 18,
+    "Name": "High Velocity Rounds"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFragmentationRounds",
+    "ItemClass": 18,
+    "Name": "Fragmentation Rounds"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSiegeCascade",
+    "ItemClass": 18,
+    "Name": "Siege Cascade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemArmourPiercingRounds",
+    "ItemClass": 18,
+    "Name": "Armour Piercing Rounds"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemExplosiveShot",
+    "ItemClass": 18,
+    "Name": "Explosive Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemIncendiaryShot",
+    "ItemClass": 18,
+    "Name": "Incendiary Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemRapidShot",
+    "ItemClass": 18,
+    "Name": "Rapid Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGlacialBolt",
+    "ItemClass": 18,
+    "Name": "Glacial Bolt"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPermafrostBolts",
+    "ItemClass": 18,
+    "Name": "Permafrost Bolts"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHailstormRounds",
+    "ItemClass": 18,
+    "Name": "Hailstorm Rounds"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemIceShards",
+    "ItemClass": 18,
+    "Name": "Ice Shards"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlasmaBlast",
+    "ItemClass": 18,
+    "Name": "Plasma Blast"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGalvanicShards",
+    "ItemClass": 18,
+    "Name": "Galvanic Shards"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemStormblastBolts",
+    "ItemClass": 18,
+    "Name": "Stormblast Bolts"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShockburstRounds",
+    "ItemClass": 18,
+    "Name": "Shockburst Rounds"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultUnarmed",
+    "ItemClass": 18,
+    "Name": "Punch"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultQuarterstaff",
+    "ItemClass": 18,
+    "Name": "Quarterstaff Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultFlail",
+    "ItemClass": 18,
+    "Name": "Flail Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault1HSword",
+    "ItemClass": 18,
+    "Name": "Sword Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultSwordSword",
+    "ItemClass": 18,
+    "Name": "Sword Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault2HSword",
+    "ItemClass": 18,
+    "Name": "Sword Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault1HAxe",
+    "ItemClass": 18,
+    "Name": "Axe Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultAxeAxe",
+    "ItemClass": 18,
+    "Name": "Axe Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault2HAxe",
+    "ItemClass": 18,
+    "Name": "Axe Slash"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault1HMace",
+    "ItemClass": 18,
+    "Name": "Mace Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultMaceMace",
+    "ItemClass": 18,
+    "Name": "Mace Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefault2HMace",
+    "ItemClass": 18,
+    "Name": "Mace Strike"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultClaw",
+    "ItemClass": 18,
+    "Name": "Claw Stab"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultClawClaw",
+    "ItemClass": 18,
+    "Name": "Claw Stab"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultDagger",
+    "ItemClass": 18,
+    "Name": "Dagger Stab"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultDaggerDagger",
+    "ItemClass": 18,
+    "Name": "Dagger Stab"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultSpear",
+    "ItemClass": 18,
+    "Name": "Spear Stab"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultBow",
+    "ItemClass": 18,
+    "Name": "Bow Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlayerDefaultCrossbow",
+    "ItemClass": 18,
+    "Name": "Crossbow Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlaytestAttack",
+    "ItemClass": 18,
+    "Name": "Playtest Attack"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlaytestSlam",
+    "ItemClass": 18,
+    "Name": "Playtest Slam"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemPlaytestSpell",
+    "ItemClass": 18,
+    "Name": "Playtest Spell"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShockchainArrow",
+    "ItemClass": 18,
+    "Name": "Shockchain Arrow"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemVaultingImpact",
+    "ItemClass": 18,
+    "Name": "Vaulting Impact"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemStormWave",
+    "ItemClass": 18,
+    "Name": "Storm Wave"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemMantraOfDestruction",
+    "ItemClass": 18,
+    "Name": "Mantra of Destruction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyLifeRemnants",
+    "ItemClass": 18,
+    "Name": "Life Remnants"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyExplosiveConcoction",
+    "ItemClass": 18,
+    "Name": "Explosive Concoction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyFulminatingConcoction",
+    "ItemClass": 18,
+    "Name": "Fulminating Concoction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyShatteringConcoction",
+    "ItemClass": 18,
+    "Name": "Shattering Concoction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyPoisonousConcoction",
+    "ItemClass": 18,
+    "Name": "Poisonous Concoction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyBleedingConcoction",
+    "ItemClass": 18,
+    "Name": "Bleeding Concoction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyMeditate",
+    "ItemClass": 18,
+    "Name": "Meditate"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyElementalStorm",
+    "ItemClass": 18,
+    "Name": "Elemental Storm"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyUnboundAvatar",
+    "ItemClass": 18,
+    "Name": "Unbound Avatar"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancySummonInfernalHound",
+    "ItemClass": 18,
+    "Name": "Summon Infernal Hound"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyTimeFreeze",
+    "ItemClass": 18,
+    "Name": "Time Freeze"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyTimeSnap",
+    "ItemClass": 18,
+    "Name": "Time Snap"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyEncasedInJade",
+    "ItemClass": 18,
+    "Name": "Encase in Jade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancySorceryWard",
+    "ItemClass": 18,
+    "Name": "Sorcery Ward"
+  },
+  {
+    "Id": "Metadata/Items/TowerAugment/BreachAugment",
+    "ItemClass": 105,
+    "Name": "Breach Precursor Tablet"
+  },
+  {
+    "Id": "Metadata/Items/TowerAugment/ExpeditionAugment",
+    "ItemClass": 105,
+    "Name": "Expedition Precursor Tablet"
+  },
+  {
+    "Id": "Metadata/Items/TowerAugment/DeliriumAugment",
+    "ItemClass": 105,
+    "Name": "Delirium Precursor Tablet"
+  },
+  {
+    "Id": "Metadata/Items/TowerAugment/RitualAugment",
+    "ItemClass": 105,
+    "Name": "Ritual Precursor Tablet"
+  },
+  {
+    "Id": "Metadata/Items/TowerAugment/GenericAugment",
+    "ItemClass": 105,
+    "Name": "Precursor Tablet"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCorpsewadeCorpseCloud",
+    "ItemClass": 18,
+    "Name": "Decompose"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyElementalExpression",
+    "ItemClass": 18,
+    "Name": "Elemental Expression"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemIceShot",
+    "ItemClass": 18,
+    "Name": "Ice Shot"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemWarBanner",
+    "ItemClass": 18,
+    "Name": "War Banner"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemDefianceBanner",
+    "ItemClass": 18,
+    "Name": "Defiance Banner"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFreezingMark",
+    "ItemClass": 18,
+    "Name": "Freezing Mark"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemVoltaicMark",
+    "ItemClass": 18,
+    "Name": "Voltaic Mark"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHandOfChayula",
+    "ItemClass": 76,
+    "Name": "Hand of Chayula"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyTemporalRift",
+    "ItemClass": 18,
+    "Name": "Temporal Rift"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyDemonForm",
+    "ItemClass": 18,
+    "Name": "Demon Form"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemTimeOfNeed",
+    "ItemClass": 18,
+    "Name": "Time of Need"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemElementalInvocation",
+    "ItemClass": 76,
+    "Name": "Elemental Invocation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemExplosiveGrenade",
+    "ItemClass": 18,
+    "Name": "Explosive Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFlashGrenade",
+    "ItemClass": 18,
+    "Name": "Flash Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemOilGrenade",
+    "ItemClass": 18,
+    "Name": "Oil Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGasGrenade",
+    "ItemClass": 18,
+    "Name": "Gas Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemVoltaicGrenade",
+    "ItemClass": 18,
+    "Name": "Voltaic Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAttrition",
+    "ItemClass": 18,
+    "Name": "Attrition"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemElementalConflux",
+    "ItemClass": 18,
+    "Name": "Elemental Conflux"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyIntoTheBreach",
+    "ItemClass": 18,
+    "Name": "Into the Breach"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits",
+    "ItemClass": 18,
+    "Name": "Ancestral Spirits"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemEmergencyReload",
+    "ItemClass": 18,
+    "Name": "Emergency Reload"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFontofBlood",
+    "ItemClass": 19,
+    "Name": "Font of Blood"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFontofMana",
+    "ItemClass": 19,
+    "Name": "Font of Mana"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemFontofRage",
+    "ItemClass": 19,
+    "Name": "Font of Rage"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemClusterGrenade",
+    "ItemClass": 18,
+    "Name": "Cluster Grenade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemDreadBanner",
+    "ItemClass": 18,
+    "Name": "Dread Banner"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemTornadoShot",
+    "ItemClass": 18,
+    "Name": "Tornado Shot"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnLowLifeRecoverCharges",
+    "ItemClass": 106,
+    "Name": "Omen of Refreshment"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnLowLifeFullyHeal",
+    "ItemClass": 106,
+    "Name": "Omen of Resurgence"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnDeathPreventExpLoss",
+    "ItemClass": 106,
+    "Name": "Omen of Amelioration"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnChaosLowestLevelMod",
+    "ItemClass": 106,
+    "Name": "Omen of Whittling"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnChaosPrefix",
+    "ItemClass": 106,
+    "Name": "Omen of Sinistral Erasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnChaosSuffix",
+    "ItemClass": 106,
+    "Name": "Omen of Dextral Erasure"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnAlchemyMaximumPrefixes",
+    "ItemClass": 106,
+    "Name": "Omen of Sinistral Alchemy"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnAlchemyMaximumSuffixes",
+    "ItemClass": 106,
+    "Name": "Omen of Dextral Alchemy"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnRegalPrefix",
+    "ItemClass": 106,
+    "Name": "Omen of Sinistral Coronation"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnRegalSuffix",
+    "ItemClass": 106,
+    "Name": "Omen of Dextral Coronation"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnVaalRemoveDoNothingOutcome",
+    "ItemClass": 106,
+    "Name": "Omen of Corruption"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnExaltAddTwoMods",
+    "ItemClass": 106,
+    "Name": "Omen of Greater Exaltation"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnExaltAddPrefixes",
+    "ItemClass": 106,
+    "Name": "Omen of Sinistral Exaltation"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnExaltAddSuffixes",
+    "ItemClass": 106,
+    "Name": "Omen of Dextral Exaltation"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnAnnulRemoveTwoMods",
+    "ItemClass": 106,
+    "Name": "Omen of Greater Annulment"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnAnnulRemovePrefixes",
+    "ItemClass": 106,
+    "Name": "Omen of Sinistral Annulment"
+  },
+  {
+    "Id": "Metadata/Items/Currency/OmenOnAnnulRemoveSuffixes",
+    "ItemClass": 106,
+    "Name": "Omen of Dextral Annulment"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBlinkSandPlayer",
+    "ItemClass": 18,
+    "Name": "Blink"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemChargeInfusion",
+    "ItemClass": 18,
+    "Name": "Charge Infusion"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemHolyDescent",
+    "ItemClass": 19,
+    "Name": "Holy Descent"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemBurningInscription",
+    "ItemClass": 19,
+    "Name": "Burning Inscription"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemShardScavenger",
+    "ItemClass": 18,
+    "Name": "Shard Scavenger"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemDoubleBarrel",
+    "ItemClass": 19,
+    "Name": "Double Barrel"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemAutoReload",
+    "ItemClass": 19,
+    "Name": "Auto Reload"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemAmmoConservation",
+    "ItemClass": 19,
+    "Name": "Ammo Conservation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemNimbleReload",
+    "ItemClass": 19,
+    "Name": "Nimble Reload"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemFreshClip",
+    "ItemClass": 19,
+    "Name": "Fresh Clip"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemSacrificialLamb",
+    "ItemClass": 19,
+    "Name": "Sacrificial Lamb"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemOverwhelmingPresence",
+    "ItemClass": 18,
+    "Name": "Overwhelming Presence"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemAlchemistsBoon",
+    "ItemClass": 18,
+    "Name": "Alchemist's Boon"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemReapersInvocation",
+    "ItemClass": 76,
+    "Name": "Reaper's Invocation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemSacrifice",
+    "ItemClass": 18,
+    "Name": "Sacrifice"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemArchmage",
+    "ItemClass": 18,
+    "Name": "Archmage"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemMagneticSalvo",
+    "ItemClass": 18,
+    "Name": "Magnetic Salvo"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+    "ItemClass": 18,
+    "Name": "Freezing Salvo"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemTriggeredGasCloud",
+    "ItemClass": 18,
+    "Name": "[DNT] Gas Cloud"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemTriggeredDetonation",
+    "ItemClass": 18,
+    "Name": "[DNT] Detonation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemBerserk",
+    "ItemClass": 18,
+    "Name": "Berserk"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHeraldOfPlague",
+    "ItemClass": 18,
+    "Name": "Herald of Plague"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemHeraldOfBlood",
+    "ItemClass": 18,
+    "Name": ""
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemWitheringPresence",
+    "ItemClass": 18,
+    "Name": "Withering Presence"
+  },
+  {
+    "Id": "Metadata/Items/Ultimatum/UltimatumKeySpecial",
+    "ItemClass": 100,
+    "Name": "Inscribed Ultimatum"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+    "ItemClass": 18,
+    "Name": "Combat Frenzy"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SkillGemCastOnBlock",
+    "ItemClass": 76,
+    "Name": "Cast on Block"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemGatheringStorm",
+    "ItemClass": 18,
+    "Name": "Gathering Storm"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemUpheaval",
+    "ItemClass": 19,
+    "Name": "Upheaval"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemDespoiler",
+    "ItemClass": 19,
+    "Name": "Despoiler"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemRicochet",
+    "ItemClass": 19,
+    "Name": "Ricochet"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemAncestralUrgency",
+    "ItemClass": 19,
+    "Name": "Ancestral Urgency"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemLongFuse",
+    "ItemClass": 19,
+    "Name": "Long Fuse"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemPayload",
+    "ItemClass": 19,
+    "Name": "Payload"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemStripAway",
+    "ItemClass": 19,
+    "Name": "Strip Away"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemIronwood",
+    "ItemClass": 19,
+    "Name": "Ironwood"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemConsideredCasting",
+    "ItemClass": 19,
+    "Name": "Considered Casting"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemWildshards",
+    "ItemClass": 19,
+    "Name": "Wildshards"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemIcicle",
+    "ItemClass": 19,
+    "Name": "Icicle"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemGlacier",
+    "ItemClass": 19,
+    "Name": "Glacier"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemHeft",
+    "ItemClass": 19,
+    "Name": "Heft"
+  },
+  {
+    "Id": "Metadata/Items/Gems/SupportGemRisingTempest",
+    "ItemClass": 19,
+    "Name": "Rising Tempest"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemExtraction",
+    "ItemClass": 19,
+    "Name": "Extraction"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemAstralProjection",
+    "ItemClass": 19,
+    "Name": "Astral Projection"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemPracticedCombo",
+    "ItemClass": 19,
+    "Name": "Practiced Combo"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemLeverage",
+    "ItemClass": 19,
+    "Name": "Leverage"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemCulmination",
+    "ItemClass": 19,
+    "Name": "Culmination"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemPotential",
+    "ItemClass": 19,
+    "Name": "Potential"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemExpanse",
+    "ItemClass": 19,
+    "Name": "Expanse"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemExcise",
+    "ItemClass": 19,
+    "Name": "Excise"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemExecrate",
+    "ItemClass": 19,
+    "Name": "Execrate"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemEnergyRetention",
+    "ItemClass": 19,
+    "Name": "Energy Retention"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemFerocity",
+    "ItemClass": 19,
+    "Name": "Ferocity"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemAblation",
+    "ItemClass": 19,
+    "Name": "Ablation"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemDanseMacabre",
+    "ItemClass": 19,
+    "Name": "Danse Macabre"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemCapacitor",
+    "ItemClass": 19,
+    "Name": "Capacitor"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemImpetus",
+    "ItemClass": 19,
+    "Name": "Impetus"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemBidding",
+    "ItemClass": 19,
+    "Name": "Bidding"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemTremors",
+    "ItemClass": 19,
+    "Name": "Tremors"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemUniqueDuskVigilTriggeredBlazingCluster",
+    "ItemClass": 18,
+    "Name": "Ember Fusillade"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemUniqueEarthboundTriggeredSpark",
+    "ItemClass": 18,
+    "Name": "Spark"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SupportGemExpandingGround",
+    "ItemClass": 19,
+    "Name": "Expanding Ground"
+  },
+  {
+    "Id": "Metadata/Items/Gem/SkillGemUniqueBreachLightningBolt",
+    "ItemClass": 18,
+    "Name": "Lightning Bolt"
+  }
+]
