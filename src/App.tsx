@@ -227,7 +227,7 @@ export const App = () => {
             <HStack>
               <Button onClick={importFilter}>Import filter</Button>
               <Button disabled={!fileHandle} onClick={saveFilter}>
-                Save fileasd
+                Save file
               </Button>
             </HStack>
             <HStack>
