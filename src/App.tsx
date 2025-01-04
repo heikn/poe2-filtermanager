@@ -31,8 +31,10 @@ export const App = () => {
   const contentRefs = useRef<(HTMLDivElement | null)[]>([])
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(null)
-  const [dataSaved, setDataSaved] = useState(false)
-  
+  const [showToast, setShowToast] = useState(false)
+  const [toastMessage, setToastMessage] = useState("")
+  const [toastType, setToastType] = useState<"info" | "warning" | "success" | "error" | "neutral">("info")
+
   // Load blocks from local storage
   useEffect(() => {
     const blocks = localStorage.getItem("blocks")
@@ -107,6 +109,8 @@ export const App = () => {
   // Import filter
   const importFilter = async () => {
     try {
+      handleToastNotification("Importing filter...", "info")
+      setIsLoaded(false)
       let handle
       if (window.showOpenFilePicker) {
         ;[handle] = await window.showOpenFilePicker({
@@ -139,7 +143,10 @@ export const App = () => {
       setBlocks(blocks)
       setFilterName(file.name.replace(".filter", ""))
       setFileHandle(handle)
+      setIsLoaded(true)
+      handleToastNotification("Filter imported successfully.", "success", 3000)
     } catch (error) {
+      handleToastNotification("Error importing filter.", "error", 3000)
       console.error("Error importing filter:", error)
     }
   }
@@ -162,10 +169,7 @@ export const App = () => {
       await writable.write(filterBlocks)
       await writable.close()
       console.log("Filter saved successfully.")
-      setDataSaved(true)
-      setTimeout(() => {
-        setDataSaved(false)
-      }, 3000)
+      handleToastNotification("Filter saved successfully.", "success", 3000)
     } catch (error) {
       console.error("Error saving filter:", error)
     }
@@ -190,9 +194,25 @@ export const App = () => {
     saveStringAsFile(filterBlocks, `${filterName}.filter`)
   }
 
+  // Toast notifications
+  const handleToastNotification = (
+    message: string,
+    type: "info" | "warning" | "success" | "error" | "neutral",
+    duration?: number
+  ) => {
+    setToastMessage(message)
+    setToastType(type)
+    setShowToast(true)
+    if (duration) {
+      setTimeout(() => {
+        setShowToast(false)
+      }, duration)
+    }
+  }
+
   return (
     <Provider>
-      {dataSaved && <Alert position={"absolute"} status={"success"} title="File saved successfully"/>}
+      {showToast && <Alert position={"absolute"} status={toastType} title={toastMessage} />}
       <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
         <Header />
         <Center flex={1} alignItems={"flex-start"}>
@@ -205,33 +225,37 @@ export const App = () => {
             </HStack>
             <HStack>
               <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
-              <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>Download filter</Button>
+              <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>
+                Download filter
+              </Button>
             </HStack>
             {isLoaded && (
-              <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
-                <DragDropContext onDragEnd={onDragEnd}>
-                  <Droppable droppableId="blocks">
-                    {(provided) => (
-                      <Box {...provided.droppableProps} ref={provided.innerRef}>
-                        {blocks.map((block, index) => (
-                          <DraggableBlock
-                            key={index}
-                            block={block}
-                            index={index}
-                            handleAccordionToggle={handleAccordionToggle}
-                            updateBlock={updateBlock}
-                            removeBlock={removeBlock}
-                            contentRefs={contentRefs}
-                          />
-                        ))}
-                        {provided.placeholder}
-                      </Box>
-                    )}
-                  </Droppable>
-                </DragDropContext>
-              </Box>
+              <>
+                <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
+                  <DragDropContext onDragEnd={onDragEnd}>
+                    <Droppable droppableId="blocks">
+                      {(provided) => (
+                        <Box {...provided.droppableProps} ref={provided.innerRef}>
+                          {blocks.map((block, index) => (
+                            <DraggableBlock
+                              key={index}
+                              block={block}
+                              index={index}
+                              handleAccordionToggle={handleAccordionToggle}
+                              updateBlock={updateBlock}
+                              removeBlock={removeBlock}
+                              contentRefs={contentRefs}
+                            />
+                          ))}
+                          {provided.placeholder}
+                        </Box>
+                      )}
+                    </Droppable>
+                  </DragDropContext>
+                </Box>
+                <Button onClick={addNewBlock}>Add new filter block</Button>
+              </>
             )}
-            <Button onClick={addNewBlock}>Add new filter block</Button>
           </VStack>
         </Center>
         <Footer />
@@ -268,7 +292,6 @@ const DraggableBlock = ({
               collapsible
               w={"100%"}
               onValueChange={(e) => handleAccordionToggle(e, index)}
-          
             >
               <AccordionItem value={`accordion-${index}`} borderWidth={1}>
                 <Box display="flex" justifyContent="space-between" alignItems="center" position="relative">
@@ -286,7 +309,9 @@ const DraggableBlock = ({
                   <div ref={(el) => (contentRefs.current[index] = el)}>
                     <VStack>
                       <Block index={index} block={block} updateBlock={updateBlock} />
-                      <Button w={"100%"} onClick={() => removeBlock(index)}>Remove</Button>
+                      <Button w={"100%"} onClick={() => removeBlock(index)}>
+                        Remove
+                      </Button>
                     </VStack>
                   </div>
                 </AccordionItemContent>

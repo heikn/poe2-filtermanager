@@ -61,6 +61,23 @@ export const parseBlockToFilterBlock = (block: BlockType) => {
       filterBlock += "\n"
     }
   }
+  if(block.sockets[0] === block.sockets[1]) {
+    filterBlock += "Sockets == "
+    filterBlock += "S".repeat(block.sockets[0])
+    filterBlock += "\n"
+  } else {
+    if (block.sockets[0] !== 0) {
+      filterBlock += "Sockets = "
+      filterBlock += "S".repeat(block.sockets[0])
+      filterBlock += "\n"
+    }
+    if (block.sockets[1] !== 5) {
+      filterBlock += "Sockets < "
+      filterBlock += "S".repeat(block.sockets[1] + 1)
+      filterBlock += "\n"
+    }
+  }
+
   if (!block.show) return filterBlock
   filterBlock += "SetTextColor"
   filterBlock += block.text.color ? ` ${block.text.color}` : ""
@@ -116,6 +133,7 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
       itemRarity: { normal: true, magic: true, rare: true, unique: true },
       itemLevel: [0, 100],
       quality: [0, 20],
+      sockets: [5],
       text: {
         color: "255 0 0 255",
         backgroundColor: "255 255 255 255",
@@ -128,7 +146,6 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
     }
     let hasShowHide = false
     lines.forEach((line) => {
-      // Remove whitespaces from the beginning
       line = line.trim()
       if (line.startsWith("#")) {
         const parts = line.split(" ")
@@ -181,6 +198,15 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
         else if (line.includes("<=")) newBlock.quality = [0, value]
         else if (line.includes("<")) newBlock.quality = [0, value - 1]
         else if (line.includes("==")) newBlock.quality = [value, value]
+      } else if (line.includes("Sockets")) {
+        const value = line.split(" ")[2]
+        const operator = line.split(" ")[1]
+        const sockets = value.split("").filter((char) => char === "S").length
+        if (operator === ">=") newBlock.sockets = [sockets, 5]
+        else if (operator === ">") newBlock.sockets = [sockets + 1, 5]
+        else if (operator === "<=") newBlock.sockets = [0, sockets]
+        else if (operator === "<") newBlock.sockets = [0, sockets - 1]
+        else if (operator === "==" || operator === "=") newBlock.sockets = [sockets, sockets]
       } else if (line.includes("SetTextColor")) {
         const firstSpaceIndex = line.indexOf(" ")
         newBlock.text.color = line.substring(firstSpaceIndex + 1)

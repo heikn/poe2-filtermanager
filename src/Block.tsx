@@ -206,6 +206,20 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
           updateBlock(index, { ...block, quality: e.value })
         }}
       />
+      <Slider
+        width={"100%"}
+        label={`Sockets ${block.sockets[0]} - ${block.sockets[1]}`}
+        value={block.sockets}
+        step={1}
+        min={0}
+        max={5}
+        onValueChange={(e) => {
+          updateBlock(index, {
+            ...block,
+            sockets: e.value,
+          })
+        }}
+      />
       {block.show && (
         <VStack mt={12}>
           <Container p={4} borderRadius={5}>
@@ -487,37 +501,37 @@ const ColorPicker = (props: {
   }
 
   const handleColorChange = (newColor: string) => {
-    setColor(newColor);
+    setColor(newColor)
     switch (props.label) {
-      case 'TextColor':
+      case "TextColor":
         props.updateBlock(props.index, {
           ...props.block,
           text: {
             ...props.block.text,
             color: parseColorString(newColor),
           },
-        });
-        break;
-      case 'BackgroundColor':
+        })
+        break
+      case "BackgroundColor":
         props.updateBlock(props.index, {
           ...props.block,
           text: {
             ...props.block.text,
             backgroundColor: parseColorString(newColor),
           },
-        });
-        break;
-      case 'BorderColor':
+        })
+        break
+      case "BorderColor":
         props.updateBlock(props.index, {
           ...props.block,
           text: {
             ...props.block.text,
             borderColor: parseColorString(newColor),
           },
-        });
-        break;
+        })
+        break
     }
-  };
+  }
 
   return (
     <ColorPickerRoot
@@ -537,16 +551,21 @@ const ColorPicker = (props: {
         </HStack>
         <ColorPickerSwatchGroup>
           {favoriteColors.map((item) => (
-            <ColorPickerSwatchTrigger swatchSize={"4.5"} key={item.value} value={toLower(item.value)} onClick={() => handleColorChange(item.value)} />
+            <ColorPickerSwatchTrigger
+              swatchSize={"4.5"}
+              key={item.value}
+              value={toLower(item.value)}
+              onClick={() => handleColorChange(item.value)}
+            />
           ))}
         </ColorPickerSwatchGroup>
         <HStack>
-        <Button size={"xs"} onClick={handleAddToFavorites}>
-          Add to favorites
-        </Button>
-        <Button size={"xs"} onClick={handleRemoveFromFavorites}>
-          Remove
-        </Button>
+          <Button size={"xs"} onClick={handleAddToFavorites}>
+            Add to favorites
+          </Button>
+          <Button size={"xs"} onClick={handleRemoveFromFavorites}>
+            Remove
+          </Button>
         </HStack>
       </ColorPickerContent>
     </ColorPickerRoot>
