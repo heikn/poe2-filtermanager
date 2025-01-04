@@ -133,7 +133,7 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
       itemRarity: { normal: true, magic: true, rare: true, unique: true },
       itemLevel: [0, 100],
       quality: [0, 20],
-      sockets: [5],
+      sockets: [0, 5],
       text: {
         color: "255 0 0 255",
         backgroundColor: "255 255 255 255",

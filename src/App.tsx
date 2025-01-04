@@ -40,7 +40,14 @@ export const App = () => {
     const blocks = localStorage.getItem("blocks")
     const filterName = localStorage.getItem("filterName")
     if (blocks) {
-      setBlocks(JSON.parse(blocks))
+        let parsedBlocks = JSON.parse(blocks)
+        parsedBlocks = parsedBlocks.map((block: BlockType) => {
+          if (!block.sockets) {
+            block.sockets = [0, 5]; // Default value for sockets
+          }
+          return block;
+        });
+        setBlocks(parsedBlocks)
     }
     if (filterName) {
       setFilterName(filterName)
