@@ -128,6 +128,8 @@ export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
     }
     let hasShowHide = false
     lines.forEach((line) => {
+      // Remove whitespaces from the beginning
+      line = line.trim()
       if (line.startsWith("#")) {
         const parts = line.split(" ")
         const name = parts.slice(1).join(" ")

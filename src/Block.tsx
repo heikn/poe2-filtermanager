@@ -9,7 +9,6 @@ import {
   ColorPickerContent,
   ColorPickerControl,
   ColorPickerEyeDropper,
-  ColorPickerInput,
   ColorPickerRoot,
   ColorPickerSliders,
   ColorPickerSwatchGroup,
@@ -528,7 +527,6 @@ const ColorPicker = (props: {
       onOpenChange={(e) => setIsPickerOpen(e.open)}
     >
       <ColorPickerControl>
-        {/* <ColorPickerInput /> */}
         <ColorPickerTrigger />
       </ColorPickerControl>
       <ColorPickerContent>
