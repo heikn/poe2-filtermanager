@@ -114,7 +114,7 @@ export const parseBlockToFilterBlock = (block: BlockType) => {
 }
 
 // File parser
-export const parseFilterFileIntoBlocks = (filterFile: string): BlockType[] => {
+export const parseFilterFileIntoBlocks = async (filterFile: string): Promise<BlockType[]> => {
   const blocks = filterFile.split(/\r?\n\r?\n|\r\r|\n\n/)
   
   if (blocks[blocks.length - 1] === "") {
