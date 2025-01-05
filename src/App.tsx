@@ -130,23 +130,26 @@ export const App = () => {
           multiple: false,
         })
       } else {
+        console.log("Trying to import")
         const input = document.createElement("input")
         input.type = "file"
         input.accept = ".filter"
         input.onchange = async (e: any) => {
           const file = e.target.files[0]
           const content = await file.text()
-          const blocks = parseFilterFileIntoBlocks(content)
+          const blocks = await parseFilterFileIntoBlocks(content)
           setBlocks(blocks)
           setFilterName(file.name.replace(".filter", ""))
           setFileHandle(file)
+          setIsLoaded(true)
+          handleToastNotification("Filter imported successfully.", "success", 3000)
         }
         input.click()
         return
       }
       const file = await handle.getFile()
       const content = await file.text()
-      const blocks = parseFilterFileIntoBlocks(content)
+      const blocks = await parseFilterFileIntoBlocks(content)
       setBlocks(blocks)
       setFilterName(file.name.replace(".filter", ""))
       setFileHandle(handle)
