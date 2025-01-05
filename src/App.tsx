@@ -319,7 +319,7 @@ const DraggableBlock = ({
                   <div ref={(el) => (contentRefs.current[index] = el)}>
                     <VStack>
                       <Block index={index} block={block} updateBlock={updateBlock} />
-                      <Button w={"100%"} onClick={() => removeBlock(index)}>
+                      <Button w={"100%"} onClick={() => removeBlock(index)} mt={2}>
                         Remove
                       </Button>
                     </VStack>

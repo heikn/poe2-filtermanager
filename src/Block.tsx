@@ -69,160 +69,164 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
 
   return (
     <Container>
-      <Input
-        placeholder="Block name"
-        value={block.name}
-        onChange={(e) => {
-          updateBlock(index, { ...block, name: e.target.value })
-        }}
-      />
-      <Switch
-        my={2}
-        checked={block.show}
-        onCheckedChange={(e) => {
-          updateBlock(index, { ...block, show: e.checked })
-        }}
-      >
-        {block.show ? "Show" : "Hide"}
-      </Switch>
-      <HStack mt={1}>
+      <HStack p={4} borderWidth={1} borderRadius={5} mt={2}>
+        <Switch
+          my={2}
+          checked={block.show}
+          onCheckedChange={(e) => {
+            updateBlock(index, { ...block, show: e.checked })
+          }}
+        >
+          {block.show ? "Show" : "Hide"}
+        </Switch>
         <Input
-          placeholder="Class"
-          value={block.class.value}
+          placeholder="Block name"
+          value={block.name}
           onChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              class: { value: e.target.value, exact: block.class.exact },
-            })
+            updateBlock(index, { ...block, name: e.target.value })
           }}
         />
-        <Checkbox
-          checked={block.class.exact}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              class: { value: block.class.value, exact: !!e.checked },
-            })
-          }}
-        >
-          Exact?
-        </Checkbox>
-        <DataDrawer dataType={"itemClass"} buttonLabel={"Item classes"} handleItemSelect={handleItemSelect} />
       </HStack>
-      <HStack mt={1}>
-        <Input
-          placeholder="Basetype"
-          value={block.basetype.value}
-          onChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              basetype: { value: e.target.value, exact: block.basetype.exact },
-            })
-          }}
-        />
-        <Checkbox
-          checked={block.basetype.exact}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              basetype: { value: block.basetype.value, exact: !!e.checked },
-            })
-          }}
-        >
-          Exact?
-        </Checkbox>
-        <DataDrawer dataType={"basetype"} buttonLabel={"Basetypes"} handleItemSelect={handleItemSelect} />
-      </HStack>
-      <Heading size="sm" mt={4}>
-        Item Rarity
-      </Heading>
-      <HStack mt={1}>
-        <Checkbox
-          checked={block.itemRarity.normal}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              itemRarity: { ...block.itemRarity, normal: !!e.checked },
-            })
-          }}
-        >
-          Normal
-        </Checkbox>
-        <Checkbox
-          checked={block.itemRarity.magic}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              itemRarity: { ...block.itemRarity, magic: !!e.checked },
-            })
-          }}
-          color={"blue.600"}
-        >
-          Magic
-        </Checkbox>
-        <Checkbox
-          checked={block.itemRarity.rare}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              itemRarity: { ...block.itemRarity, rare: !!e.checked },
-            })
-          }}
-          color={"yellow.400"}
-        >
-          Rare
-        </Checkbox>
-        <Checkbox
-          checked={block.itemRarity.unique}
-          onCheckedChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              itemRarity: { ...block.itemRarity, unique: !!e.checked },
-            })
-          }}
-          color={"orange.600"}
-        >
-          Unique
-        </Checkbox>
-      </HStack>
-      <HStack mt={4}>
+      <Container p={4} borderWidth={1} borderRadius={5} mt={2}>
+        <HStack mt={1}>
+          <Input
+            placeholder="Class"
+            value={block.class.value}
+            onChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                class: { value: e.target.value, exact: block.class.exact },
+              })
+            }}
+          />
+          <Checkbox
+            checked={block.class.exact}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                class: { value: block.class.value, exact: !!e.checked },
+              })
+            }}
+          >
+            Exact?
+          </Checkbox>
+          <DataDrawer dataType={"itemClass"} buttonLabel={"Item classes"} handleItemSelect={handleItemSelect} />
+        </HStack>
+        <HStack mt={1}>
+          <Input
+            placeholder="Basetype"
+            value={block.basetype.value}
+            onChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                basetype: { value: e.target.value, exact: block.basetype.exact },
+              })
+            }}
+          />
+          <Checkbox
+            checked={block.basetype.exact}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                basetype: { value: block.basetype.value, exact: !!e.checked },
+              })
+            }}
+          >
+            Exact?
+          </Checkbox>
+          <DataDrawer dataType={"basetype"} buttonLabel={"Basetypes"} handleItemSelect={handleItemSelect} />
+        </HStack>
+      </Container>
+      <Container p={4} borderWidth={1} borderRadius={5} mt={4}>
+        <Heading size="sm">Item Rarity</Heading>
+        <HStack>
+          <Checkbox
+            checked={block.itemRarity.normal}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                itemRarity: { ...block.itemRarity, normal: !!e.checked },
+              })
+            }}
+          >
+            Normal
+          </Checkbox>
+          <Checkbox
+            checked={block.itemRarity.magic}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                itemRarity: { ...block.itemRarity, magic: !!e.checked },
+              })
+            }}
+            color={"blue.600"}
+          >
+            Magic
+          </Checkbox>
+          <Checkbox
+            checked={block.itemRarity.rare}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                itemRarity: { ...block.itemRarity, rare: !!e.checked },
+              })
+            }}
+            color={"yellow.400"}
+          >
+            Rare
+          </Checkbox>
+          <Checkbox
+            checked={block.itemRarity.unique}
+            onCheckedChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                itemRarity: { ...block.itemRarity, unique: !!e.checked },
+              })
+            }}
+            color={"orange.600"}
+          >
+            Unique
+          </Checkbox>
+        </HStack>
+        <HStack mt={4}>
+          <Slider
+            width={"100%"}
+            label={`Itemlevel ${block.itemLevel[0]} - ${block.itemLevel[1]}`}
+            value={block.itemLevel}
+            onValueChange={(e) => {
+              updateBlock(index, { ...block, itemLevel: e.value })
+            }}
+          />
+        </HStack>
         <Slider
           width={"100%"}
-          label={`Itemlevel ${block.itemLevel[0]} - ${block.itemLevel[1]}`}
-          value={block.itemLevel}
+          label={`Quality ${block.quality[0]} - ${block.quality[1]}`}
+          value={block.quality}
+          step={1}
+          min={0}
+          max={20}
           onValueChange={(e) => {
-            updateBlock(index, { ...block, itemLevel: e.value })
+            updateBlock(index, { ...block, quality: e.value })
           }}
         />
-      </HStack>
-      <Slider
-        width={"100%"}
-        label={`Quality ${block.quality[0]} - ${block.quality[1]}`}
-        value={block.quality}
-        step={1}
-        min={0}
-        max={20}
-        onValueChange={(e) => {
-          updateBlock(index, { ...block, quality: e.value })
-        }}
-      />
-      <Slider
-        width={"100%"}
-        label={`Sockets ${block.sockets[0]} - ${block.sockets[1]}`}
-        value={block.sockets}
-        step={1}
-        min={0}
-        max={5}
-        onValueChange={(e) => {
-          updateBlock(index, {
-            ...block,
-            sockets: e.value,
-          })
-        }}
-      />
+        <Slider
+          width={"100%"}
+          label={`Sockets ${block.sockets[0]} - ${block.sockets[1]}`}
+          value={block.sockets}
+          step={1}
+          min={0}
+          max={5}
+          onValueChange={(e) => {
+            updateBlock(index, {
+              ...block,
+              sockets: e.value,
+            })
+          }}
+        />
+      </Container>
       {block.show && (
-        <VStack mt={12}>
-          <Container p={4} borderRadius={5}>
+        <VStack mt={4}>
+          <Container p={4} borderRadius={5} borderWidth={1}>
             <HStack w={"100%"} gap={4} alignItems={"flex-start"}>
               <HStack w={"100%"} gap={4} justifyContent={"space-between"}>
                 <VStack alignItems={"flex-start"} gap={4}>
@@ -295,7 +299,15 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           </Container>
           {block.minimapIcon.show && (
-            <HStack alignItems={"flex-start"} w={"100%"} justifyContent={"space-between"} gap={4} p={4}>
+            <HStack
+              alignItems={"flex-start"}
+              w={"100%"}
+              justifyContent={"space-between"}
+              gap={4}
+              p={4}
+              borderWidth={1}
+              borderRadius={5}
+            >
               <SelectRoot
                 collection={minimapIcons}
                 size="sm"
@@ -361,7 +373,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           )}
           {block.playEffect.show && (
-            <HStack w={"100%"} gap={4} p={4}>
+            <HStack w={"100%"} gap={4} p={4} borderWidth={1} borderRadius={5}>
               <SelectRoot
                 collection={colorPalette}
                 size="sm"
@@ -403,7 +415,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             </HStack>
           )}
           {block.playAlertSound.show && (
-            <HStack w={"100%"} justifyContent={"space-between"} gap={4} p={4}>
+            <HStack w={"100%"} justifyContent={"space-between"} gap={4} p={4} borderWidth={1} borderRadius={5}>
               <SelectRoot
                 collection={alertSounds}
                 size="sm"
