@@ -16,9 +16,9 @@ jobs:
         with:
           node-version: 'latest'
       - name: Install dependencies
-        run: npm install
+        run: cd front && npm install
       - name: Build
-        run: npm run build
+        run: cd front && npm run build
       - name: Deploy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
