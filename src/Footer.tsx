@@ -2,7 +2,7 @@ import { Container, VStack, Text, Link, HStack } from "@chakra-ui/react"
 
 export const Footer = () => {
   return (
-    <Container maxW="container.lg" textAlign="center" mt={4} mb={4}>
+    <Container minW={"100%"} textAlign="center" m={0} bg={"gray.500"}>
       <VStack>
         <HStack>
           <Link href="mailto:poe2filter@versus-gaming.eu">Contact</Link>

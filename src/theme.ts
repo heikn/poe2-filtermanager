@@ -72,7 +72,7 @@ const config = {
   },
   globalCss: {
     html: {
-      colorPalette: "gray"
+      colorPalette: "gray",
     },
   }
 }

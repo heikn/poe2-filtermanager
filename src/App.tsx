@@ -1,4 +1,4 @@
-import { AccordionValueChangeDetails, Box, Button, Center, HStack, Input, VStack } from "@chakra-ui/react"
+import { AccordionValueChangeDetails, Box, Button, Center, Container, HStack, Input, VStack } from "@chakra-ui/react"
 import { useCallback, useEffect, useRef, useState } from "react"
 import Block from "./Block"
 import { parseBlockToFilterBlock, parseFilterFileIntoBlocks } from "./parser"
@@ -40,17 +40,17 @@ export const App = () => {
     const blocks = localStorage.getItem("blocks")
     const filterName = localStorage.getItem("filterName")
     if (blocks) {
-        let parsedBlocks = JSON.parse(blocks)
-        parsedBlocks = parsedBlocks.map((block: BlockType) => {
-          if (!block.sockets) {
-            block.sockets = [0, 5]; // Default value for sockets
-          }
-          if (!block.areaLevel){
-            block.areaLevel = [0,100]
-          }
-          return block;
-        });
-        setBlocks(parsedBlocks)
+      let parsedBlocks = JSON.parse(blocks)
+      parsedBlocks = parsedBlocks.map((block: BlockType) => {
+        if (!block.sockets) {
+          block.sockets = [0, 5] // Default value for sockets
+        }
+        if (!block.areaLevel) {
+          block.areaLevel = [0, 100]
+        }
+        return block
+      })
+      setBlocks(parsedBlocks)
     }
     if (filterName) {
       setFilterName(filterName)
@@ -225,54 +225,66 @@ export const App = () => {
 
   return (
     <Provider>
-      {showToast && <Alert position={"absolute"} status={toastType} title={toastMessage} />}
-      <VStack display={"flex"} flexDirection={"column"} minH={"100vh"}>
+      <Container minW={"dvw"} minH={"100vh"} display="flex" flexDirection="column" justifyContent="space-between" p={0}>
+        {showToast && <Alert position={"absolute"} status={toastType} title={toastMessage} />}
+        <VStack h={"100%"} display={"flex"} flexDirection={"column"} flex={1}>
         <Header />
-        <Center flex={1} alignItems={"flex-start"}>
-          <VStack>
-            <HStack>
-              <Button onClick={importFilter}>Import filter</Button>
-              <Button disabled={!fileHandle} onClick={saveFilter}>
-                Save file
-              </Button>
-            </HStack>
-            <HStack>
-              <Input placeholder="Filter name" value={filterName} onChange={(e) => setFilterName(e.target.value)} />
-              <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>
-                Download filter
-              </Button>
-            </HStack>
-            {isLoaded && (
-              <>
-                <Box w="80vw" maxH="70vh" overflowY="auto" border="1px solid gray" className="hide-scrollbar">
-                  <DragDropContext onDragEnd={onDragEnd}>
-                    <Droppable droppableId="blocks">
-                      {(provided) => (
-                        <Box {...provided.droppableProps} ref={provided.innerRef}>
-                          {blocks.map((block, index) => (
-                            <DraggableBlock
-                              key={index}
-                              block={block}
-                              index={index}
-                              handleAccordionToggle={handleAccordionToggle}
-                              updateBlock={updateBlock}
-                              removeBlock={removeBlock}
-                              contentRefs={contentRefs}
-                            />
-                          ))}
-                          {provided.placeholder}
-                        </Box>
-                      )}
-                    </Droppable>
-                  </DragDropContext>
-                </Box>
-                <Button onClick={addNewBlock}>Add new filter block</Button>
-              </>
-            )}
-          </VStack>
-        </Center>
+          <Container>
+            <Center flex={1} alignItems={"flex-start"}>
+              <VStack>
+                <HStack w={"100%"} justifyContent={"space-between"}>
+                  <HStack>
+                    <Button onClick={importFilter}>Import filter</Button>
+                    <Button disabled={!fileHandle} onClick={saveFilter}>
+                      Save filter
+                    </Button>
+                  </HStack>
+                  <HStack>
+                    <Input
+                      placeholder="Filter name"
+                      value={filterName}
+                      onChange={(e) => setFilterName(e.target.value)}
+                    />
+                    <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>
+                      Download filter
+                    </Button>
+                  </HStack>
+                </HStack>
+                {isLoaded && (
+                  <>
+                    <Box w="80vw" maxH="70vh" overflowY="auto" className="hide-scrollbar">
+                      <DragDropContext onDragEnd={onDragEnd}>
+                        <Droppable droppableId="blocks">
+                          {(provided) => (
+                            <Box {...provided.droppableProps} ref={provided.innerRef}>
+                              {blocks.map((block, index) => (
+                                <DraggableBlock
+                                  key={index}
+                                  block={block}
+                                  index={index}
+                                  handleAccordionToggle={handleAccordionToggle}
+                                  updateBlock={updateBlock}
+                                  removeBlock={removeBlock}
+                                  contentRefs={contentRefs}
+                                />
+                              ))}
+                              {provided.placeholder}
+                            </Box>
+                          )}
+                        </Droppable>
+                      </DragDropContext>
+                    </Box>
+                    <Button w={"100%"} onClick={addNewBlock}>
+                      NEW FILTER RULE
+                    </Button>
+                  </>
+                )}
+              </VStack>
+            </Center>
+          </Container>
+        </VStack>
         <Footer />
-      </VStack>
+      </Container>
     </Provider>
   )
 }
@@ -301,17 +313,18 @@ const DraggableBlock = ({
         {(provided) => (
           <div ref={provided.innerRef} {...provided.draggableProps}>
             <AccordionRoot
-              variant={"enclosed"}
+              variant={"plain"}
               collapsible
               w={"100%"}
               onValueChange={(e) => handleAccordionToggle(e, index)}
+              borderWidth={1}
             >
-              <AccordionItem value={`accordion-${index}`} borderWidth={1}>
-                <Box display="flex" justifyContent="space-between" alignItems="center" position="relative">
-                  <Box position="relative" {...provided.dragHandleProps} zIndex={1}>
+              <AccordionItem value={`accordion-${index}`} borderWidth={0} p={0}>
+                <Box display="flex" justifyContent="space-between" alignItems="center" position="relative" bgColor={block.show ? showColor : hideColor}>
+                  <Box position="relative" {...provided.dragHandleProps}>
                     <AiOutlineDrag size={24} cursor={"grab"} />
                   </Box>
-                  <AccordionItemTrigger flex="1" bgColor={block.show ? showColor : hideColor}>
+                  <AccordionItemTrigger flex="1">
                     <Box>
                       {block.show ? "Show" : "Hide"} - {block.name}
                     </Box>
@@ -322,9 +335,11 @@ const DraggableBlock = ({
                   <div ref={(el) => (contentRefs.current[index] = el)}>
                     <VStack>
                       <Block index={index} block={block} updateBlock={updateBlock} />
+                      <Container w={"100%"} gapX={"16px"}>
                       <Button w={"100%"} onClick={() => removeBlock(index)} mt={2}>
                         Remove
                       </Button>
+                      </Container>
                     </VStack>
                   </div>
                 </AccordionItemContent>
