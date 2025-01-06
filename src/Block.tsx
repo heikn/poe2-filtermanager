@@ -188,7 +188,7 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
             Unique
           </Checkbox>
         </HStack>
-        <HStack mt={4}>
+        <VStack mt={4}>
           <Slider
             width={"100%"}
             label={`Itemlevel ${block.itemLevel[0]} - ${block.itemLevel[1]}`}
@@ -197,32 +197,40 @@ const Block: React.FC<BlockProps> = ({ index, block, updateBlock }) => {
               updateBlock(index, { ...block, itemLevel: e.value })
             }}
           />
-        </HStack>
-        <Slider
-          width={"100%"}
-          label={`Quality ${block.quality[0]} - ${block.quality[1]}`}
-          value={block.quality}
-          step={1}
-          min={0}
-          max={20}
-          onValueChange={(e) => {
-            updateBlock(index, { ...block, quality: e.value })
-          }}
-        />
-        <Slider
-          width={"100%"}
-          label={`Sockets ${block.sockets[0]} - ${block.sockets[1]}`}
-          value={block.sockets}
-          step={1}
-          min={0}
-          max={5}
-          onValueChange={(e) => {
-            updateBlock(index, {
-              ...block,
-              sockets: e.value,
-            })
-          }}
-        />
+          <Slider
+            width={"100%"}
+            label={`AreaLevel ${block.areaLevel[0]} - ${block.areaLevel[1]}`}
+            value={block.areaLevel}
+            onValueChange={(e) => {
+              updateBlock(index, { ...block, areaLevel: e.value })
+            }}
+          />
+          <Slider
+            width={"100%"}
+            label={`Quality ${block.quality[0]} - ${block.quality[1]}`}
+            value={block.quality}
+            step={1}
+            min={0}
+            max={20}
+            onValueChange={(e) => {
+              updateBlock(index, { ...block, quality: e.value })
+            }}
+          />
+          <Slider
+            width={"100%"}
+            label={`Sockets ${block.sockets[0]} - ${block.sockets[1]}`}
+            value={block.sockets}
+            step={1}
+            min={0}
+            max={5}
+            onValueChange={(e) => {
+              updateBlock(index, {
+                ...block,
+                sockets: e.value,
+              })
+            }}
+          />
+        </VStack>
       </Container>
       {block.show && (
         <VStack mt={4}>

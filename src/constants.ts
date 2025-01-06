@@ -10,6 +10,7 @@ export const initialBlock: BlockType = {
   itemLevel: [0, 100],
   quality: [0, 20],
   sockets: [0, 5],
+  areaLevel: [0, 100],
   text: {
     color: "255 0 0 255",
     backgroundColor: "255 255 255 255",

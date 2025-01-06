@@ -18,6 +18,7 @@ export interface BlockType {
   itemLevel: number[]
   quality: number[]
   sockets: number[]
+  areaLevel: number[]
   text: {
     color: string
     backgroundColor: string

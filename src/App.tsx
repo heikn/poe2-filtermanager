@@ -45,6 +45,9 @@ export const App = () => {
           if (!block.sockets) {
             block.sockets = [0, 5]; // Default value for sockets
           }
+          if (!block.areaLevel){
+            block.areaLevel = [0,100]
+          }
           return block;
         });
         setBlocks(parsedBlocks)

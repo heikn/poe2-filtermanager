@@ -77,6 +77,22 @@ export const parseBlockToFilterBlock = (block: BlockType) => {
       filterBlock += "\n"
     }
   }
+  if(block.areaLevel[0] === block.areaLevel[1]){
+    filterBlock += "AreaLevel == "
+    filterBlock += block.areaLevel[0]
+    filterBlock += "\n"
+  } else {
+    if(block.areaLevel[0] !== 0){
+      filterBlock += "AreaLevel >= "
+      filterBlock += block.areaLevel[0]
+      filterBlock += "\n"
+    }
+    if(block.areaLevel[1] !== 100) {
+      filterBlock += "AreaLevel <= "
+      filterBlock += block.areaLevel[1]
+      filterBlock += "\n"
+    }
+  }
 
   if (!block.show) return filterBlock
   filterBlock += "SetTextColor"
@@ -134,6 +150,7 @@ export const parseFilterFileIntoBlocks = async (filterFile: string): Promise<Blo
       itemLevel: [0, 100],
       quality: [0, 20],
       sockets: [0, 5],
+      areaLevel: [0, 100],
       text: {
         color: "255 0 0 255",
         backgroundColor: "255 255 255 255",
@@ -191,6 +208,13 @@ export const parseFilterFileIntoBlocks = async (filterFile: string): Promise<Blo
         else if (line.includes("<=")) newBlock.itemLevel = [0, value]
         else if (line.includes("<")) newBlock.itemLevel = [0, value - 1]
         else if (line.includes("==")) newBlock.itemLevel = [value, value]
+      } else if (line.includes("AreaLevel")) {
+        const value = parseInt(line.split(" ")[2])
+        if (line.includes(">=")) newBlock.areaLevel = [value, 100]
+        else if (line.includes(">")) newBlock.areaLevel = [value + 1, 100]
+        else if (line.includes("<=")) newBlock.areaLevel = [0, value]
+        else if (line.includes("<")) newBlock.areaLevel = [0, value - 1]
+        else if (line.includes("==")) newBlock.areaLevel = [value, value]
       } else if (line.includes("Quality")) {
         const value = parseInt(line.split(" ")[2])
         if (line.includes(">=")) newBlock.quality = [value, 20]

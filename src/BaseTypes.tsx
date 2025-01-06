@@ -1,4 +1,4 @@
-import { Box, Heading, Input, List, VStack, Text } from "@chakra-ui/react"
+import { Box, Input, List, VStack, Text } from "@chakra-ui/react"
 import basetypes from "./assets/basetypes.json"
 import React, { useState } from "react"
 
@@ -12,10 +12,9 @@ export const BaseTypes : React.FC<{handleItemSelect: (item: any, dataType: strin
 
   return (
     <VStack align="stretch">
-      <Heading size="lg">Item Classes</Heading>
-      <Input placeholder="Filter item classes" value={filterText} onChange={(e) => setFilterText(e.target.value)} />
-      <Box maxH={"60vh"}>
-        <List.Root maxH={"60vh"} overflowY={"auto"} variant={"plain"}>
+      <Input placeholder="Filter basetypes" value={filterText} onChange={(e) => setFilterText(e.target.value)} />
+      <Box>
+        <List.Root overflowY={"auto"} variant={"plain"}>
           {filteredBasetypes.map((basetype: any) => {
             if (basetype.Name) {
               return (
