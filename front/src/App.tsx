@@ -253,7 +253,7 @@ export const App = () => {
     try {
       const response = await axios({
         method: "post",
-        url: "https://poe2filter.versus.gaming.eu/api/create-link",
+        url: "https://poe2filter.versus-gaming.eu/api/create-link",
         data: {
           filterName: filterName,
           blocks: JSON.stringify(blocks),
