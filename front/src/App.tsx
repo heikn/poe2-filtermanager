@@ -68,7 +68,7 @@ export const App = () => {
       if (id) {
         handleToastNotification("Retrieving filter...", "info")
         try {
-          const response = await axios.get(`http://localhost:3000/get-filter/${id}`)
+          const response = await axios.get(`https://poe2filter.versus-gaming.eu/api/get-filter/${id}`)
           const { filter_name, blocks } = response.data
           setFilterName(filter_name)
           setBlocks(blocks)
@@ -253,7 +253,7 @@ export const App = () => {
     try {
       const response = await axios({
         method: "post",
-        url: "http://localhost:3000/create-link",
+        url: "https://poe2filter.versus.gaming.eu/api/create-link",
         data: {
           filterName: filterName,
           blocks: JSON.stringify(blocks),
