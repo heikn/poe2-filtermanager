@@ -259,6 +259,9 @@ export const App = () => {
           blocks: JSON.stringify(blocks),
         },
       })
+      const link = `${window.location.origin}/filter/${response.data.id}`
+      await navigator.clipboard.writeText(link)
+      handleToastNotification('Link copied to clipboard!', 'success', 3000);
       console.log("RESPONSE", response)
     } catch (err) {
       console.log("ERROR", err)

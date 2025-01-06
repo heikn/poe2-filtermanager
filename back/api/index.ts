@@ -32,7 +32,6 @@ app.get("/", (req: Request, res: Response) => {
 
 app.post("/create-link", async (req: Request, res: Response) => {
   const data = req.body
-  console.log("Data:", req)
   try {
     const response = await addFilter(data.filterName, data.blocks)
     res.status(200).json({ message: "ok", id: response })
