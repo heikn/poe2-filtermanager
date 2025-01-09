@@ -19,8 +19,9 @@ jobs:
         run: cd front && npm install
       - name: Build
         run: |
+          cd front
           echo "VITE_API_URL=${{ secrets.VITE_API_URL }}" >> .env
-          cd front && npm run build
+          npm run build
       - name: Deploy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
