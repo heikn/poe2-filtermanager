@@ -2,6 +2,7 @@ FROM node:22
 WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
+COPY .env .
 RUN yarn install
 COPY tsconfig.json .
 COPY vite.config.ts .

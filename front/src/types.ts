@@ -48,3 +48,11 @@ export interface BlockProps {
   index: number
   updateBlock: (index: number, block: BlockType) => void
 }
+
+export interface Filter {
+  id: string
+  filter_name: string
+  blocks?: BlockType[]
+  user_token?: string
+  created_at?: string
+}

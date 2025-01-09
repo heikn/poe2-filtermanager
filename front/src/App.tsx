@@ -1,12 +1,21 @@
-import { AccordionValueChangeDetails, Box, Button, Center, Container, HStack, Input, VStack } from "@chakra-ui/react"
-import { useCallback, useEffect, useRef, useState } from "react"
+import {
+  AccordionValueChangeDetails,
+  Box,
+  Center,
+  Container,
+  HStack,
+  Input,
+  Text,
+  VStack,
+} from "@chakra-ui/react"
+import React, { useCallback, useEffect, useRef, useState } from "react"
 import Block from "./Block"
 import { parseBlockToFilterBlock, parseFilterFileIntoBlocks } from "./parser"
 import { debounce } from "lodash"
 import "./app.css"
 import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd"
 import { AiOutlineDrag } from "react-icons/ai"
-import { BlockType } from "@/types"
+import { BlockType, Filter } from "@/types"
 import { AccordionItem, AccordionItemContent, AccordionItemTrigger, AccordionRoot } from "@/components/ui/accordion"
 import { initialBlock } from "@/constants"
 import { Header } from "./Header"
@@ -15,6 +24,20 @@ import { Provider } from "./components/ui/provider"
 import { Alert } from "./components/ui/alert"
 import axios from "axios"
 import { useParams } from "react-router-dom"
+import { MenuContent, MenuTrigger, MenuItem, MenuRoot, MenuTriggerItem } from "./components/ui/menu"
+import { Field } from "./components/ui/field"
+import { Tooltip } from "./components/ui/tooltip"
+import { Button } from "./components/ui/button"
+import {
+  DialogActionTrigger,
+  DialogBody,
+  DialogCloseTrigger,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogRoot,
+  DialogTitle,
+} from "@/components/ui/dialog"
 
 const saveStringAsFile = (str: string, filename: string) => {
   const blob = new Blob([str], { type: "text/plain" })
@@ -37,10 +60,14 @@ export const App = () => {
   const [showToast, setShowToast] = useState(false)
   const [toastMessage, setToastMessage] = useState("")
   const [toastType, setToastType] = useState<"info" | "warning" | "success" | "error" | "neutral">("info")
+  const [filters, setFilters] = useState<Filter[]>([])
+  const [filterId, setFilterId] = useState<string>("")
+  const [clearDialogOpen, setClearDialogOpen] = useState(false)
 
+  const API_URL = import.meta.env.VITE_API_URL
   // Load blocks from local storage if no id
- useEffect(() => {
-    if(id) return
+  useEffect(() => {
+    if (id) return
     const blocks = localStorage.getItem("blocks")
     const filterName = localStorage.getItem("filterName")
     if (blocks) {
@@ -62,13 +89,122 @@ export const App = () => {
     setIsLoaded(true)
   }, [])
 
+  const getToken = async (): Promise<string | void> => {
+    try {
+      const response = await axios({
+        method: "get",
+        url: `${API_URL}/get-token`,
+      })
+      if (response.data) {
+        console.log("response:", response)
+        return response.data.data.token
+      }
+    } catch (err) {
+      console.error("Error getting token")
+    }
+  }
+  const validateToken = async (token: string): Promise<boolean> => {
+    try {
+      const response = await axios({
+        method: "get",
+        url: `${API_URL}/check-token`,
+        headers: {
+          Authorization: `Token ${token}`,
+        },
+      })
+      console.log("CHECK RESPONSE:", response)
+      if (response.data.message === "Ok") {
+        return true
+      }
+      return false
+    } catch (err) {
+      console.error("Error validating token", err)
+      return false
+    }
+  }
+
+  // Get filters
+  const getFilters = async (token: string): Promise<Filter[] | null> => {
+    try {
+      const response = await axios({
+        method: "get",
+        url: `${API_URL}/get-filters`,
+        headers: {
+          Authorization: `Token ${token}`,
+        },
+      })
+      if (response.data) {
+        return response.data.data
+      }
+      return null
+    } catch (err) {
+      console.error("Error getting filters", err)
+      return null
+    }
+  }
+
+  // Get filter
+  const getFilter = async (id: string): Promise<Filter | null> => {
+    console.log("Retrieving filter...")
+    const token = localStorage.getItem("token")
+    try {
+      const headers = token ? { Authorization: `Token ${token}` } : undefined
+      const response = await axios({
+        method: "get",
+        url: `${API_URL}/get-filter/${id}`,
+        headers,
+      })
+      if (!response) return null
+      console.log("Found filter:", response.data)
+      return response.data
+    } catch (err) {
+      console.error("Error getting filter", err)
+      return null
+    }
+  }
+
+  // Get token from locaStorage, if no token, get one
+  useEffect(() => {
+    ;(async () => {
+      const token = localStorage.getItem("token")
+
+      if (!token) {
+        const newToken = await getToken()
+        if (newToken) {
+          localStorage.setItem("token", newToken)
+        }
+      } else {
+        // Validate token
+        console.log("Validating token")
+        const validate = await validateToken(token)
+        console.log("Got:", validate)
+        if (validate) {
+          console.log("Validated")
+          const filtersData = await getFilters(token)
+          console.log("filterdata:", filtersData)
+          if (filtersData) {
+            localStorage.setItem("filters", JSON.stringify(filtersData))
+            setFilters(filtersData)
+          }
+          // Set filters to state
+        } else {
+          console.error("Token invalid, getting new one")
+          const newToken = await getToken()
+          if (newToken) {
+            localStorage.setItem("token", newToken)
+          }
+        }
+      }
+    })()
+  }, [])
+
   // Fetch filter by ID from backend
   useEffect(() => {
     const getFilter = async () => {
       if (id) {
         handleToastNotification("Retrieving filter...", "info")
         try {
-          const response = await axios.get(`https://poe2filter.versus-gaming.eu/api/get-filter/${id}`)
+          const response = await axios.get(`${API_URL}/get-filter/${id}`)
           const { filter_name, blocks } = response.data
           setFilterName(filter_name)
           setBlocks(blocks)
@@ -77,7 +213,7 @@ export const App = () => {
         } catch (err) {
           console.error("Error fetching filter:", err)
           handleToastNotification("Failed to load filter", "error", 3000)
-        } 
+        }
       }
     }
     getFilter()
@@ -189,8 +325,8 @@ export const App = () => {
     }
   }
 
-  // Save filter
-  const saveFilter = async () => {
+  // Save filter file
+  const saveFilterFile = async () => {
     if (!fileHandle) {
       console.error("No file handle available for saving.")
       return
@@ -211,6 +347,31 @@ export const App = () => {
     } catch (error) {
       console.error("Error saving filter:", error)
     }
+  }
+
+  // Save filter
+  const saveFilter = async () => {
+    let urlSuffix = "/create-filter"
+    if (filterId) {
+      urlSuffix = "/update-filter"
+    }
+    const token = localStorage.getItem("token")
+    if (!blocks || !filterName || !token) return
+    try {
+      const response = await axios({
+        method: filterId ? "put" : "post",
+        url: `${API_URL}${urlSuffix}`,
+        headers: {
+          Authorization: `Token ${token}`,
+        },
+        data: {
+          filterName,
+          blocks,
+          filterId
+        },
+      })
+      console.log("Saved filter", response)
+    } catch (err) {}
   }
 
   // Handle accordion toggle
@@ -253,7 +414,7 @@ export const App = () => {
     try {
       const response = await axios({
         method: "post",
-        url: "https://poe2filter.versus-gaming.eu/api/create-link",
+        url: `${API_URL}/create-link`,
         data: {
           filterName: filterName,
           blocks: JSON.stringify(blocks),
@@ -261,41 +422,100 @@ export const App = () => {
       })
       const link = `${window.location.origin}/filter/${response.data.id}`
       await navigator.clipboard.writeText(link)
-      handleToastNotification('Link copied to clipboard!', 'success', 3000);
+      handleToastNotification("Link copied to clipboard!", "success", 3000)
       console.log("RESPONSE", response)
     } catch (err) {
       console.log("ERROR", err)
     }
   }
 
+  const handleFilterLoad = async (id: string) => {
+    handleToastNotification("Loading filter...", "info")
+    setIsLoaded(false)
+    const filterData = await getFilter(id)
+    if (!filterData || !filterData.blocks) return
+    setBlocks(filterData.blocks)
+    setFilterId(filterData.id)
+    setFilterName(filterData.filter_name)
+    setIsLoaded(true)
+    handleToastNotification("Filter loaded!", "success", 3000)
+  }
+
+  const handleFilterClear = async () => {
+    setBlocks([])
+    setFilterId("")
+    setFilterName("")
+    setClearDialogOpen(false)
+  }
+
   return (
     <Provider>
       <Container minW={"dvw"} minH={"100vh"} display="flex" flexDirection="column" justifyContent="space-between" p={0}>
         {showToast && <Alert position={"absolute"} status={toastType} title={toastMessage} />}
-        <VStack h={"100%"} display={"flex"} flexDirection={"column"} flex={1}>
+        <VStack w={"100%"} h={"100%"} display={"flex"} flexDirection={"column"} flex={1}>
           <Header />
-          <Container>
+          <Container w={"100%"} id="asd">
+            <HStack alignItems={"flex-end"} mb={1}>
+              <MenuRoot>
+                <MenuTrigger>
+                  <Button size={"md"}>Filtermenu</Button>
+                </MenuTrigger>
+                <MenuContent>
+                  <MenuItem value="clear-filter" onClick={() => setClearDialogOpen(true)}>
+                    New filter...
+                  </MenuItem>
+                  <MenuItem value="import-filter" onClick={importFilter}>
+                    Import filter...
+                  </MenuItem>
+                  {fileHandle && (
+                    <MenuItem value="save-filter-file" onClick={saveFilterFile}>
+                      Save file
+                    </MenuItem>
+                  )}
+                  {filters.length > 0 && (
+                    <MenuRoot positioning={{ placement: "right-start", gutter: 2 }}>
+                      <MenuTriggerItem value="load-filter">Load filter</MenuTriggerItem>
+                      <MenuContent>
+                        {filters.map((filter) => (
+                          <MenuItem
+                            key={filter.id}
+                            value={`load-filter-${filter.id}`}
+                            onClick={() => {
+                              handleFilterLoad(filter.id)
+                            }}
+                          >
+                            {filter.filter_name}
+                          </MenuItem>
+                        ))}
+                      </MenuContent>
+                    </MenuRoot>
+                  )}
+                  <MenuItem value="save-new-filter" onClick={saveFilter}>
+                    {filterId ? 'Save' : 'Save as new'}
+                  </MenuItem>
+                  {filterId && (
+                    <>
+                      <MenuItem value="share-filter" onClick={handleShareFilter}>
+                        Share
+                      </MenuItem>
+                      <MenuItem value="download-filter" onClick={downloadHandler}>
+                        Download
+                      </MenuItem>
+                    </>
+                  )}
+                </MenuContent>
+              </MenuRoot>
+              <Field label={"Filter name"}>
+                <Input
+                  placeholder="Filter name"
+                  value={filterName}
+                  w={"100%"}
+                  onChange={(e) => setFilterName(e.target.value)}
+                />
+              </Field>
+            </HStack>
             <Center flex={1} alignItems={"flex-start"}>
-              <VStack>
-                <HStack w={"100%"} justifyContent={"space-between"}>
-                  <HStack>
-                    <Button onClick={importFilter}>Import filter</Button>
-                    <Button disabled={!fileHandle} onClick={saveFilter}>
-                      Save filter
-                    </Button>
-                  </HStack>
-                  <Button onClick={handleShareFilter}>Share filter</Button>
-                  <HStack>
-                    <Input
-                      placeholder="Filter name"
-                      value={filterName}
-                      onChange={(e) => setFilterName(e.target.value)}
-                    />
-                    <Button disabled={blocks.length === 0 ? true : false} onClick={downloadHandler}>
-                      Download filter
-                    </Button>
-                  </HStack>
-                </HStack>
+              <VStack w={"100%"}>
                 {isLoaded && (
                   <>
                     <Box w="80vw" maxH="70vh" overflowY="auto" className="hide-scrollbar">
@@ -320,15 +540,19 @@ export const App = () => {
                         </Droppable>
                       </DragDropContext>
                     </Box>
-                    <Button w={"100%"} onClick={addNewBlock}>
-                      NEW FILTER RULE
-                    </Button>
+                    <HStack w={"100%"} justifyContent={"space-between"}>
+                      <Tooltip content="Add new filter rule" openDelay={100} positioning={{ placement: "top" }}>
+                        <Button onClick={addNewBlock}>NEW FILTER RULE</Button>
+                      </Tooltip>
+                      <HStack></HStack>
+                    </HStack>
                   </>
                 )}
               </VStack>
             </Center>
           </Container>
         </VStack>
+        <ConfirmationDialog open={clearDialogOpen} setOpen={setClearDialogOpen} handleFilterClear={handleFilterClear} />
         <Footer />
       </Container>
     </Provider>
@@ -401,5 +625,35 @@ const DraggableBlock = ({
         )}
       </Draggable>
     </Box>
+  )
+}
+
+const ConfirmationDialog = ({
+  open,
+  setOpen,
+  handleFilterClear,
+}: {
+  open: boolean
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>
+  handleFilterClear: () => void
+}) => {
+  return (
+    <DialogRoot lazyMount open={open} onOpenChange={(e) => setOpen(e.open)}>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>New filter</DialogTitle>
+        </DialogHeader>
+        <DialogBody>
+          <Text>Are you sure you want to create a new filter?</Text>
+        </DialogBody>
+        <DialogFooter>
+          <DialogActionTrigger asChild>
+            <Button variant="outline">No</Button>
+          </DialogActionTrigger>
+          <Button onClick={handleFilterClear}>Yes</Button>
+        </DialogFooter>
+        <DialogCloseTrigger />
+      </DialogContent>
+    </DialogRoot>
   )
 }
