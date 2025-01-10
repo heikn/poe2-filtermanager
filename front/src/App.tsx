@@ -348,9 +348,25 @@ export const App = () => {
 
   return (
     <Provider>
-      <Container minW={"dvw"} minH={"100vh"} display="flex" flexDirection="column" justifyContent="space-between" p={0}>
+      <Container
+        maxW={"1280px"}
+        w={"100%"}
+        minH={"100vh"}
+        display="flex"
+        flexDirection="column"
+        justifyContent="space-between"
+        p={0}
+      >
         {showToast && <Alert position={"absolute"} status={toastType} title={toastMessage} />}
-        <VStack w={"100%"} h={"100%"} display={"flex"} flexDirection={"column"} flex={1}>
+        <VStack
+          w={"100%"}
+          maxW={"1280px"}
+          h={"100%"}
+          display={"flex"}
+          flexDirection={"column"}
+          flex={1}
+          alignItems={"center"}
+        >
           <Header />
           <Container w={"100%"} id="asd">
             <HStack alignItems={"flex-end"} mb={1}>
@@ -417,42 +433,41 @@ export const App = () => {
                 />
               </Field>
             </HStack>
-            <Center flex={1} alignItems={"flex-start"}>
-              <VStack w={"100%"}>
-                {isLoaded && (
-                  <>
-                    <Box w="80vw" maxH="70vh" overflowY="auto" className="hide-scrollbar">
-                      <DragDropContext onDragEnd={onDragEnd}>
-                        <Droppable droppableId="blocks">
-                          {(provided) => (
-                            <Box {...provided.droppableProps} ref={provided.innerRef}>
-                              {blocks.map((block, index) => (
-                                <DraggableBlock
-                                  key={index}
-                                  block={block}
-                                  index={index}
-                                  handleAccordionToggle={handleAccordionToggle}
-                                  updateBlock={updateBlock}
-                                  removeBlock={removeBlock}
-                                  contentRefs={contentRefs}
-                                />
-                              ))}
-                              {provided.placeholder}
-                            </Box>
-                          )}
-                        </Droppable>
-                      </DragDropContext>
-                    </Box>
-                    <HStack w={"100%"} justifyContent={"space-between"}>
-                      <Tooltip content="Add new filter rule" openDelay={100} positioning={{ placement: "top" }}>
-                        <Button onClick={addNewBlock}>NEW FILTER RULE</Button>
-                      </Tooltip>
-                      <HStack></HStack>
-                    </HStack>
-                  </>
-                )}
-              </VStack>
-            </Center>
+
+            <VStack w={"100%"}>
+              {isLoaded && (
+                <>
+                  <Box w={"100%"} maxH="70vh" overflowY="auto" className="hide-scrollbar">
+                    <DragDropContext onDragEnd={onDragEnd}>
+                      <Droppable droppableId="blocks">
+                        {(provided) => (
+                          <Box {...provided.droppableProps} ref={provided.innerRef}>
+                            {blocks.map((block, index) => (
+                              <DraggableBlock
+                                key={index}
+                                block={block}
+                                index={index}
+                                handleAccordionToggle={handleAccordionToggle}
+                                updateBlock={updateBlock}
+                                removeBlock={removeBlock}
+                                contentRefs={contentRefs}
+                              />
+                            ))}
+                            {provided.placeholder}
+                          </Box>
+                        )}
+                      </Droppable>
+                    </DragDropContext>
+                  </Box>
+
+                  <Tooltip content="Add new filter rule" openDelay={100} positioning={{ placement: "top" }}>
+                    <Button w={"100%"} onClick={addNewBlock}>
+                      NEW FILTER RULE
+                    </Button>
+                  </Tooltip>
+                </>
+              )}
+            </VStack>
           </Container>
         </VStack>
         <ConfirmationDialog open={clearDialogOpen} setOpen={setClearDialogOpen} handleFilterClear={handleFilterClear} />

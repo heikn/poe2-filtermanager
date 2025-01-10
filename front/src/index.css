@@ -9,3 +9,9 @@ body {
 div {
   margin-inline: 0;
 }
+
+#root {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
