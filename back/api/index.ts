@@ -46,7 +46,9 @@ app.get("/get-filter/:id", async (req: Request, res: Response) => {
   } catch (err) {
     if (err instanceof Error) {
       console.error("Server error: ", err.message)
+      res.status(400).json({message: "Error", error: err.message})
     } else {
+      res.status(400).json({message: "Error", error: err})
       console.error("Unknown error: ", err)
     }
   }

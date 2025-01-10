@@ -1,43 +1,23 @@
-import {
-  AccordionValueChangeDetails,
-  Box,
-  Center,
-  Container,
-  HStack,
-  Input,
-  Text,
-  VStack,
-} from "@chakra-ui/react"
-import React, { useCallback, useEffect, useRef, useState } from "react"
-import Block from "./Block"
+import { AccordionValueChangeDetails, Box, Center, Container, HStack, Input, VStack } from "@chakra-ui/react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { parseBlockToFilterBlock, parseFilterFileIntoBlocks } from "./parser"
 import { debounce } from "lodash"
 import "./app.css"
-import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd"
-import { AiOutlineDrag } from "react-icons/ai"
+import { DragDropContext, Droppable } from "@hello-pangea/dnd"
 import { BlockType, Filter } from "@/types"
-import { AccordionItem, AccordionItemContent, AccordionItemTrigger, AccordionRoot } from "@/components/ui/accordion"
 import { initialBlock } from "@/constants"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
 import { Provider } from "./components/ui/provider"
 import { Alert } from "./components/ui/alert"
-import axios from "axios"
 import { useParams } from "react-router-dom"
 import { MenuContent, MenuTrigger, MenuItem, MenuRoot, MenuTriggerItem } from "./components/ui/menu"
 import { Field } from "./components/ui/field"
 import { Tooltip } from "./components/ui/tooltip"
 import { Button } from "./components/ui/button"
-import {
-  DialogActionTrigger,
-  DialogBody,
-  DialogCloseTrigger,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogRoot,
-  DialogTitle,
-} from "@/components/ui/dialog"
+import { ConfirmationDialog } from "./components/ConfirmationDialog"
+import { DraggableBlock } from "./components/DraggableBlock"
+import api from "./api"
 
 const saveStringAsFile = (str: string, filename: string) => {
   const blob = new Blob([str], { type: "text/plain" })
@@ -64,14 +44,15 @@ export const App = () => {
   const [filterId, setFilterId] = useState<string>("")
   const [clearDialogOpen, setClearDialogOpen] = useState(false)
 
-  const API_URL = import.meta.env.VITE_API_URL
   // Load blocks from local storage if no id
   useEffect(() => {
     if (id) return
-    const blocks = localStorage.getItem("blocks")
-    const filterName = localStorage.getItem("filterName")
-    if (blocks) {
-      let parsedBlocks = JSON.parse(blocks)
+    const storageBlocks = localStorage.getItem("blocks")
+    const storageFilterName = localStorage.getItem("filterName")
+    const storafeFilterId = localStorage.getItem("filterId")
+    if (storageBlocks) {
+      let parsedBlocks = JSON.parse(storageBlocks)
+      // Add updated fields to data retrieved from localStorage
       parsedBlocks = parsedBlocks.map((block: BlockType) => {
         if (!block.sockets) {
           block.sockets = [0, 5] // Default value for sockets
@@ -83,85 +64,14 @@ export const App = () => {
       })
       setBlocks(parsedBlocks)
     }
-    if (filterName) {
-      setFilterName(filterName)
+    if (storageFilterName) {
+      setFilterName(storageFilterName)
+    }
+    if (storafeFilterId) {
+      setFilterId(storafeFilterId)
     }
     setIsLoaded(true)
   }, [])
-
-  const getToken = async (): Promise<string | void> => {
-    try {
-      const response = await axios({
-        method: "get",
-        url: `${API_URL}/get-token`,
-      })
-      if (response.data) {
-        console.log("response:", response)
-        return response.data.data.token
-      }
-    } catch (err) {
-      console.error("Error getting token")
-    }
-  }
-  const validateToken = async (token: string): Promise<boolean> => {
-    try {
-      const response = await axios({
-        method: "get",
-        url: `${API_URL}/check-token`,
-        headers: {
-          Authorization: `Token ${token}`,
-        },
-      })
-      console.log("CHECK RESPONSE:", response)
-      if (response.data.message === "Ok") {
-        return true
-      }
-      return false
-    } catch (err) {
-      console.error("Error validating token", err)
-      return false
-    }
-  }
-
-  // Get filters
-  const getFilters = async (token: string): Promise<Filter[] | null> => {
-    try {
-      const response = await axios({
-        method: "get",
-        url: `${API_URL}/get-filters`,
-        headers: {
-          Authorization: `Token ${token}`,
-        },
-      })
-      if (response.data) {
-        return response.data.data
-      }
-      return null
-    } catch (err) {
-      console.error("Error getting filters", err)
-      return null
-    }
-  }
-
-  // Get filter
-  const getFilter = async (id: string): Promise<Filter | null> => {
-    console.log("Retrieving filter...")
-    const token = localStorage.getItem("token")
-    try {
-      const headers = token ? { Authorization: `Token ${token}` } : undefined
-      const response = await axios({
-        method: "get",
-        url: `${API_URL}/get-filter/${id}`,
-        headers,
-      })
-      if (!response) return null
-      console.log("Found filter:", response.data)
-      return response.data
-    } catch (err) {
-      console.error("Error getting filter", err)
-      return null
-    }
-  }
 
   // Get token from locaStorage, if no token, get one
   useEffect(() => {
@@ -169,18 +79,18 @@ export const App = () => {
       const token = localStorage.getItem("token")
 
       if (!token) {
-        const newToken = await getToken()
+        const newToken = await api.getToken()
         if (newToken) {
           localStorage.setItem("token", newToken)
         }
       } else {
         // Validate token
         console.log("Validating token")
-        const validate = await validateToken(token)
+        const validate = await api.validateToken(token)
         console.log("Got:", validate)
         if (validate) {
           console.log("Validated")
-          const filtersData = await getFilters(token)
+          const filtersData = await api.getFilters(token)
           console.log("filterdata:", filtersData)
           if (filtersData) {
             localStorage.setItem("filters", JSON.stringify(filtersData))
@@ -189,7 +99,7 @@ export const App = () => {
           // Set filters to state
         } else {
           console.error("Token invalid, getting new one")
-          const newToken = await getToken()
+          const newToken = await api.getToken()
           if (newToken) {
             localStorage.setItem("token", newToken)
           }
@@ -200,23 +110,26 @@ export const App = () => {
 
   // Fetch filter by ID from backend
   useEffect(() => {
-    const getFilter = async () => {
+    ;(async () => {
       if (id) {
-        handleToastNotification("Retrieving filter...", "info")
-        try {
-          const response = await axios.get(`${API_URL}/get-filter/${id}`)
-          const { filter_name, blocks } = response.data
-          setFilterName(filter_name)
-          setBlocks(blocks)
-          setIsLoaded(true)
-          handleToastNotification("Successfully loaded filter", "success", 3000)
-        } catch (err) {
-          console.error("Error fetching filter:", err)
-          handleToastNotification("Failed to load filter", "error", 3000)
+        // Empty localStorage
+        localStorage.removeItem("filterId")
+        localStorage.removeItem("filterName")
+        localStorage.removeItem("blocks")
+        handleToastNotification("Loading filter...", "info")
+        setIsLoaded(false)
+        console.log("Trying to get filter")
+        const filterData = await api.getFilter(id)
+        if (!filterData || !filterData.blocks) {
+          handleToastNotification("Error loading filter", "error", 3000)
+          return
         }
+        setBlocks(filterData.blocks)
+        setFilterName(filterData.filter_name)
+        setIsLoaded(true)
+        handleToastNotification("Filter loaded!", "success", 3000)
       }
-    }
-    getFilter()
+    })()
   }, [id])
 
   // Save blocks to local storage
@@ -224,7 +137,7 @@ export const App = () => {
     if (isLoaded) {
       saveBlocksToLocalStorage()
     }
-  }, [blocks, filterName])
+  }, [blocks, filterName, filterId])
 
   // Scroll to active block
   useEffect(() => {
@@ -273,8 +186,9 @@ export const App = () => {
     debounce(() => {
       localStorage.setItem("blocks", JSON.stringify(blocks))
       localStorage.setItem("filterName", filterName)
+      localStorage.setItem("filterId", filterId)
     }, 1000),
-    [blocks, filterName]
+    [blocks, filterName, filterId]
   )
 
   // Import filter
@@ -343,35 +257,28 @@ export const App = () => {
       await writable.write(filterBlocks)
       await writable.close()
       console.log("Filter saved successfully.")
-      handleToastNotification("Filter saved successfully.", "success", 3000)
+      handleToastNotification("Filter file saved successfully!", "success", 3000)
     } catch (error) {
       console.error("Error saving filter:", error)
     }
   }
 
+  // Save new filter
+  // TODO: error handling
+  const createFilterHandler = async () => {
+    const createFilterResult = await api.createFilter(filterName, blocks)
+    setFilterId(createFilterResult.data.id)
+    // Push to filters
+    setFilters([...filters, createFilterResult.data])
+    localStorage.setItem("filterId", createFilterResult.data.id)
+    handleToastNotification("New filter saved successfully!", "success", 3000)
+  }
+
   // Save filter
-  const saveFilter = async () => {
-    let urlSuffix = "/create-filter"
-    if (filterId) {
-      urlSuffix = "/update-filter"
-    }
-    const token = localStorage.getItem("token")
-    if (!blocks || !filterName || !token) return
-    try {
-      const response = await axios({
-        method: filterId ? "put" : "post",
-        url: `${API_URL}${urlSuffix}`,
-        headers: {
-          Authorization: `Token ${token}`,
-        },
-        data: {
-          filterName,
-          blocks,
-          filterId
-        },
-      })
-      console.log("Saved filter", response)
-    } catch (err) {}
+  // TODO: error handling
+  const saveFilterHandler = async () => {
+    await api.updateFilter(filterName, blocks, filterId)
+    handleToastNotification("Filter saved successfully!", "success", 3000)
   }
 
   // Handle accordion toggle
@@ -393,7 +300,7 @@ export const App = () => {
     saveStringAsFile(filterBlocks, `${filterName}.filter`)
   }
 
-  // Toast notifications
+  // Handle toast notifications
   const handleToastNotification = (
     message: string,
     type: "info" | "warning" | "success" | "error" | "neutral",
@@ -409,31 +316,22 @@ export const App = () => {
     }
   }
 
+  // Handle filter sharing
   const handleShareFilter = async () => {
-    if (blocks.length === 0) return
-    try {
-      const response = await axios({
-        method: "post",
-        url: `${API_URL}/create-link`,
-        data: {
-          filterName: filterName,
-          blocks: JSON.stringify(blocks),
-        },
-      })
-      const link = `${window.location.origin}/filter/${response.data.id}`
-      await navigator.clipboard.writeText(link)
-      handleToastNotification("Link copied to clipboard!", "success", 3000)
-      console.log("RESPONSE", response)
-    } catch (err) {
-      console.log("ERROR", err)
-    }
+    if (blocks.length === 0 || !filterId) return
+    const link = `${window.location.origin}/filter/${filterId}`
+    await navigator.clipboard.writeText(link)
+    handleToastNotification("Link copied to clipboard!", "success", 3000)
   }
 
   const handleFilterLoad = async (id: string) => {
     handleToastNotification("Loading filter...", "info")
     setIsLoaded(false)
-    const filterData = await getFilter(id)
-    if (!filterData || !filterData.blocks) return
+    const filterData = await api.getFilter(id)
+    if (!filterData || !filterData.blocks) {
+      handleToastNotification("Error loading filter", "error", 3000)
+      return
+    }
     setBlocks(filterData.blocks)
     setFilterId(filterData.id)
     setFilterName(filterData.filter_name)
@@ -490,8 +388,13 @@ export const App = () => {
                       </MenuContent>
                     </MenuRoot>
                   )}
-                  <MenuItem value="save-new-filter" onClick={saveFilter}>
-                    {filterId ? 'Save' : 'Save as new'}
+                  {filterId && (
+                    <MenuItem value="save-filter" onClick={saveFilterHandler}>
+                      Save
+                    </MenuItem>
+                  )}
+                  <MenuItem value="save-new-filter" onClick={createFilterHandler}>
+                    Save as new
                   </MenuItem>
                   {filterId && (
                     <>
@@ -556,104 +459,5 @@ export const App = () => {
         <Footer />
       </Container>
     </Provider>
-  )
-}
-
-const DraggableBlock = ({
-  block,
-  index,
-  handleAccordionToggle,
-  updateBlock,
-  removeBlock,
-  contentRefs,
-}: {
-  block: BlockType
-  index: number
-  handleAccordionToggle: (e: AccordionValueChangeDetails, index: number) => void
-  updateBlock: (index: number, updatedBlock: BlockType) => void
-  removeBlock: (index: number) => void
-  contentRefs: React.MutableRefObject<(HTMLDivElement | null)[]>
-}) => {
-  const showColor = "green.200/30"
-  const hideColor = "red.200/30"
-
-  return (
-    <Box w="100%">
-      <Draggable key={index} draggableId={index.toString()} index={index}>
-        {(provided) => (
-          <div ref={provided.innerRef} {...provided.draggableProps}>
-            <AccordionRoot
-              variant={"plain"}
-              collapsible
-              w={"100%"}
-              onValueChange={(e) => handleAccordionToggle(e, index)}
-              borderWidth={1}
-            >
-              <AccordionItem value={`accordion-${index}`} borderWidth={0} p={0}>
-                <Box
-                  display="flex"
-                  justifyContent="space-between"
-                  alignItems="center"
-                  position="relative"
-                  bgColor={block.show ? showColor : hideColor}
-                >
-                  <Box position="relative" {...provided.dragHandleProps}>
-                    <AiOutlineDrag size={24} cursor={"grab"} />
-                  </Box>
-                  <AccordionItemTrigger flex="1">
-                    <Box>
-                      {block.show ? "Show" : "Hide"} - {block.name}
-                    </Box>
-                  </AccordionItemTrigger>
-                </Box>
-
-                <AccordionItemContent>
-                  <div ref={(el) => (contentRefs.current[index] = el)}>
-                    <VStack>
-                      <Block index={index} block={block} updateBlock={updateBlock} />
-                      <Container w={"100%"} gapX={"16px"}>
-                        <Button w={"100%"} onClick={() => removeBlock(index)} mt={2}>
-                          Remove
-                        </Button>
-                      </Container>
-                    </VStack>
-                  </div>
-                </AccordionItemContent>
-              </AccordionItem>
-            </AccordionRoot>
-          </div>
-        )}
-      </Draggable>
-    </Box>
-  )
-}
-
-const ConfirmationDialog = ({
-  open,
-  setOpen,
-  handleFilterClear,
-}: {
-  open: boolean
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>
-  handleFilterClear: () => void
-}) => {
-  return (
-    <DialogRoot lazyMount open={open} onOpenChange={(e) => setOpen(e.open)}>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>New filter</DialogTitle>
-        </DialogHeader>
-        <DialogBody>
-          <Text>Are you sure you want to create a new filter?</Text>
-        </DialogBody>
-        <DialogFooter>
-          <DialogActionTrigger asChild>
-            <Button variant="outline">No</Button>
-          </DialogActionTrigger>
-          <Button onClick={handleFilterClear}>Yes</Button>
-        </DialogFooter>
-        <DialogCloseTrigger />
-      </DialogContent>
-    </DialogRoot>
   )
 }
