@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  margin-inline: 0;
+}
+
+#root {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
