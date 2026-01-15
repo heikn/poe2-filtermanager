@@ -2,6 +2,8 @@
 
 A simple item filter manager for **Path of Exile 2**.
 
+This project was built to explore better tooling for managing complex Path of Exile 2 item filters, which are traditionally edited manually.
+
 It provides a UI for building/editing filter “blocks”, and a small API + Postgres database for saving and loading filters by token.
 
 The frontend is currently hosted at:
